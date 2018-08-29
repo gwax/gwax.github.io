@@ -1,0 +1,12 @@
+[Core]
+Name = json_posts
+Module = json_posts
+
+[Nikola]
+PluginCategory = MetadataExtractor
+
+[Documentation]
+Author = George Leslie-Waksman
+Version = 1.0
+Website = https://www.gwax.com
+Description = JSON based post storage
