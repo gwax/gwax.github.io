@@ -113,19 +113,19 @@ be pretty straightforward.</p>
 <p>We need to modify our app.yaml file and set up a static route for the
 let's encrypt challenge/response data. Add the following to the beginning of
 the handlers section of your app.yaml file:</p>
-<div class="code"><pre class="code yaml"><a id="rest_code_6cd2e675145940ce91c012324d1a3165-1" name="rest_code_6cd2e675145940ce91c012324d1a3165-1" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_6cd2e675145940ce91c012324d1a3165-1"></a><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">/\.well-known/acme-challenge/(.+)</span><span class="w"></span>
-<a id="rest_code_6cd2e675145940ce91c012324d1a3165-2" name="rest_code_6cd2e675145940ce91c012324d1a3165-2" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_6cd2e675145940ce91c012324d1a3165-2"></a><span class="w">  </span><span class="nt">static_files</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">letsencrypt/\1</span><span class="w"></span>
-<a id="rest_code_6cd2e675145940ce91c012324d1a3165-3" name="rest_code_6cd2e675145940ce91c012324d1a3165-3" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_6cd2e675145940ce91c012324d1a3165-3"></a><span class="w">  </span><span class="nt">upload</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">letsencrypt/(.+)</span><span class="w"></span>
-<a id="rest_code_6cd2e675145940ce91c012324d1a3165-4" name="rest_code_6cd2e675145940ce91c012324d1a3165-4" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_6cd2e675145940ce91c012324d1a3165-4"></a><span class="w">  </span><span class="nt">mime_type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">text/plain</span><span class="w"></span>
+<div class="code"><pre class="code yaml"><a id="rest_code_106d2af239c9451d970287d519903506-1" name="rest_code_106d2af239c9451d970287d519903506-1" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_106d2af239c9451d970287d519903506-1"></a><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">/\.well-known/acme-challenge/(.+)</span><span class="w"></span>
+<a id="rest_code_106d2af239c9451d970287d519903506-2" name="rest_code_106d2af239c9451d970287d519903506-2" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_106d2af239c9451d970287d519903506-2"></a><span class="w">  </span><span class="nt">static_files</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">letsencrypt/\1</span><span class="w"></span>
+<a id="rest_code_106d2af239c9451d970287d519903506-3" name="rest_code_106d2af239c9451d970287d519903506-3" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_106d2af239c9451d970287d519903506-3"></a><span class="w">  </span><span class="nt">upload</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">letsencrypt/(.+)</span><span class="w"></span>
+<a id="rest_code_106d2af239c9451d970287d519903506-4" name="rest_code_106d2af239c9451d970287d519903506-4" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_106d2af239c9451d970287d519903506-4"></a><span class="w">  </span><span class="nt">mime_type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">text/plain</span><span class="w"></span>
 </pre></div>
 <p>Also create a "letsencrypt" folder in your app directory.</p>
 </section><section id="fire-up-let-s-encrypt"><h2>Fire up Let's Encrypt</h2>
 <p>Starting from the instructions on the <a class="reference external" href="https://github.com/letsencrypt/letsencrypt">Let's Encrypt GitHub repo</a>,
 let's retrieve and fire up letsencrypt. Outside your app folder, in a separate
 terminal:</p>
-<div class="code"><pre class="code sh"><a id="rest_code_939339a1c8214394b14765b1510d6752-1" name="rest_code_939339a1c8214394b14765b1510d6752-1" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_939339a1c8214394b14765b1510d6752-1"></a>git clone https://github.com/letsencrypt/letsencrypt
-<a id="rest_code_939339a1c8214394b14765b1510d6752-2" name="rest_code_939339a1c8214394b14765b1510d6752-2" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_939339a1c8214394b14765b1510d6752-2"></a><span class="nb">cd</span> letsencrypt
-<a id="rest_code_939339a1c8214394b14765b1510d6752-3" name="rest_code_939339a1c8214394b14765b1510d6752-3" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_939339a1c8214394b14765b1510d6752-3"></a>./letsencrypt-auto -a manual certonly
+<div class="code"><pre class="code sh"><a id="rest_code_0da1d8711da3472cacc4d8d1b9cf554f-1" name="rest_code_0da1d8711da3472cacc4d8d1b9cf554f-1" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_0da1d8711da3472cacc4d8d1b9cf554f-1"></a>git clone https://github.com/letsencrypt/letsencrypt
+<a id="rest_code_0da1d8711da3472cacc4d8d1b9cf554f-2" name="rest_code_0da1d8711da3472cacc4d8d1b9cf554f-2" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_0da1d8711da3472cacc4d8d1b9cf554f-2"></a><span class="nb">cd</span> letsencrypt
+<a id="rest_code_0da1d8711da3472cacc4d8d1b9cf554f-3" name="rest_code_0da1d8711da3472cacc4d8d1b9cf554f-3" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_0da1d8711da3472cacc4d8d1b9cf554f-3"></a>./letsencrypt-auto -a manual certonly
 </pre></div>
 <p>We want to run in manual mode and generate certs because there isn't currently
 a plugin for handling app engine.</p>
@@ -153,10 +153,10 @@ Press ENTER to continue</pre>
 </section><section id="prepare-the-challenge-response"><h2>Prepare the challenge/response</h2>
 <p>Switch to the terminal in your app directory and run a modified version of
 the printf command letsencrypt suggests:</p>
-<div class="code"><pre class="code sh"><a id="rest_code_50092aff7fee451dad863f87891652aa-1" name="rest_code_50092aff7fee451dad863f87891652aa-1" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_50092aff7fee451dad863f87891652aa-1"></a><span class="nb">printf</span> <span class="s2">"%s"</span> <span class="o">{</span>ABC<span class="o">}</span>.<span class="o">{</span>DEF<span class="o">}</span> &gt; letsencrypt/<span class="o">{</span>ABC<span class="o">}</span>
+<div class="code"><pre class="code sh"><a id="rest_code_c22f38fa0f9b47009e1322cf1cc5fb03-1" name="rest_code_c22f38fa0f9b47009e1322cf1cc5fb03-1" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_c22f38fa0f9b47009e1322cf1cc5fb03-1"></a><span class="nb">printf</span> <span class="s2">"%s"</span> <span class="o">{</span>ABC<span class="o">}</span>.<span class="o">{</span>DEF<span class="o">}</span> &gt; letsencrypt/<span class="o">{</span>ABC<span class="o">}</span>
 </pre></div>
 <p>Now, re-upload your app to app engine:</p>
-<div class="code"><pre class="code sh"><a id="rest_code_d4e0005c803e44189760c888179aefff-1" name="rest_code_d4e0005c803e44189760c888179aefff-1" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_d4e0005c803e44189760c888179aefff-1"></a>appcfg.py update .
+<div class="code"><pre class="code sh"><a id="rest_code_d2e1ce838ca5414bb6f50aee80c31919-1" name="rest_code_d2e1ce838ca5414bb6f50aee80c31919-1" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_d2e1ce838ca5414bb6f50aee80c31919-1"></a>appcfg.py update .
 </pre></div>
 </section><section id="finish-building-the-certificate"><h2>Finish building the certificate</h2>
 <p>Now go back and press enter in letsencrypt-auto.</p>
@@ -177,12 +177,12 @@ App Engine &gt; Settings &gt; SSL Certificates and click Upload a new
 certificate. Give your certificate a name; I like letsencrypt-YYYYMMDD where
 YYYYMMDD is the issuing date (today).</p>
 <p>Now, in your terminal, retrieve the public key:</p>
-<div class="code"><pre class="code sh"><a id="rest_code_13d1850f10bc4b5da19f334c9ef0b7ab-1" name="rest_code_13d1850f10bc4b5da19f334c9ef0b7ab-1" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_13d1850f10bc4b5da19f334c9ef0b7ab-1"></a>cat /etc/letsencrypt/live/www.example.com/fullchain.pem
+<div class="code"><pre class="code sh"><a id="rest_code_a48dd4c5c56c4f41b2727fc9d985be1c-1" name="rest_code_a48dd4c5c56c4f41b2727fc9d985be1c-1" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_a48dd4c5c56c4f41b2727fc9d985be1c-1"></a>cat /etc/letsencrypt/live/www.example.com/fullchain.pem
 </pre></div>
 <p>And paste the output into the public key box in the cloud console.</p>
 <p>If you run into a permission error, try calling the command with sudo.</p>
 <p>Now, in your terminal, retrieve the private key and convert to RSA PEM format:</p>
-<div class="code"><pre class="code sh"><a id="rest_code_7b25fe45bb07434092217ea2fd373d2a-1" name="rest_code_7b25fe45bb07434092217ea2fd373d2a-1" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_7b25fe45bb07434092217ea2fd373d2a-1"></a>openssl rsa -inform pem -in /etc/letsencrypt/live/www.example.com/privkey.pem -outform pem
+<div class="code"><pre class="code sh"><a id="rest_code_61d60a37b297454cb41fd468a484867d-1" name="rest_code_61d60a37b297454cb41fd468a484867d-1" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_61d60a37b297454cb41fd468a484867d-1"></a>openssl rsa -inform pem -in /etc/letsencrypt/live/www.example.com/privkey.pem -outform pem
 </pre></div>
 <p>And paste the output into the box in the cloud console.</p>
 <p>Ditto on possibly needing sudo.</p>
