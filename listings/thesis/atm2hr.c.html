@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#" vocab="http://ogp.me/ns">
+<head>
+  <meta charset="utf-8">
+  <meta content="atm2hr.c" name="description">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>atm2hr.c | gwax</title>
+  <link href="/assets/css/baguetteBox.min.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/normalize.min.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/skeleton.min.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/rst_base.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/code.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
+  <meta content="#304FE1" name="theme-color">
+  <meta content="Nikola (getnikola.com)" name="generator">
+  <link href="/rss.xml" hreflang="en" rel="alternate" title="RSS" type="application/rss+xml">
+  <link href="https://gwax.com/listings/thesis/atm2hr.c.html" rel="canonical">
+  <link href="/favicon.ico" rel="icon" sizes="32x32"><!--[if lt IE 9]><script src="/assets/js/html5shiv-printshiv.min.js"></script><![endif]-->
+</head>
+<body>
+  <div class="container">
+    <header id="header">
+      <div class="row">
+        <div class="six columns">
+          <h1 class="title" id="brand"><a href="/" rel="home" title="gwax"><span id="blog-title">gwax</span></a></h1>
+        </div>
+      </div>
+    </header>
+    <nav class="bar">
+      <ul>
+        <li>
+          <a href="/projects.html">Projects</a>
+        </li>
+        <li>
+          <span>Blog</span>
+          <ul>
+            <li>
+              <a href="/index.html">Posts</a>
+            </li>
+            <li>
+              <a href="/archive.html">Archives</a>
+            </li>
+            <li>
+              <a href="/categories/index.html">Tags & Categories</a>
+            </li>
+            <li>
+              <a href="/rss.xml">RSS feed</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span>About</span>
+          <ul>
+            <li>
+              <a href="/about/about-person.html">The person</a>
+            </li>
+            <li>
+              <a href="/about/about-site.html">The site</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/about/about-person.html#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="select">
+      <select>
+        <option value="/projects.html">
+          Projects
+        </option>
+        <optgroup label="Blog">
+          <option value="/index.html">
+            Posts
+          </option>
+          <option value="/archive.html">
+            Archives
+          </option>
+          <option value="/categories/index.html">
+            Tags & Categories
+          </option>
+          <option value="/rss.xml">
+            RSS feed
+          </option>
+        </optgroup>
+        <optgroup label="About">
+          <option value="/about/about-person.html">
+            The person
+          </option>
+          <option value="/about/about-site.html">
+            The site
+          </option>
+        </optgroup>
+        <option value="/about/about-person.html#contact">
+          Contact
+        </option>
+      </select>
+    </nav>
+    <main id="content">
+      <nav class="breadcrumbs">
+        <ul class="breadcrumb">
+          <li>
+            <a href="/listings/">listings</a>
+          </li>
+          <li>
+            <a href="/listings/thesis/">thesis</a>
+          </li>
+          <li>atm2hr.c</li>
+        </ul>
+      </nav>
+      <h1>atm2hr.c <small><a href="/listings/thesis/atm2hr.c">(Source)</a></small></h1>
+      <div class="code">
+        <table class="codetable">
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-1"><code data-line-number="1"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-1" name="listingsthesisatm2hrc-1"></a><span class="cp">#include</span> <span class="w"></span><span class="cpf">&lt;errno.h&gt;</span><span class="cp"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-2"><code data-line-number="2"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-2" name="listingsthesisatm2hrc-2"></a><span class="cp">#include</span> <span class="w"></span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-3"><code data-line-number="3"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-3" name="listingsthesisatm2hrc-3"></a><span class="cp">#include</span> <span class="w"></span><span class="cpf">"atoms.h"</span><span class="cp"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-4"><code data-line-number="4"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-4" name="listingsthesisatm2hrc-4"></a><span class="cp">#include</span> <span class="w"></span><span class="cpf">"header.h"</span><span class="cp"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-5"><code data-line-number="5"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-5" name="listingsthesisatm2hrc-5"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-6"><code data-line-number="6"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-6" name="listingsthesisatm2hrc-6"></a><span class="kt">int</span> <span class="w"></span><span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="w"></span><span class="n">argc</span><span class="p">,</span> <span class="w"></span><span class="kt">char</span><span class="o">**</span> <span class="w"></span><span class="n">argv</span><span class="p">)</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-7"><code data-line-number="7"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-7" name="listingsthesisatm2hrc-7"></a><span class="p">{</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-8"><code data-line-number="8"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-8" name="listingsthesisatm2hrc-8"></a> <span class="w"></span><span class="n">Headerinfo</span> <span class="w"></span><span class="n">tempheader</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-9"><code data-line-number="9"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-9" name="listingsthesisatm2hrc-9"></a> <span class="w"></span><span class="n">Atom</span> <span class="w"></span><span class="n">tempatom</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-10"><code data-line-number="10"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-10" name="listingsthesisatm2hrc-10"></a> <span class="w"></span><span class="kt">FILE</span><span class="o">*</span> <span class="w"></span><span class="n">file1</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-11"><code data-line-number="11"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-11" name="listingsthesisatm2hrc-11"></a> <span class="w"></span><span class="kt">FILE</span><span class="o">*</span> <span class="w"></span><span class="n">file2</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-12"><code data-line-number="12"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-12" name="listingsthesisatm2hrc-12"></a> <span class="w"></span><span class="kt">int</span> <span class="w"></span><span class="n">i</span><span class="p">,</span><span class="n">j</span><span class="p">,</span><span class="n">k</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-13"><code data-line-number="13"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-13" name="listingsthesisatm2hrc-13"></a> <span class="w"></span><span class="kt">char</span> <span class="w"></span><span class="n">buffer</span><span class="p">[</span><span class="mi">255</span><span class="p">];</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-14"><code data-line-number="14"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-14" name="listingsthesisatm2hrc-14"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-15"><code data-line-number="15"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-15" name="listingsthesisatm2hrc-15"></a> <span class="w"></span><span class="k">if</span><span class="p">(</span><span class="n">argc</span> <span class="w"></span><span class="o">&lt;</span> <span class="w"></span><span class="mi">2</span><span class="p">)</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-16"><code data-line-number="16"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-16" name="listingsthesisatm2hrc-16"></a> <span class="w"></span><span class="p">{</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-17"><code data-line-number="17"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-17" name="listingsthesisatm2hrc-17"></a> <span class="w"></span><span class="n">printf</span><span class="p">(</span><span class="s">"no infile specified</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-18"><code data-line-number="18"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-18" name="listingsthesisatm2hrc-18"></a> <span class="w"></span><span class="k">return</span> <span class="w"></span><span class="mi">0</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-19"><code data-line-number="19"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-19" name="listingsthesisatm2hrc-19"></a> <span class="w"></span><span class="p">}</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-20"><code data-line-number="20"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-20" name="listingsthesisatm2hrc-20"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-21"><code data-line-number="21"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-21" name="listingsthesisatm2hrc-21"></a> <span class="w"></span><span class="k">for</span><span class="p">(</span><span class="n">k</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="w"></span><span class="n">k</span><span class="o">&lt;</span><span class="n">argc</span><span class="p">;</span> <span class="w"></span><span class="n">k</span><span class="o">++</span><span class="p">)</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-22"><code data-line-number="22"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-22" name="listingsthesisatm2hrc-22"></a> <span class="w"></span><span class="p">{</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-23"><code data-line-number="23"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-23" name="listingsthesisatm2hrc-23"></a> <span class="w"></span><span class="n">file1</span> <span class="w"></span><span class="o">=</span> <span class="w"></span><span class="n">fopen</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="n">k</span><span class="p">],</span> <span class="w"></span><span class="s">"rb"</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-24"><code data-line-number="24"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-24" name="listingsthesisatm2hrc-24"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-25"><code data-line-number="25"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-25" name="listingsthesisatm2hrc-25"></a> <span class="w"></span><span class="k">if</span><span class="p">(</span><span class="n">file1</span> <span class="w"></span><span class="o">==</span> <span class="w"></span><span class="nb">NULL</span><span class="p">)</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-26"><code data-line-number="26"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-26" name="listingsthesisatm2hrc-26"></a> <span class="w"></span><span class="p">{</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-27"><code data-line-number="27"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-27" name="listingsthesisatm2hrc-27"></a> <span class="w"></span><span class="n">printf</span><span class="p">(</span><span class="s">"failed to open infile %s for reading</span><span class="se">\n\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">argv</span><span class="p">[</span><span class="n">k</span><span class="p">]);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-28"><code data-line-number="28"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-28" name="listingsthesisatm2hrc-28"></a> <span class="w"></span><span class="k">return</span> <span class="w"></span><span class="n">errno</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-29"><code data-line-number="29"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-29" name="listingsthesisatm2hrc-29"></a> <span class="w"></span><span class="p">}</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-30"><code data-line-number="30"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-30" name="listingsthesisatm2hrc-30"></a> <span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-31"><code data-line-number="31"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-31" name="listingsthesisatm2hrc-31"></a> <span class="w"></span><span class="n">printf</span><span class="p">(</span><span class="s">"using infile %s</span><span class="se">\n\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">argv</span><span class="p">[</span><span class="n">k</span><span class="p">]);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-32"><code data-line-number="32"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-32" name="listingsthesisatm2hrc-32"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-33"><code data-line-number="33"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-33" name="listingsthesisatm2hrc-33"></a> <span class="w"></span><span class="n">j</span> <span class="w"></span><span class="o">=</span> <span class="w"></span><span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">fread</span><span class="p">(</span><span class="o">&</span><span class="n">tempheader</span><span class="p">,</span> <span class="w"></span><span class="k">sizeof</span><span class="p">(</span><span class="n">Headerinfo</span><span class="p">),</span> <span class="w"></span><span class="mi">1</span><span class="p">,</span> <span class="w"></span><span class="n">file1</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-34"><code data-line-number="34"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-34" name="listingsthesisatm2hrc-34"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-35"><code data-line-number="35"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-35" name="listingsthesisatm2hrc-35"></a> <span class="w"></span><span class="k">if</span><span class="p">(</span><span class="n">j</span> <span class="w"></span><span class="o">&lt;</span> <span class="w"></span><span class="mi">1</span><span class="p">)</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-36"><code data-line-number="36"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-36" name="listingsthesisatm2hrc-36"></a> <span class="w"></span><span class="p">{</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-37"><code data-line-number="37"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-37" name="listingsthesisatm2hrc-37"></a> <span class="w"></span><span class="n">printf</span><span class="p">(</span><span class="s">"error reading header from infile</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-38"><code data-line-number="38"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-38" name="listingsthesisatm2hrc-38"></a> <span class="w"></span><span class="k">return</span> <span class="w"></span><span class="mi">0</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-39"><code data-line-number="39"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-39" name="listingsthesisatm2hrc-39"></a> <span class="w"></span><span class="p">}</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-40"><code data-line-number="40"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-40" name="listingsthesisatm2hrc-40"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-41"><code data-line-number="41"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-41" name="listingsthesisatm2hrc-41"></a> <span class="w"></span><span class="n">sprintf</span><span class="p">(</span><span class="n">buffer</span><span class="p">,</span> <span class="w"></span><span class="s">"%s.hr"</span><span class="p">,</span> <span class="w"></span><span class="n">argv</span><span class="p">[</span><span class="n">k</span><span class="p">]);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-42"><code data-line-number="42"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-42" name="listingsthesisatm2hrc-42"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-43"><code data-line-number="43"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-43" name="listingsthesisatm2hrc-43"></a> <span class="w"></span><span class="n">file2</span> <span class="w"></span><span class="o">=</span> <span class="w"></span><span class="n">fopen</span><span class="p">(</span><span class="n">buffer</span><span class="p">,</span> <span class="w"></span><span class="s">"w"</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-44"><code data-line-number="44"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-44" name="listingsthesisatm2hrc-44"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-45"><code data-line-number="45"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-45" name="listingsthesisatm2hrc-45"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"iterations remaining = %d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">tempheader</span><span class="p">.</span><span class="n">iterations</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-46"><code data-line-number="46"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-46" name="listingsthesisatm2hrc-46"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"minimum cutoff distance = %e</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">tempheader</span><span class="p">.</span><span class="n">mincutoff</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-47"><code data-line-number="47"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-47" name="listingsthesisatm2hrc-47"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"delta time = %e</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">tempheader</span><span class="p">.</span><span class="n">dt</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-48"><code data-line-number="48"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-48" name="listingsthesisatm2hrc-48"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"system x size = %e</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">tempheader</span><span class="p">.</span><span class="n">bigX</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-49"><code data-line-number="49"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-49" name="listingsthesisatm2hrc-49"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"system y size = %e</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">tempheader</span><span class="p">.</span><span class="n">bigY</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-50"><code data-line-number="50"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-50" name="listingsthesisatm2hrc-50"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"system z size = %e</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">tempheader</span><span class="p">.</span><span class="n">bigZ</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-51"><code data-line-number="51"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-51" name="listingsthesisatm2hrc-51"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"number of atoms = %d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">tempheader</span><span class="p">.</span><span class="n">numatoms</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-52"><code data-line-number="52"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-52" name="listingsthesisatm2hrc-52"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-53"><code data-line-number="53"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-53" name="listingsthesisatm2hrc-53"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-54"><code data-line-number="54"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-54" name="listingsthesisatm2hrc-54"></a> <span class="w"></span><span class="k">for</span><span class="p">(</span><span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="w"></span><span class="n">i</span><span class="o">&lt;</span><span class="n">tempheader</span><span class="p">.</span><span class="n">numatoms</span><span class="p">;</span> <span class="w"></span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-55"><code data-line-number="55"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-55" name="listingsthesisatm2hrc-55"></a> <span class="w"></span><span class="p">{</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-56"><code data-line-number="56"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-56" name="listingsthesisatm2hrc-56"></a> <span class="w"></span><span class="n">j</span> <span class="w"></span><span class="o">=</span> <span class="w"></span><span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">fread</span><span class="p">(</span><span class="o">&</span><span class="n">tempatom</span><span class="p">,</span> <span class="w"></span><span class="k">sizeof</span><span class="p">(</span><span class="n">Atom</span><span class="p">),</span> <span class="w"></span><span class="mi">1</span><span class="p">,</span> <span class="w"></span><span class="n">file1</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-57"><code data-line-number="57"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-57" name="listingsthesisatm2hrc-57"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-58"><code data-line-number="58"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-58" name="listingsthesisatm2hrc-58"></a> <span class="w"></span><span class="k">if</span><span class="p">(</span><span class="n">j</span> <span class="w"></span><span class="o">&lt;</span> <span class="w"></span><span class="mi">1</span><span class="p">)</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-59"><code data-line-number="59"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-59" name="listingsthesisatm2hrc-59"></a> <span class="w"></span><span class="p">{</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-60"><code data-line-number="60"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-60" name="listingsthesisatm2hrc-60"></a> <span class="w"></span><span class="n">printf</span><span class="p">(</span><span class="s">"error reading atom %d from infile</span><span class="se">\n\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">i</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-61"><code data-line-number="61"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-61" name="listingsthesisatm2hrc-61"></a> <span class="w"></span><span class="k">return</span> <span class="w"></span><span class="mi">0</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-62"><code data-line-number="62"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-62" name="listingsthesisatm2hrc-62"></a> <span class="w"></span><span class="p">}</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-63"><code data-line-number="63"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-63" name="listingsthesisatm2hrc-63"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-64"><code data-line-number="64"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-64" name="listingsthesisatm2hrc-64"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"Atom #%d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">i</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-65"><code data-line-number="65"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-65" name="listingsthesisatm2hrc-65"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"type = %s</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">elements</span><span class="p">[</span><span class="n">tempatom</span><span class="p">.</span><span class="n">type</span><span class="p">].</span><span class="n">symbol</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-66"><code data-line-number="66"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-66" name="listingsthesisatm2hrc-66"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"position = &lt;%e, %e, %e&gt;</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">tempatom</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="w"></span><span class="n">tempatom</span><span class="p">.</span><span class="n">y</span><span class="p">,</span> <span class="w"></span><span class="n">tempatom</span><span class="p">.</span><span class="n">z</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-67"><code data-line-number="67"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-67" name="listingsthesisatm2hrc-67"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"velocity = &lt;%e, %e, %e&gt;</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">tempatom</span><span class="p">.</span><span class="n">vx</span><span class="p">,</span> <span class="w"></span><span class="n">tempatom</span><span class="p">.</span><span class="n">vy</span><span class="p">,</span> <span class="w"></span><span class="n">tempatom</span><span class="p">.</span><span class="n">vz</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-68"><code data-line-number="68"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-68" name="listingsthesisatm2hrc-68"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"potential = %e</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">tempatom</span><span class="p">.</span><span class="n">potential</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-69"><code data-line-number="69"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-69" name="listingsthesisatm2hrc-69"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-70"><code data-line-number="70"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-70" name="listingsthesisatm2hrc-70"></a> <span class="w"></span><span class="p">}</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-71"><code data-line-number="71"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-71" name="listingsthesisatm2hrc-71"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-72"><code data-line-number="72"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-72" name="listingsthesisatm2hrc-72"></a> <span class="w"></span><span class="n">fclose</span><span class="p">(</span><span class="n">file2</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-73"><code data-line-number="73"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-73" name="listingsthesisatm2hrc-73"></a> <span class="w"></span><span class="n">fclose</span><span class="p">(</span><span class="n">file1</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-74"><code data-line-number="74"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-74" name="listingsthesisatm2hrc-74"></a> <span class="w"></span><span class="p">}</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-75"><code data-line-number="75"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-75" name="listingsthesisatm2hrc-75"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-76"><code data-line-number="76"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-76" name="listingsthesisatm2hrc-76"></a> <span class="w"></span><span class="k">return</span> <span class="w"></span><span class="mi">1</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2hrc-77"><code data-line-number="77"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2hrc-77" name="listingsthesisatm2hrc-77"></a><span class="p">}</span><span class="w"></span></code></td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    <footer id="footer">
+      <p>Contents ©2004-2022 <a href="/about/about-person.html">George Leslie-Waksman</a> | Source: <img class="svg-icon" src="/icons/github.svg"><a href="https://github.com/gwax/www-gwax">GitHub</a> | Powered by <a href="https://getnikola.com">Nikola</a> | Styled with <a href="http://getskeleton.com">Skeleton</a> | <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img alt="Creative Commons License BY-SA" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" style="border:0;margin:0;"></a></p>
+    </footer>
+  </div>
+  <script src="/assets/js/baguetteBox.min.js"></script>
+  <script src="/assets/js/webfontloader.js"></script>
+  <script src="/assets/js/fancydates.js"></script>
+  <script src="/assets/js/theme.js"></script><!-- fancy dates -->
+  <script>
+
+    fancydates(1);
+  </script><!-- end fancy dates -->
+  <script>
+
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
+    WebFont.load({
+        google: {
+            families: ['IBM Plex Mono', 'Raleway', 'Pacifico']
+        }
+    });
+  </script>
+</body>
+</html>

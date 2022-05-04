@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>gwax (Posts about meta)</title>
+    <link>https://gwax.com/</link>
+    <description/>
+    <atom:link href="https://gwax.com/categories/meta.xml" rel="self" type="application/rss+xml"/>
+    <language>en</language>
+    <copyright>Contents &amp;copy;2005-2022 &lt;a href="link://slug/about-person"&gt;George Leslie-Waksman&lt;/a&gt; 
+&lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;
+    &lt;img
+        src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+        alt="Creative Commons License BY-SA"
+        style="border:0;margin:0;"
+    /&gt;
+&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Wed, 04 May 2022 07:13:30 GMT</lastBuildDate>
+    <generator>Nikola (getnikola.com)</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Let's Encrypt on App Engine</title>
+      <link>https://gwax.com/blog/2016/03/lets-encrypt-on-app-engine.html</link>
+      <dc:creator>George Leslie-Waksman</dc:creator>
+      <description>&lt;div&gt;&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt;: &lt;a class="reference external" href="https://cloudplatform.googleblog.com/2017/09/introducing-managed-SSL-for-Google-App-Engine.html"&gt;As of September, 2017&lt;/a&gt;,
+Google App Engine will &lt;a class="reference external" href="https://cloud.google.com/appengine/docs/standard/python/securing-custom-domains-with-ssl"&gt;manage SSL certificates for you&lt;/a&gt;.&lt;/p&gt;
+&lt;hr class="docutils"&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://letsencrypt.org/"&gt;Let's Encrypt&lt;/a&gt; is a fantastically convenient way
+to get SSL certificates for your website without paying a bunch of money or
+resorting to a &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Self-signed_certificate"&gt;self-signed certificate&lt;/a&gt;. It's also pretty easy to set up.&lt;/p&gt;
+&lt;p&gt;Easy as it is to set up, the instructions don't really explain much about
+setup for &lt;a class="reference external" href="https://cloud.google.com/appengine/"&gt;App Engine&lt;/a&gt;. It turns out to
+be pretty straightforward.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://gwax.com/blog/2016/03/lets-encrypt-on-app-engine.html"&gt;Read more…&lt;/a&gt; (2 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description>
+      <category>code snippets</category>
+      <category>meta</category>
+      <guid>https://gwax.com/blog/2016/03/lets-encrypt-on-app-engine.html</guid>
+      <pubDate>Sun, 13 Mar 2016 07:25:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>Fixing Nikola Footnote Locations</title>
+      <link>https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html</link>
+      <dc:creator>George Leslie-Waksman</dc:creator>
+      <description>&lt;p&gt;Personally, I prefer to intersperse my footnote declarations with the text
+that is being footnoted when writing my. For example:&lt;a class="footnote-reference" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#id2" id="id1"&gt;[1]&lt;/a&gt;&lt;/p&gt;
+&lt;table class="docutils footnote" frame="void" id="id2" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label"&gt;&lt;col&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#id1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;This is just an example.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;pre class="code ReST"&gt;&lt;a name="rest_code_2444aafe754746ddba21a88c9acc6e37-1"&gt;&lt;/a&gt;I might want to write something&lt;span class="s"&gt;[#]_&lt;/span&gt; where there's a footnote there.
+&lt;a name="rest_code_2444aafe754746ddba21a88c9acc6e37-2"&gt;&lt;/a&gt;
+&lt;a name="rest_code_2444aafe754746ddba21a88c9acc6e37-3"&gt;&lt;/a&gt;&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="nt"&gt;[#]&lt;/span&gt; I put the footnote definition here.
+&lt;a name="rest_code_2444aafe754746ddba21a88c9acc6e37-4"&gt;&lt;/a&gt;
+&lt;a name="rest_code_2444aafe754746ddba21a88c9acc6e37-5"&gt;&lt;/a&gt;And then I continue on with the rest of my writing.
+&lt;/pre&gt;&lt;p&gt;Wherever they are declared, I prefer to have all of my footnotes appear at the
+end of my posts. By default, &lt;a class="reference external" href="https://getnikola.com"&gt;Nikola&lt;/a&gt;  puts the
+footnotes in wherever they are declared. A simple snippet of javascript can be
+used to fix the locations of footnotes:&lt;/p&gt;
+&lt;pre class="code javascript"&gt;&lt;a name="rest_code_316d4293478e44f0af86b871235703ff-1"&gt;&lt;/a&gt;&lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;ready&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;a name="rest_code_316d4293478e44f0af86b871235703ff-2"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'.footnote'&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;each&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;el&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;a name="rest_code_316d4293478e44f0af86b871235703ff-3"&gt;&lt;/a&gt;        &lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;el&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;appendTo&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+&lt;a name="rest_code_316d4293478e44f0af86b871235703ff-4"&gt;&lt;/a&gt;            &lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;el&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;closest&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'.entry-content,.entry-summary'&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt;
+&lt;a name="rest_code_316d4293478e44f0af86b871235703ff-5"&gt;&lt;/a&gt;    &lt;span class="p"&gt;});&lt;/span&gt;
+&lt;a name="rest_code_316d4293478e44f0af86b871235703ff-6"&gt;&lt;/a&gt;&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/pre&gt;&lt;p&gt;Simply wrap in a &amp;lt;script&amp;gt; tag and include in the BODY_END section of conf.py
+or add it to your theme.&lt;/p&gt;</description>
+      <category>code snippets</category>
+      <category>meta</category>
+      <category>nikola</category>
+      <guid>https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html</guid>
+      <pubDate>Sat, 23 Jan 2016 23:44:17 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

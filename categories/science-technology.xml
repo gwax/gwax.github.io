@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>gwax (Posts about science &amp; technology)</title>
+    <link>https://gwax.com/</link>
+    <description/>
+    <atom:link href="https://gwax.com/categories/science-technology.xml" rel="self" type="application/rss+xml"/>
+    <language>en</language>
+    <copyright>Contents &amp;copy;2005-2022 &lt;a href="link://slug/about-person"&gt;George Leslie-Waksman&lt;/a&gt; 
+&lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;
+    &lt;img
+        src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+        alt="Creative Commons License BY-SA"
+        style="border:0;margin:0;"
+    /&gt;
+&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Wed, 04 May 2022 07:13:30 GMT</lastBuildDate>
+    <generator>Nikola (getnikola.com)</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>A cute geometry problem</title>
+      <link>https://gwax.com/blog/2010/03/a-cute-geometry-problem.html</link>
+      <dc:creator>George Leslie-Waksman</dc:creator>
+      <description>&lt;div&gt;&lt;p&gt;I came across a cute geometry problem recently and I would like to pass it
+along.&lt;/p&gt;
+&lt;div class="section" id="problem"&gt;
+&lt;h2&gt;Problem&lt;/h2&gt;
+&lt;div class="section" id="problem-statement"&gt;
+&lt;h3&gt;Problem Statement&lt;/h3&gt;
+&lt;div class="row docutils container"&gt;
+&lt;div class="four columns docutils container"&gt;
+&lt;svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="u-max-full-width" viewbox="0 0 1 1"&gt;
+    &lt;g stroke="black" stroke-width="0.005"&gt;
+        &lt;rect x="0" y="0" width="1" height="1" fill="white"&gt;&lt;/rect&gt;
+
+        &lt;path fill="red" d="
+            M 0.5 0.1339745962155614
+            A 1 1, 0, 0, 1, 0.8660254037844386 0.5
+            A 1 1, 0, 0, 1, 0.5 0.8660254037844386
+            A 1 1, 0, 0, 1, 0.1339745962155614 0.5
+            A 1 1, 0, 0, 1, 0.5 0.1339745962155614
+            Z"&gt;&lt;/path&gt;
+
+        &lt;path fill="none" d="M 0 0 A 1 1, 0, 0, 0, 1 1 L 1 0 Z"&gt;&lt;/path&gt;
+        &lt;path fill="none" d="M 0 1 A 1 1, 0, 0, 0, 1 0 L 0 0 Z"&gt;&lt;/path&gt;
+        &lt;path fill="none" d="M 1 1 A 1 1, 0, 0, 0, 0 0 L 0 1 Z"&gt;&lt;/path&gt;
+        &lt;path fill="none" d="M 1 0 A 1 1, 0, 0, 0, 0 1 L 1 1 Z"&gt;&lt;/path&gt;
+    &lt;/g&gt;
+&lt;/svg&gt;&lt;/div&gt;
+&lt;div class="eight columns docutils container"&gt;
+&lt;p&gt;If the sides of the square are of unit length and all curves are
+circular arcs, what is the area of the highlighted region?&lt;/p&gt;
+&lt;p&gt;Although substantially easier with the use of calculus or trigonometry,
+this problem can be solved entirely with basic geometry (no weird laws
+you might have forgotten since high school are necessary).&lt;/p&gt;
+&lt;p&gt;I have derived a geometric solution, which follows, but I highly
+recommend trying to do it yourself first.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href="https://gwax.com/blog/2010/03/a-cute-geometry-problem.html"&gt;Read more…&lt;/a&gt; (2 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+      <category>musings</category>
+      <category>science &amp; technology</category>
+      <guid>https://gwax.com/blog/2010/03/a-cute-geometry-problem.html</guid>
+      <pubDate>Thu, 11 Mar 2010 19:57:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>How to prevent your robots from taking over Cybertron</title>
+      <link>https://gwax.com/blog/2005/10/how-to-prevent-your-robots-from-taking-over-cybertron.html</link>
+      <dc:creator>George Leslie-Waksman</dc:creator>
+      <description>&lt;p&gt;Do not build robots that can design new robots.&lt;/p&gt;</description>
+      <category>movies &amp; tv</category>
+      <category>science &amp; technology</category>
+      <guid>https://gwax.com/blog/2005/10/how-to-prevent-your-robots-from-taking-over-cybertron.html</guid>
+      <pubDate>Tue, 25 Oct 2005 03:16:32 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
