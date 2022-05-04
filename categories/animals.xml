@@ -1,12 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-  <channel>
-    <title>gwax (Posts about animals)</title>
-    <link>https://gwax.com/</link>
-    <description/>
-    <atom:link href="https://gwax.com/categories/animals.xml" rel="self" type="application/rss+xml"/>
-    <language>en</language>
-    <copyright>Contents &amp;copy;2005-2022 &lt;a href="link://slug/about-person"&gt;George Leslie-Waksman&lt;/a&gt; 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gwax (Posts about animals)</title><link>https://gwax.com/</link><description></description><atom:link href="https://gwax.com/categories/animals.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents &amp;copy;2005-2022 &lt;a href="link://slug/about-person"&gt;George Leslie-Waksman&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;
     &lt;img
         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
@@ -14,15 +7,7 @@
         style="border:0;margin:0;"
     /&gt;
 &lt;/a&gt;
-</copyright>
-    <lastBuildDate>Wed, 04 May 2022 07:16:33 GMT</lastBuildDate>
-    <generator>Nikola (getnikola.com)</generator>
-    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-    <item>
-      <title>pix plz kthx</title>
-      <link>https://gwax.com/blog/2008/07/pix-plz-kthx.html</link>
-      <dc:creator>George Leslie-Waksman</dc:creator>
-      <description>&lt;p&gt;Internet, meet Baldr. Sorry it took me so long to introduce you.&lt;/p&gt;
+</copyright><lastBuildDate>Wed, 04 May 2022 08:39:36 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>pix plz kthx</title><link>https://gwax.com/blog/2008/07/pix-plz-kthx.html</link><dc:creator>George Leslie-Waksman</dc:creator><description>&lt;p&gt;Internet, meet Baldr. Sorry it took me so long to introduce you.&lt;/p&gt;
 &lt;hr class="docutils"&gt;
 &lt;a class="reference external image-reference" href="https://gwax.com/images/posts/2008/07/p1010001.jpg"&gt;&lt;img alt="I sleep most of the time." src="https://gwax.com/images/posts/2008/07/p1010001.thumbnail.jpg"&gt;&lt;/a&gt;
 &lt;a class="reference external image-reference" href="https://gwax.com/images/posts/2008/07/p1010002.jpg"&gt;&lt;img alt="Seriously, did I really have to take a bath?" src="https://gwax.com/images/posts/2008/07/p1010002.thumbnail.jpg"&gt;&lt;/a&gt;
@@ -42,16 +27,7 @@
 &lt;a class="reference external image-reference" href="https://gwax.com/images/posts/2008/07/p1010053.jpg"&gt;&lt;img alt="Walking is pretty ok, I guess; I'd rather sit around but walking is ok." src="https://gwax.com/images/posts/2008/07/p1010053.thumbnail.jpg"&gt;&lt;/a&gt;
 &lt;a class="reference external image-reference" href="https://gwax.com/images/posts/2008/07/p1010055.jpg"&gt;&lt;img alt="I am a stair climbing machine! Two flights? Bah, child's play!" src="https://gwax.com/images/posts/2008/07/p1010055.thumbnail.jpg"&gt;&lt;/a&gt;
 &lt;hr class="docutils"&gt;
-&lt;p&gt;Post title &lt;a class="reference external" href="http://blog.jfet.org/2008/06/24"&gt;plagiarized from Riad&lt;/a&gt;&lt;/p&gt;</description>
-      <category>animals</category>
-      <guid>https://gwax.com/blog/2008/07/pix-plz-kthx.html</guid>
-      <pubDate>Wed, 23 Jul 2008 17:58:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>Baldr</title>
-      <link>https://gwax.com/blog/2008/07/baldr.html</link>
-      <dc:creator>George Leslie-Waksman</dc:creator>
-      <description>&lt;p&gt;Yesterday, I went and picked up my new puppy. My puppy is a purebred
+&lt;p&gt;Post title &lt;a class="reference external" href="http://blog.jfet.org/2008/06/24"&gt;plagiarized from Riad&lt;/a&gt;&lt;/p&gt;</description><category>animals</category><guid>https://gwax.com/blog/2008/07/pix-plz-kthx.html</guid><pubDate>Wed, 23 Jul 2008 17:58:08 GMT</pubDate></item><item><title>Baldr</title><link>https://gwax.com/blog/2008/07/baldr.html</link><dc:creator>George Leslie-Waksman</dc:creator><description>&lt;p&gt;Yesterday, I went and picked up my new puppy. My puppy is a purebred
 Saint Bernard with strong champion ancestry from &lt;a class="reference external" href="http://www.conifercreek.com/"&gt;Conifer Creek
 Farm&lt;/a&gt; in Rough and Ready, CA.&lt;/p&gt;
 &lt;p&gt;After a great deal of consideration, I have decided to name my puppy
@@ -66,10 +42,4 @@ Baldr the Good for a reason and I think that it's a very respectable and
 good sounding name for a dog.&lt;/p&gt;
 &lt;p&gt;I will post pictures as soon as soon as I get an xD card for the camera
 a friend gave me or am able to get someone else to take some pictures
-for me.&lt;/p&gt;</description>
-      <category>animals</category>
-      <guid>https://gwax.com/blog/2008/07/baldr.html</guid>
-      <pubDate>Tue, 01 Jul 2008 00:11:17 GMT</pubDate>
-    </item>
-  </channel>
-</rss>
+for me.&lt;/p&gt;</description><category>animals</category><guid>https://gwax.com/blog/2008/07/baldr.html</guid><pubDate>Tue, 01 Jul 2008 00:11:17 GMT</pubDate></item></channel></rss>

@@ -1,12 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-  <channel>
-    <title>gwax (Posts about intzorweb)</title>
-    <link>https://gwax.com/</link>
-    <description/>
-    <atom:link href="https://gwax.com/categories/intzorweb.xml" rel="self" type="application/rss+xml"/>
-    <language>en</language>
-    <copyright>Contents &amp;copy;2005-2022 &lt;a href="link://slug/about-person"&gt;George Leslie-Waksman&lt;/a&gt; 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gwax (Posts about intzorweb)</title><link>https://gwax.com/</link><description></description><atom:link href="https://gwax.com/categories/intzorweb.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents &amp;copy;2005-2022 &lt;a href="link://slug/about-person"&gt;George Leslie-Waksman&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;
     &lt;img
         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
@@ -14,15 +7,7 @@
         style="border:0;margin:0;"
     /&gt;
 &lt;/a&gt;
-</copyright>
-    <lastBuildDate>Wed, 04 May 2022 07:16:33 GMT</lastBuildDate>
-    <generator>Nikola (getnikola.com)</generator>
-    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-    <item>
-      <title>On airplane bandwidth and latency</title>
-      <link>https://gwax.com/blog/2009/07/on-airplane-bandwidth-and-latency.html</link>
-      <dc:creator>George Leslie-Waksman</dc:creator>
-      <description>&lt;p&gt;Having recently used Virgin America to transport myself across the
+</copyright><lastBuildDate>Wed, 04 May 2022 08:39:36 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>On airplane bandwidth and latency</title><link>https://gwax.com/blog/2009/07/on-airplane-bandwidth-and-latency.html</link><dc:creator>George Leslie-Waksman</dc:creator><description>&lt;p&gt;Having recently used Virgin America to transport myself across the
 country, I was very pleased to have Internet access while I was in the
 air. This, however, is not the sort of airplane bandwidth and latency
 that I am going to talk about. Instead, I would like to discuss a
@@ -35,15 +20,15 @@ San Francisco and Boston (&lt;span class="math"&gt;\(\approx 7\mathrm{hr}\)&lt;/
 &lt;p&gt;Bandwidth:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;DSL: &lt;span class="math"&gt;\(15\frac{\mathrm{Mbit}}{\mathrm{s}}\)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Airplane: &lt;span class="math"&gt;\(\frac{500\mathrm{GB}}{7\mathrm{hr}} \times \frac{1\mathrm{hr}}{60\mathrm{min}} \times \frac{1\mathrm{min}}{60\mathrm{s}} \times \frac{8000\mathrm{Mbit}}{1\mathrm{GB}} \approx 150\frac{\mathrm{Mbit}}{\mathrm{s}}\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;DSL: &lt;span class="math"&gt;\(15\frac{\mathrm{Mbit}}{\mathrm{s}}\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Airplane: &lt;span class="math"&gt;\(\frac{500\mathrm{GB}}{7\mathrm{hr}} \times \frac{1\mathrm{hr}}{60\mathrm{min}} \times \frac{1\mathrm{min}}{60\mathrm{s}} \times \frac{8000\mathrm{Mbit}}{1\mathrm{GB}} \approx 150\frac{\mathrm{Mbit}}{\mathrm{s}}\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Latency:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;DSL: &lt;span class="math"&gt;\(\approx 100\mathrm{ms}\)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Airplane: &lt;span class="math"&gt;\(&amp;gt;7\mathrm{hr}\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;DSL: &lt;span class="math"&gt;\(\approx 100\mathrm{ms}\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Airplane: &lt;span class="math"&gt;\(&amp;gt;7\mathrm{hr}\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;For fun, let's try something a little bigger on both sides: OC-768 vs
@@ -51,40 +36,23 @@ Boeing 747-400F plane filled with &lt;span class="math"&gt;\(2\mathrm{TB}\)&lt;/
 &lt;p&gt;Bandwidth:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;OC-768: &lt;span class="math"&gt;\(38\frac{\mathrm{Gbit}}{\mathrm{s}}\)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;747-400F: &lt;span class="math"&gt;\(\frac{250000\mathrm{lb}}{7\mathrm{hr}} \times \frac{2\mathrm{TB}}{1.7\mathrm{lb}} \times \frac{1\mathrm{hr}}{60\mathrm{min}} \times \frac{1\mathrm{min}}{60\mathrm{s}} \times \frac{8\mathrm{Tbit}}{1\mathrm{TB}} \approx 93\frac{\mathrm{Tbit}}{\mathrm{s}}\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;OC-768: &lt;span class="math"&gt;\(38\frac{\mathrm{Gbit}}{\mathrm{s}}\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;747-400F: &lt;span class="math"&gt;\(\frac{250000\mathrm{lb}}{7\mathrm{hr}} \times \frac{2\mathrm{TB}}{1.7\mathrm{lb}} \times \frac{1\mathrm{hr}}{60\mathrm{min}} \times \frac{1\mathrm{min}}{60\mathrm{s}} \times \frac{8\mathrm{Tbit}}{1\mathrm{TB}} \approx 93\frac{\mathrm{Tbit}}{\mathrm{s}}\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Latency:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;OC-768: &lt;span class="math"&gt;\(&amp;lt;100\mathrm{ms}\)&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;747-400F: &lt;span class="math"&gt;\(&amp;gt;7\mathrm{hr}\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;OC-768: &lt;span class="math"&gt;\(&amp;lt;100\mathrm{ms}\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;747-400F: &lt;span class="math"&gt;\(&amp;gt;7\mathrm{hr}\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Clearly, hard drives on an airplane will win in a purely bandwidth
 driven application but airplanes suffer from incredibly high latency.
 You will have to decide which is best choice based on your particular
-use scenario.&lt;/p&gt;</description>
-      <category>computers</category>
-      <category>intzorweb</category>
-      <guid>https://gwax.com/blog/2009/07/on-airplane-bandwidth-and-latency.html</guid>
-      <pubDate>Fri, 03 Jul 2009 00:21:27 GMT</pubDate>
-    </item>
-    <item>
-      <title>700 Hoboes</title>
-      <link>https://gwax.com/blog/2005/10/700-hoboes.html</link>
-      <dc:creator>George Leslie-Waksman</dc:creator>
-      <description>&lt;p&gt;The internet has brought forth a true hobo bounty. Writer &lt;a class="reference external" href="https://www.johnhodgman.com/"&gt;John
+use scenario.&lt;/p&gt;</description><category>computers</category><category>intzorweb</category><guid>https://gwax.com/blog/2009/07/on-airplane-bandwidth-and-latency.html</guid><pubDate>Fri, 03 Jul 2009 00:21:27 GMT</pubDate></item><item><title>700 Hoboes</title><link>https://gwax.com/blog/2005/10/700-hoboes.html</link><dc:creator>George Leslie-Waksman</dc:creator><description>&lt;p&gt;The internet has brought forth a true hobo bounty. Writer &lt;a class="reference external" href="https://www.johnhodgman.com/"&gt;John
 Hodgman&lt;/a&gt; has produced a wonderful
 spoken word piece consisting of &lt;a class="reference external" href="http://www.archive.org/details/700HoboNames"&gt;700 Hobo
 Names&lt;/a&gt;. I highly
 recommend giving it a listen to. Also, word is that someone wants to use
-this at Roast, so keep it on the down low at Senior House.&lt;/p&gt;</description>
-      <category>art &amp; culture</category>
-      <category>intzorweb</category>
-      <guid>https://gwax.com/blog/2005/10/700-hoboes.html</guid>
-      <pubDate>Fri, 28 Oct 2005 02:20:08 GMT</pubDate>
-    </item>
-  </channel>
-</rss>
+this at Roast, so keep it on the down low at Senior House.&lt;/p&gt;</description><category>art &amp; culture</category><category>intzorweb</category><guid>https://gwax.com/blog/2005/10/700-hoboes.html</guid><pubDate>Fri, 28 Oct 2005 02:20:08 GMT</pubDate></item></channel></rss>

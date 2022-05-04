@@ -1,12 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-  <channel>
-    <title>gwax (Posts about recipes)</title>
-    <link>https://gwax.com/</link>
-    <description/>
-    <atom:link href="https://gwax.com/categories/recipes.xml" rel="self" type="application/rss+xml"/>
-    <language>en</language>
-    <copyright>Contents &amp;copy;2005-2022 &lt;a href="link://slug/about-person"&gt;George Leslie-Waksman&lt;/a&gt; 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gwax (Posts about recipes)</title><link>https://gwax.com/</link><description></description><atom:link href="https://gwax.com/categories/recipes.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents &amp;copy;2005-2022 &lt;a href="link://slug/about-person"&gt;George Leslie-Waksman&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;
     &lt;img
         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
@@ -14,15 +7,7 @@
         style="border:0;margin:0;"
     /&gt;
 &lt;/a&gt;
-</copyright>
-    <lastBuildDate>Wed, 04 May 2022 07:16:32 GMT</lastBuildDate>
-    <generator>Nikola (getnikola.com)</generator>
-    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-    <item>
-      <title>Uncut Jewel</title>
-      <link>https://gwax.com/blog/2019/10/uncut-jewel.html</link>
-      <dc:creator>George Leslie-Waksman</dc:creator>
-      <description>&lt;p&gt;Once a year, I take a month off from Caffeine and Alcohol (sometimes I'll throw
+</copyright><lastBuildDate>Wed, 04 May 2022 08:39:36 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Uncut Jewel</title><link>https://gwax.com/blog/2019/10/uncut-jewel.html</link><dc:creator>George Leslie-Waksman</dc:creator><description>&lt;p&gt;Once a year, I take a month off from Caffeine and Alcohol (sometimes I'll throw
 in something else like high fructose corn syrup). It was fairly arbitrary for
 a number of years but now, having learned it's kind of a thing, I tend to
 take my temperance in January. This time around, I've moved things up a few
@@ -36,85 +21,61 @@ the juice or flavored water trap.&lt;/p&gt;
 inspiration, staring at my liquor shelf, and starting at my fridge, I've had a
 modicum of success. I seem to have hit on a formula that works well stirred
 with ice and served Up:&lt;/p&gt;
-&lt;div class="section" id="a-non-alcoholic-up-formula"&gt;
+&lt;section id="a-non-alcoholic-up-formula"&gt;
 &lt;h2&gt;A Non-Alcoholic Up formula&lt;/h2&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;1 oz Seedlip (Spice 94 or Garden 108)&lt;/li&gt;
-&lt;li&gt;1/2 oz Verjus Blanc (Fusion Napa Valley)&lt;/li&gt;
-&lt;li&gt;1/2 oz Verjus Rouge (Fusion Napa Valley)&lt;/li&gt;
-&lt;li&gt;1/2 oz Cranberry Juice&lt;/li&gt;
-&lt;li&gt;1/2 oz Syrup (Simple, Demerara, etc.)&lt;/li&gt;
-&lt;li&gt;1-2 dash(es) bitters&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 oz Seedlip (Spice 94 or Garden 108)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/2 oz Verjus Blanc (Fusion Napa Valley)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/2 oz Verjus Rouge (Fusion Napa Valley)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/2 oz Cranberry Juice&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/2 oz Syrup (Simple, Demerara, etc.)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1-2 dash(es) bitters&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Gomme Syrup and Garden 108 seem to work well together but I think the best
 that I've hit on so far is what I'm calling an Uncut Jewel:&lt;/p&gt;
 &lt;a class="reference external image-reference" href="https://gwax.com/images/posts/2019/10/uncut_jewel.jpg"&gt;&lt;img alt="Uncut Jewel and its ingredients" class="align-right" src="https://gwax.com/images/posts/2019/10/uncut_jewel.thumbnail.jpg"&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;div class="section" id="uncut-jewel-recipe"&gt;
+&lt;/section&gt;
+&lt;section id="uncut-jewel-recipe"&gt;
 &lt;h2&gt;Uncut Jewel recipe&lt;/h2&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;1 oz Seedlip Spice 94&lt;/li&gt;
-&lt;li&gt;1/2 oz Verjus Blanc (Fusion Napa Valley)&lt;/li&gt;
-&lt;li&gt;1/2 oz Verjus Rouge (Fusion Napa Valley)&lt;/li&gt;
-&lt;li&gt;1/2 oz Cranberry Juice&lt;/li&gt;
-&lt;li&gt;1/2 oz Maple Syrup (Grade A Amber Color, Rich Taste)&lt;/li&gt;
-&lt;li&gt;1 dash Salted Cacao Bitters (Workhorse Rye + Dandelion Chocolate)&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 oz Seedlip Spice 94&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/2 oz Verjus Blanc (Fusion Napa Valley)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/2 oz Verjus Rouge (Fusion Napa Valley)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/2 oz Cranberry Juice&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/2 oz Maple Syrup (Grade A Amber Color, Rich Taste)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 dash Salted Cacao Bitters (Workhorse Rye + Dandelion Chocolate)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Stir with ice, serve up, and garnish with a Maraschino cherry.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="notes"&gt;
+&lt;/section&gt;
+&lt;section id="notes"&gt;
 &lt;h2&gt;Notes&lt;/h2&gt;
 &lt;p&gt;The drink leads with a note of allspice before taking on dominant notes of
 fruit and nuts and finally closes with a hint of cocoa. Overall, it's well
 balanced, sippable, and fairly complex, without assaulting the palette.&lt;/p&gt;
-&lt;/div&gt;</description>
-      <category>cocktails</category>
-      <category>compositions</category>
-      <category>food &amp; drink</category>
-      <category>non-alcoholic</category>
-      <category>recipes</category>
-      <guid>https://gwax.com/blog/2019/10/uncut-jewel.html</guid>
-      <pubDate>Mon, 21 Oct 2019 06:03:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>Grenadine</title>
-      <link>https://gwax.com/blog/2017/11/grenadine.html</link>
-      <dc:creator>George Leslie-Waksman</dc:creator>
-      <description>&lt;div&gt;&lt;p&gt;In my ongoing quest to make delicious alcoholic beverages, I have increasingly
+&lt;/section&gt;</description><category>cocktails</category><category>compositions</category><category>food &amp; drink</category><category>non-alcoholic</category><category>recipes</category><guid>https://gwax.com/blog/2019/10/uncut-jewel.html</guid><pubDate>Mon, 21 Oct 2019 06:03:55 GMT</pubDate></item><item><title>Grenadine</title><link>https://gwax.com/blog/2017/11/grenadine.html</link><dc:creator>George Leslie-Waksman</dc:creator><description>&lt;div&gt;&lt;p&gt;In my ongoing quest to make delicious alcoholic beverages, I have increasingly
 found myself digging into my ingredients.  Syrups, as a class of ingredient,
 have received a decent amount of my attention.  As an aside, if you're buying
 simple syrup, you are doing a lot of things wrong.  In my experience, it is
 decidedly tricky to find decent grenadine, where decent is defined as being
 made with real pomegranate and without high fructose corn syrup or food
 coloring.  So, I've started to make my own:&lt;/p&gt;
-&lt;div class="section" id="id1"&gt;
+&lt;section id="grenadine-1"&gt;
 &lt;h2&gt;Grenadine&lt;/h2&gt;
 &lt;p&gt;A pomegranate syrup that adds a sweet tartness to drinks and a distinctive
 red color.  Notable in small quantities in a great many drinks and also as
 the second ingredient in a Shirley Temple, a drink the actress was apparently
 never fond of.&lt;/p&gt;
-&lt;div class="section" id="ingredients"&gt;
+&lt;section id="ingredients"&gt;
 &lt;h3&gt;Ingredients&lt;/h3&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;1 cup fresh Pomegranate Juice (~2 large pomegranates)&lt;/li&gt;
-&lt;li&gt;1 oz Pomegranate Molasses&lt;/li&gt;
-&lt;li&gt;1 1/2 cup White Sugar&lt;/li&gt;
-&lt;li&gt;1/16 tsp Xanthan Gum (optional)&lt;/li&gt;
-&lt;li&gt;1/2 tsp Orange Blossom Water&lt;/li&gt;
-&lt;li&gt;1 oz over-proof grain neutral spirit (Everclear or vodka)&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 cup fresh Pomegranate Juice (~2 large pomegranates)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 oz Pomegranate Molasses&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 1/2 cup White Sugar&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/16 tsp Xanthan Gum (optional)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/2 tsp Orange Blossom Water&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 oz over-proof grain neutral spirit (Everclear or vodka)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href="https://gwax.com/blog/2017/11/grenadine.html"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-      <category>cocktails</category>
-      <category>recipes</category>
-      <category>syrups</category>
-      <guid>https://gwax.com/blog/2017/11/grenadine.html</guid>
-      <pubDate>Mon, 06 Nov 2017 05:30:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>Slowcooker Yogurt</title>
-      <link>https://gwax.com/blog/2016/09/slowcooker-yogurt.html</link>
-      <dc:creator>George Leslie-Waksman</dc:creator>
-      <description>&lt;div&gt;&lt;a class="reference external image-reference" href="https://gwax.com/images/posts/2016/09/yield.jpg"&gt;&lt;img alt="Some jars of homemade yogurt" class="align-right" src="https://gwax.com/images/posts/2016/09/yield.thumbnail.jpg"&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://gwax.com/blog/2017/11/grenadine.html"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/div&gt;</description><category>cocktails</category><category>recipes</category><category>syrups</category><guid>https://gwax.com/blog/2017/11/grenadine.html</guid><pubDate>Mon, 06 Nov 2017 05:30:20 GMT</pubDate></item><item><title>Slowcooker Yogurt</title><link>https://gwax.com/blog/2016/09/slowcooker-yogurt.html</link><dc:creator>George Leslie-Waksman</dc:creator><description>&lt;div&gt;&lt;a class="reference external image-reference" href="https://gwax.com/images/posts/2016/09/yield.jpg"&gt;&lt;img alt="Some jars of homemade yogurt" class="align-right" src="https://gwax.com/images/posts/2016/09/yield.thumbnail.jpg"&gt;&lt;/a&gt;
 &lt;p&gt;I have a 14 month old daughter, a wife that likes yogurt with granola, and I
 kind of like the stuff too. Needless to say, we go through a lot of yogurt in
 my house. Specifically, we go through a lot of plain, whole milk, Greek yogurt.&lt;/p&gt;
@@ -130,16 +91,7 @@ before. I should be able to make yogurt, right?&lt;/p&gt;
 &lt;p&gt;Turns out it's pretty straightforward; I just finished our second batch
 yesterday. It also turns out to be really good, and it's less than $2 per
 32oz (milk choice depending).&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://gwax.com/blog/2016/09/slowcooker-yogurt.html"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description>
-      <category>recipes</category>
-      <guid>https://gwax.com/blog/2016/09/slowcooker-yogurt.html</guid>
-      <pubDate>Tue, 06 Sep 2016 06:30:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>Will O' The Wisp</title>
-      <link>https://gwax.com/blog/2011/01/will-o-the-wisp.html</link>
-      <dc:creator>George Leslie-Waksman</dc:creator>
-      <description>&lt;p&gt;Continuing &lt;a class="reference external" href="https://gwax.com/blog/2010/10/ironhide.html"&gt;my earlier work&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://gwax.com/blog/2016/09/slowcooker-yogurt.html"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>recipes</category><guid>https://gwax.com/blog/2016/09/slowcooker-yogurt.html</guid><pubDate>Tue, 06 Sep 2016 06:30:48 GMT</pubDate></item><item><title>Will O' The Wisp</title><link>https://gwax.com/blog/2011/01/will-o-the-wisp.html</link><dc:creator>George Leslie-Waksman</dc:creator><description>&lt;p&gt;Continuing &lt;a class="reference external" href="https://gwax.com/blog/2010/10/ironhide.html"&gt;my earlier work&lt;/a&gt;
 in the realm of mixology, I would like to present my second cocktail
 invention. The invention of this cocktail is the result of playing
 around with gin,
@@ -148,46 +100,36 @@ around with gin,
 various other liqueurs in an attempt to make something tasty. This
 cocktail earns its name, Will O' The Wisp, from its faint, ghostly,
 green color.&lt;/p&gt;
-&lt;div class="section" id="ingredients"&gt;
+&lt;section id="ingredients"&gt;
 &lt;h2&gt;Ingredients&lt;/h2&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;3/4 oz Green Chartreuse&lt;/li&gt;
-&lt;li&gt;3/4 oz St. Germain&lt;/li&gt;
-&lt;li&gt;3/4 oz White Vermouth&lt;/li&gt;
-&lt;li&gt;1 dash Lavender Bitters&lt;/li&gt;
-&lt;li&gt;3 oz Dry Gin&lt;/li&gt;
-&lt;li&gt;1/4 oz Herbsaint or Absinth&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;3/4 oz Green Chartreuse&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;3/4 oz St. Germain&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;3/4 oz White Vermouth&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 dash Lavender Bitters&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;3 oz Dry Gin&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/4 oz Herbsaint or Absinth&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="section" id="recipe"&gt;
+&lt;/section&gt;
+&lt;section id="recipe"&gt;
 &lt;h2&gt;Recipe&lt;/h2&gt;
 &lt;ol class="arabic simple"&gt;
-&lt;li&gt;Pour the Chartreuse, St. Germain, Vermouth, Bitters, and Gin into a
-cocktail shaker&lt;/li&gt;
-&lt;li&gt;Pour the Herbsaint/Absinth into a chilled cocktail glass&lt;/li&gt;
-&lt;li&gt;Swirl the cocktail glass, coating the sides, and pouring off any excess
-Herbsaint/Absinth&lt;/li&gt;
-&lt;li&gt;Add ice to the cocktail shaker and shake&lt;/li&gt;
-&lt;li&gt;Pour shaken cocktail into the prepared glass&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Pour the Chartreuse, St. Germain, Vermouth, Bitters, and Gin into a
+cocktail shaker&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Pour the Herbsaint/Absinth into a chilled cocktail glass&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Swirl the cocktail glass, coating the sides, and pouring off any excess
+Herbsaint/Absinth&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Add ice to the cocktail shaker and shake&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Pour shaken cocktail into the prepared glass&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class="section" id="notes"&gt;
+&lt;/section&gt;
+&lt;section id="notes"&gt;
 &lt;h2&gt;Notes&lt;/h2&gt;
 &lt;p&gt;The Herbsaint/Absinth can be skipped, though I don't recommend it. The Lavender
 Bitters are also optional but very highly recommended. I would recommend
 stirring this cocktail (instead of shaking) as the resulting beverage has a
 very different appearance.&lt;/p&gt;
-&lt;/div&gt;</description>
-      <category>cocktails</category>
-      <category>recipes</category>
-      <guid>https://gwax.com/blog/2011/01/will-o-the-wisp.html</guid>
-      <pubDate>Mon, 17 Jan 2011 04:04:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ironhide</title>
-      <link>https://gwax.com/blog/2010/10/ironhide.html</link>
-      <dc:creator>George Leslie-Waksman</dc:creator>
-      <description>&lt;p&gt;Some number of weeks ago, having discovered &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Maraschino"&gt;Maraschino
+&lt;/section&gt;</description><category>cocktails</category><category>recipes</category><guid>https://gwax.com/blog/2011/01/will-o-the-wisp.html</guid><pubDate>Mon, 17 Jan 2011 04:04:00 GMT</pubDate></item><item><title>Ironhide</title><link>https://gwax.com/blog/2010/10/ironhide.html</link><dc:creator>George Leslie-Waksman</dc:creator><description>&lt;p&gt;Some number of weeks ago, having discovered &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Maraschino"&gt;Maraschino
 liqueur&lt;/a&gt;, I concocted a
 variation on my beloved
 &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Manhattan_%28cocktail%29"&gt;Manhattan&lt;/a&gt;. I
@@ -199,19 +141,19 @@ already taken by other cocktails, I settled on naming the drink after
 the grizzled, old Autobot,
 &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Ironhide"&gt;Ironhide&lt;/a&gt;. So, without
 further ado:&lt;/p&gt;
-&lt;div class="section" id="ironhide-recipe"&gt;
+&lt;section id="ironhide-recipe"&gt;
 &lt;h2&gt;Ironhide recipe&lt;/h2&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;3 oz Bourbon whiskey&lt;/li&gt;
-&lt;li&gt;3/4 oz Maraschino&lt;/li&gt;
-&lt;li&gt;1/4 oz grenadine&lt;/li&gt;
-&lt;li&gt;2 dashes Angostura bitters&lt;/li&gt;
-&lt;li&gt;1 Maraschino cherry&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;3 oz Bourbon whiskey&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;3/4 oz Maraschino&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/4 oz grenadine&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;2 dashes Angostura bitters&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 Maraschino cherry&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Serve shaken or stirred with ice in a cocktail glass; garnish with the
 Maraschino cherry.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="notes"&gt;
+&lt;/section&gt;
+&lt;section id="notes"&gt;
 &lt;h2&gt;Notes&lt;/h2&gt;
 &lt;p&gt;I have mostly been drinking these on the rocks, which is an acceptable
 but inferior variation. Being a Manhattan-like cocktail, up-high is
@@ -220,13 +162,4 @@ really the correct way to serve an Ironhide.&lt;/p&gt;
 flavors imparted by the bitters and Maraschino; you will make a better
 cocktail by skipping the grenadine and cherry than using cheap, fake
 ones.&lt;/p&gt;
-&lt;/div&gt;</description>
-      <category>cocktails</category>
-      <category>compositions</category>
-      <category>food &amp; drink</category>
-      <category>recipes</category>
-      <guid>https://gwax.com/blog/2010/10/ironhide.html</guid>
-      <pubDate>Fri, 29 Oct 2010 00:02:16 GMT</pubDate>
-    </item>
-  </channel>
-</rss>
+&lt;/section&gt;</description><category>cocktails</category><category>compositions</category><category>food &amp; drink</category><category>recipes</category><guid>https://gwax.com/blog/2010/10/ironhide.html</guid><pubDate>Fri, 29 Oct 2010 00:02:16 GMT</pubDate></item></channel></rss>

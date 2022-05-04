@@ -1,12 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-  <channel>
-    <title>gwax</title>
-    <link>https://gwax.com/</link>
-    <description>The personal website of George Leslie-Waksman.</description>
-    <atom:link href="https://gwax.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <language>en</language>
-    <copyright>Contents &amp;copy;2005-2022 &lt;a href="link://slug/about-person"&gt;George Leslie-Waksman&lt;/a&gt; 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gwax</title><link>https://gwax.com/</link><description>The personal website of George Leslie-Waksman.</description><atom:link href="https://gwax.com/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents &amp;copy;2005-2022 &lt;a href="link://slug/about-person"&gt;George Leslie-Waksman&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;
     &lt;img
         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
@@ -14,15 +7,7 @@
         style="border:0;margin:0;"
     /&gt;
 &lt;/a&gt;
-</copyright>
-    <lastBuildDate>Wed, 04 May 2022 07:16:33 GMT</lastBuildDate>
-    <generator>Nikola (getnikola.com)</generator>
-    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-    <item>
-      <title>Uncut Jewel</title>
-      <link>https://gwax.com/blog/2019/10/uncut-jewel.html</link>
-      <dc:creator>George Leslie-Waksman</dc:creator>
-      <description>&lt;p&gt;Once a year, I take a month off from Caffeine and Alcohol (sometimes I'll throw
+</copyright><lastBuildDate>Wed, 04 May 2022 08:39:36 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Uncut Jewel</title><link>https://gwax.com/blog/2019/10/uncut-jewel.html</link><dc:creator>George Leslie-Waksman</dc:creator><description>&lt;p&gt;Once a year, I take a month off from Caffeine and Alcohol (sometimes I'll throw
 in something else like high fructose corn syrup). It was fairly arbitrary for
 a number of years but now, having learned it's kind of a thing, I tend to
 take my temperance in January. This time around, I've moved things up a few
@@ -36,51 +21,38 @@ the juice or flavored water trap.&lt;/p&gt;
 inspiration, staring at my liquor shelf, and starting at my fridge, I've had a
 modicum of success. I seem to have hit on a formula that works well stirred
 with ice and served Up:&lt;/p&gt;
-&lt;div class="section" id="a-non-alcoholic-up-formula"&gt;
+&lt;section id="a-non-alcoholic-up-formula"&gt;
 &lt;h2&gt;A Non-Alcoholic Up formula&lt;/h2&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;1 oz Seedlip (Spice 94 or Garden 108)&lt;/li&gt;
-&lt;li&gt;1/2 oz Verjus Blanc (Fusion Napa Valley)&lt;/li&gt;
-&lt;li&gt;1/2 oz Verjus Rouge (Fusion Napa Valley)&lt;/li&gt;
-&lt;li&gt;1/2 oz Cranberry Juice&lt;/li&gt;
-&lt;li&gt;1/2 oz Syrup (Simple, Demerara, etc.)&lt;/li&gt;
-&lt;li&gt;1-2 dash(es) bitters&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 oz Seedlip (Spice 94 or Garden 108)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/2 oz Verjus Blanc (Fusion Napa Valley)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/2 oz Verjus Rouge (Fusion Napa Valley)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/2 oz Cranberry Juice&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/2 oz Syrup (Simple, Demerara, etc.)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1-2 dash(es) bitters&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Gomme Syrup and Garden 108 seem to work well together but I think the best
 that I've hit on so far is what I'm calling an Uncut Jewel:&lt;/p&gt;
 &lt;a class="reference external image-reference" href="https://gwax.com/images/posts/2019/10/uncut_jewel.jpg"&gt;&lt;img alt="Uncut Jewel and its ingredients" class="align-right" src="https://gwax.com/images/posts/2019/10/uncut_jewel.thumbnail.jpg"&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;div class="section" id="uncut-jewel-recipe"&gt;
+&lt;/section&gt;
+&lt;section id="uncut-jewel-recipe"&gt;
 &lt;h2&gt;Uncut Jewel recipe&lt;/h2&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;1 oz Seedlip Spice 94&lt;/li&gt;
-&lt;li&gt;1/2 oz Verjus Blanc (Fusion Napa Valley)&lt;/li&gt;
-&lt;li&gt;1/2 oz Verjus Rouge (Fusion Napa Valley)&lt;/li&gt;
-&lt;li&gt;1/2 oz Cranberry Juice&lt;/li&gt;
-&lt;li&gt;1/2 oz Maple Syrup (Grade A Amber Color, Rich Taste)&lt;/li&gt;
-&lt;li&gt;1 dash Salted Cacao Bitters (Workhorse Rye + Dandelion Chocolate)&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 oz Seedlip Spice 94&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/2 oz Verjus Blanc (Fusion Napa Valley)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/2 oz Verjus Rouge (Fusion Napa Valley)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/2 oz Cranberry Juice&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/2 oz Maple Syrup (Grade A Amber Color, Rich Taste)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 dash Salted Cacao Bitters (Workhorse Rye + Dandelion Chocolate)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Stir with ice, serve up, and garnish with a Maraschino cherry.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="notes"&gt;
+&lt;/section&gt;
+&lt;section id="notes"&gt;
 &lt;h2&gt;Notes&lt;/h2&gt;
 &lt;p&gt;The drink leads with a note of allspice before taking on dominant notes of
 fruit and nuts and finally closes with a hint of cocoa. Overall, it's well
 balanced, sippable, and fairly complex, without assaulting the palette.&lt;/p&gt;
-&lt;/div&gt;</description>
-      <category>cocktails</category>
-      <category>compositions</category>
-      <category>food &amp; drink</category>
-      <category>non-alcoholic</category>
-      <category>recipes</category>
-      <guid>https://gwax.com/blog/2019/10/uncut-jewel.html</guid>
-      <pubDate>Mon, 21 Oct 2019 06:03:55 GMT</pubDate>
-    </item>
-    <item>
-      <title>An Arbitrary map from SQL with Go</title>
-      <link>https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html</link>
-      <dc:creator>George Leslie-Waksman</dc:creator>
-      <description>&lt;p&gt;I've been writing a lot of &lt;a class="reference external" href="https://golang.org/"&gt;Go&lt;/a&gt; lately and finding it a pleasant balance of
+&lt;/section&gt;</description><category>cocktails</category><category>compositions</category><category>food &amp; drink</category><category>non-alcoholic</category><category>recipes</category><guid>https://gwax.com/blog/2019/10/uncut-jewel.html</guid><pubDate>Mon, 21 Oct 2019 06:03:55 GMT</pubDate></item><item><title>An Arbitrary map from SQL with Go</title><link>https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html</link><dc:creator>George Leslie-Waksman</dc:creator><description>&lt;p&gt;I've been writing a lot of &lt;a class="reference external" href="https://golang.org/"&gt;Go&lt;/a&gt; lately and finding it a pleasant balance of
 simplicity, power, functionality, and ecosystem support. In a lot of cases, I
 am finding the guarantees afforded by type safety to be really nice but,
 occasionally, the strict requirements can make some easy things much harder
@@ -89,10 +61,11 @@ than I want them to be.&lt;/p&gt;
 SQL database. Specifically, I wanted to check the results of a handful of
 queries with varied columns and column types. With &lt;a class="reference external" href="https://www.python.org/"&gt;Python&lt;/a&gt;, I'd approach this
 with &lt;a class="reference external" href="https://www.sqlalchemy.org/"&gt;SQLAlchemy&lt;/a&gt;, and turn the result into a &lt;code&gt;list&lt;/code&gt; of &lt;code&gt;dict&lt;/code&gt;s.&lt;/p&gt;
-&lt;pre class="code python"&gt;&lt;a name="rest_code_d746e7ca6bf24b38b4916b54b969bc0a-1"&gt;&lt;/a&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;rows_to_dicts&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;rows&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-&lt;a name="rest_code_d746e7ca6bf24b38b4916b54b969bc0a-2"&gt;&lt;/a&gt;    &lt;span class="sd"&gt;"""Covert a SQLAlchemy RowProxy into a list of dicts."""&lt;/span&gt;
-&lt;a name="rest_code_d746e7ca6bf24b38b4916b54b969bc0a-3"&gt;&lt;/a&gt;    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nb"&gt;dict&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;rows&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;/pre&gt;&lt;p&gt;From here, it's pretty straightforward to assert the result matches
+&lt;div class="code"&gt;&lt;pre class="code python"&gt;&lt;a id="rest_code_839d8e42d397480ca631903ae9f4b276-1" name="rest_code_839d8e42d397480ca631903ae9f4b276-1" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_839d8e42d397480ca631903ae9f4b276-1"&gt;&lt;/a&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;rows_to_dicts&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;rows&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;a id="rest_code_839d8e42d397480ca631903ae9f4b276-2" name="rest_code_839d8e42d397480ca631903ae9f4b276-2" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_839d8e42d397480ca631903ae9f4b276-2"&gt;&lt;/a&gt;    &lt;span class="sd"&gt;"""Covert a SQLAlchemy RowProxy into a list of dicts."""&lt;/span&gt;
+&lt;a id="rest_code_839d8e42d397480ca631903ae9f4b276-3" name="rest_code_839d8e42d397480ca631903ae9f4b276-3" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_839d8e42d397480ca631903ae9f4b276-3"&gt;&lt;/a&gt;    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nb"&gt;dict&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;rows&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;From here, it's pretty straightforward to assert the result matches
 expectations. If you're using &lt;a class="reference external" href="https://docs.pytest.org/en/latest/"&gt;pytest&lt;/a&gt;, you'll also get really clear details on
 where the results aren't what you expect. If you don't have the expected
 columns or column types spot on, you're assertion will be off but you won't
@@ -104,96 +77,76 @@ demands you know something about the structure of the result before you
 query. Luckily &lt;code&gt;Scan&lt;/code&gt; is happy to read anything into a &lt;code&gt;*string&lt;/code&gt;
 as long as you're asking for the right number of values so we can write an
 equivalent function to the python list comprehension.&lt;/p&gt;
-&lt;pre class="code go"&gt;&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-1"&gt;&lt;/a&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-2"&gt;&lt;/a&gt;    &lt;span class="s"&gt;"database/sql"&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-3"&gt;&lt;/a&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-4"&gt;&lt;/a&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-5"&gt;&lt;/a&gt;&lt;span class="kd"&gt;func&lt;/span&gt; &lt;span class="nx"&gt;RowsToMaps&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;rows&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="nx"&gt;sql&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;Rows&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;([]&lt;/span&gt;&lt;span class="kd"&gt;map&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;error&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-6"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;columns&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;err&lt;/span&gt; &lt;span class="o"&gt;:=&lt;/span&gt; &lt;span class="nx"&gt;rows&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;Columns&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-7"&gt;&lt;/a&gt;    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nx"&gt;err&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="kc"&gt;nil&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-8"&gt;&lt;/a&gt;        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="kc"&gt;nil&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;err&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-9"&gt;&lt;/a&gt;    &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-10"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;columnCount&lt;/span&gt; &lt;span class="o"&gt;:=&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;columns&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-11"&gt;&lt;/a&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-12"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;cursor&lt;/span&gt; &lt;span class="o"&gt;:=&lt;/span&gt; &lt;span class="nb"&gt;make&lt;/span&gt;&lt;span class="p"&gt;([]&lt;/span&gt;&lt;span class="kd"&gt;interface&lt;/span&gt;&lt;span class="p"&gt;{},&lt;/span&gt; &lt;span class="nx"&gt;columnCount&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-13"&gt;&lt;/a&gt;    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nx"&gt;i&lt;/span&gt; &lt;span class="o"&gt;:=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="nx"&gt;i&lt;/span&gt; &lt;span class="p"&gt;&amp;lt;&lt;/span&gt; &lt;span class="nx"&gt;columnCount&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="o"&gt;++&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-14"&gt;&lt;/a&gt;        &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;columnValue&lt;/span&gt; &lt;span class="kt"&gt;string&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-15"&gt;&lt;/a&gt;        &lt;span class="nx"&gt;cursor&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="nx"&gt;columnValue&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-16"&gt;&lt;/a&gt;    &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-17"&gt;&lt;/a&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-18"&gt;&lt;/a&gt;    &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;resultMaps&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;&lt;span class="kd"&gt;map&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-19"&gt;&lt;/a&gt;    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nx"&gt;rows&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;Next&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-20"&gt;&lt;/a&gt;        &lt;span class="nx"&gt;err&lt;/span&gt; &lt;span class="o"&gt;:=&lt;/span&gt; &lt;span class="nx"&gt;rows&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;Scan&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;cursor&lt;/span&gt;&lt;span class="o"&gt;...&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-21"&gt;&lt;/a&gt;        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nx"&gt;err&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="kc"&gt;nil&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-22"&gt;&lt;/a&gt;            &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nx"&gt;resultMaps&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;err&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-23"&gt;&lt;/a&gt;        &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-24"&gt;&lt;/a&gt;        &lt;span class="nx"&gt;rowMap&lt;/span&gt; &lt;span class="o"&gt;:=&lt;/span&gt; &lt;span class="nb"&gt;make&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;map&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;columnCount&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-25"&gt;&lt;/a&gt;        &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;columnPtr&lt;/span&gt; &lt;span class="o"&gt;:=&lt;/span&gt; &lt;span class="k"&gt;range&lt;/span&gt; &lt;span class="nx"&gt;cursor&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-26"&gt;&lt;/a&gt;            &lt;span class="nx"&gt;key&lt;/span&gt; &lt;span class="o"&gt;:=&lt;/span&gt; &lt;span class="nx"&gt;columns&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-27"&gt;&lt;/a&gt;            &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;columnStr&lt;/span&gt; &lt;span class="kt"&gt;string&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-28"&gt;&lt;/a&gt;            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nx"&gt;columnStrPtr&lt;/span&gt; &lt;span class="o"&gt;:=&lt;/span&gt; &lt;span class="nx"&gt;columnPtr&lt;/span&gt;&lt;span class="p"&gt;.(&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="nx"&gt;columnStrPtr&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="kc"&gt;nil&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-29"&gt;&lt;/a&gt;                &lt;span class="nx"&gt;columnStr&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="nx"&gt;columnStrPtr&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-30"&gt;&lt;/a&gt;            &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-31"&gt;&lt;/a&gt;            &lt;span class="nx"&gt;rowMap&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;key&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;columnStr&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-32"&gt;&lt;/a&gt;        &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-33"&gt;&lt;/a&gt;        &lt;span class="nx"&gt;resultMaps&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;resultMaps&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;rowMap&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-34"&gt;&lt;/a&gt;    &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-35"&gt;&lt;/a&gt;    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nx"&gt;err&lt;/span&gt; &lt;span class="o"&gt;:=&lt;/span&gt; &lt;span class="nx"&gt;rows&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;Err&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt; &lt;span class="nx"&gt;err&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="kc"&gt;nil&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-36"&gt;&lt;/a&gt;        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nx"&gt;resultMaps&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;err&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-37"&gt;&lt;/a&gt;    &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-38"&gt;&lt;/a&gt;    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nx"&gt;resultMaps&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kc"&gt;nil&lt;/span&gt;
-&lt;a name="rest_code_8f61d469a5124f9992ca1509327a9e86-39"&gt;&lt;/a&gt;&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;p&gt;This, much like the &lt;a class="reference external" href="https://www.python.org/"&gt;Python&lt;/a&gt; above, gives us a list of maps of column name
+&lt;div class="code"&gt;&lt;pre class="code go"&gt;&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-1" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-1" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-1"&gt;&lt;/a&gt;&lt;span class="kn"&gt;import&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-2" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-2" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-2"&gt;&lt;/a&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s"&gt;"database/sql"&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-3" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-3" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-3"&gt;&lt;/a&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-4" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-4" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-4"&gt;&lt;/a&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-5" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-5" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-5"&gt;&lt;/a&gt;&lt;span class="kd"&gt;func&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;RowsToMaps&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;rows&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="nx"&gt;sql&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;Rows&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;([]&lt;/span&gt;&lt;span class="kd"&gt;map&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kt"&gt;error&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-6" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-6" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-6"&gt;&lt;/a&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nx"&gt;columns&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;err&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;:=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;rows&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;Columns&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-7" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-7" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-7"&gt;&lt;/a&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;err&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;!=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;nil&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-8" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-8" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-8"&gt;&lt;/a&gt;&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;return&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;nil&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;err&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-9" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-9" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-9"&gt;&lt;/a&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-10" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-10" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-10"&gt;&lt;/a&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nx"&gt;columnCount&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;:=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;columns&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-11" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-11" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-11"&gt;&lt;/a&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-12" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-12" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-12"&gt;&lt;/a&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nx"&gt;cursor&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;:=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;make&lt;/span&gt;&lt;span class="p"&gt;([]&lt;/span&gt;&lt;span class="kd"&gt;interface&lt;/span&gt;&lt;span class="p"&gt;{},&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;columnCount&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-13" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-13" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-13"&gt;&lt;/a&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;:=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;columnCount&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="o"&gt;++&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-14" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-14" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-14"&gt;&lt;/a&gt;&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="kd"&gt;var&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;columnValue&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-15" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-15" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-15"&gt;&lt;/a&gt;&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nx"&gt;cursor&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="nx"&gt;columnValue&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-16" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-16" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-16"&gt;&lt;/a&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-17" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-17" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-17"&gt;&lt;/a&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-18" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-18" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-18"&gt;&lt;/a&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="kd"&gt;var&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;resultMaps&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;[]&lt;/span&gt;&lt;span class="kd"&gt;map&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-19" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-19" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-19"&gt;&lt;/a&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;rows&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;Next&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-20" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-20" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-20"&gt;&lt;/a&gt;&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nx"&gt;err&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;:=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;rows&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;Scan&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;cursor&lt;/span&gt;&lt;span class="o"&gt;...&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-21" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-21" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-21"&gt;&lt;/a&gt;&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;err&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;!=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;nil&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-22" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-22" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-22"&gt;&lt;/a&gt;&lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="k"&gt;return&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;resultMaps&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;err&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-23" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-23" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-23"&gt;&lt;/a&gt;&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-24" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-24" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-24"&gt;&lt;/a&gt;&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nx"&gt;rowMap&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;:=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;make&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;map&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;columnCount&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-25" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-25" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-25"&gt;&lt;/a&gt;&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;columnPtr&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;:=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;range&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;cursor&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-26" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-26" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-26"&gt;&lt;/a&gt;&lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="nx"&gt;key&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;:=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;columns&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-27" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-27" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-27"&gt;&lt;/a&gt;&lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="kd"&gt;var&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;columnStr&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-28" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-28" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-28"&gt;&lt;/a&gt;&lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;columnStrPtr&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;:=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;columnPtr&lt;/span&gt;&lt;span class="p"&gt;.(&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;columnStrPtr&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;!=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;nil&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-29" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-29" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-29"&gt;&lt;/a&gt;&lt;span class="w"&gt;                &lt;/span&gt;&lt;span class="nx"&gt;columnStr&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="nx"&gt;columnStrPtr&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-30" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-30" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-30"&gt;&lt;/a&gt;&lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-31" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-31" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-31"&gt;&lt;/a&gt;&lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="nx"&gt;rowMap&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;key&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;columnStr&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-32" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-32" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-32"&gt;&lt;/a&gt;&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-33" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-33" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-33"&gt;&lt;/a&gt;&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nx"&gt;resultMaps&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;resultMaps&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;rowMap&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-34" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-34" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-34"&gt;&lt;/a&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-35" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-35" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-35"&gt;&lt;/a&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;err&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;:=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;rows&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;Err&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;err&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;!=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;nil&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-36" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-36" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-36"&gt;&lt;/a&gt;&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;return&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;resultMaps&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;err&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-37" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-37" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-37"&gt;&lt;/a&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-38" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-38" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-38"&gt;&lt;/a&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;return&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;resultMaps&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;nil&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_abec8fc475884bed8bf640ee3d3a4191-39" name="rest_code_abec8fc475884bed8bf640ee3d3a4191-39" href="https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html#rest_code_abec8fc475884bed8bf640ee3d3a4191-39"&gt;&lt;/a&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This, much like the &lt;a class="reference external" href="https://www.python.org/"&gt;Python&lt;/a&gt; above, gives us a list of maps of column name
 to column value, with the minor caveats that all values are strings and
 &lt;code&gt;NULL&lt;/code&gt; values become empty strings. I found it a useful chunk of code,
 so I thought I'd throw it up.&lt;/p&gt;
 &lt;p&gt;Sure, it's more verbose but sometimes that's the price we pay for dealing
 with dynamic results in a staticly typed language. There are other prices
-paid in the other direction.&lt;/p&gt;</description>
-      <category>code snippets</category>
-      <category>golang</category>
-      <guid>https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html</guid>
-      <pubDate>Mon, 21 Oct 2019 04:13:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>Grenadine</title>
-      <link>https://gwax.com/blog/2017/11/grenadine.html</link>
-      <dc:creator>George Leslie-Waksman</dc:creator>
-      <description>&lt;div&gt;&lt;p&gt;In my ongoing quest to make delicious alcoholic beverages, I have increasingly
+paid in the other direction.&lt;/p&gt;</description><category>code snippets</category><category>golang</category><guid>https://gwax.com/blog/2019/10/an-arbitrary-map-from-sql-with-go.html</guid><pubDate>Mon, 21 Oct 2019 04:13:56 GMT</pubDate></item><item><title>Grenadine</title><link>https://gwax.com/blog/2017/11/grenadine.html</link><dc:creator>George Leslie-Waksman</dc:creator><description>&lt;div&gt;&lt;p&gt;In my ongoing quest to make delicious alcoholic beverages, I have increasingly
 found myself digging into my ingredients.  Syrups, as a class of ingredient,
 have received a decent amount of my attention.  As an aside, if you're buying
 simple syrup, you are doing a lot of things wrong.  In my experience, it is
 decidedly tricky to find decent grenadine, where decent is defined as being
 made with real pomegranate and without high fructose corn syrup or food
 coloring.  So, I've started to make my own:&lt;/p&gt;
-&lt;div class="section" id="id1"&gt;
+&lt;section id="grenadine-1"&gt;
 &lt;h2&gt;Grenadine&lt;/h2&gt;
 &lt;p&gt;A pomegranate syrup that adds a sweet tartness to drinks and a distinctive
 red color.  Notable in small quantities in a great many drinks and also as
 the second ingredient in a Shirley Temple, a drink the actress was apparently
 never fond of.&lt;/p&gt;
-&lt;div class="section" id="ingredients"&gt;
+&lt;section id="ingredients"&gt;
 &lt;h3&gt;Ingredients&lt;/h3&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;1 cup fresh Pomegranate Juice (~2 large pomegranates)&lt;/li&gt;
-&lt;li&gt;1 oz Pomegranate Molasses&lt;/li&gt;
-&lt;li&gt;1 1/2 cup White Sugar&lt;/li&gt;
-&lt;li&gt;1/16 tsp Xanthan Gum (optional)&lt;/li&gt;
-&lt;li&gt;1/2 tsp Orange Blossom Water&lt;/li&gt;
-&lt;li&gt;1 oz over-proof grain neutral spirit (Everclear or vodka)&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 cup fresh Pomegranate Juice (~2 large pomegranates)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 oz Pomegranate Molasses&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 1/2 cup White Sugar&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/16 tsp Xanthan Gum (optional)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/2 tsp Orange Blossom Water&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 oz over-proof grain neutral spirit (Everclear or vodka)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href="https://gwax.com/blog/2017/11/grenadine.html"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-      <category>cocktails</category>
-      <category>recipes</category>
-      <category>syrups</category>
-      <guid>https://gwax.com/blog/2017/11/grenadine.html</guid>
-      <pubDate>Mon, 06 Nov 2017 05:30:20 GMT</pubDate>
-    </item>
-    <item>
-      <title>Slowcooker Yogurt</title>
-      <link>https://gwax.com/blog/2016/09/slowcooker-yogurt.html</link>
-      <dc:creator>George Leslie-Waksman</dc:creator>
-      <description>&lt;div&gt;&lt;a class="reference external image-reference" href="https://gwax.com/images/posts/2016/09/yield.jpg"&gt;&lt;img alt="Some jars of homemade yogurt" class="align-right" src="https://gwax.com/images/posts/2016/09/yield.thumbnail.jpg"&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href="https://gwax.com/blog/2017/11/grenadine.html"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/div&gt;</description><category>cocktails</category><category>recipes</category><category>syrups</category><guid>https://gwax.com/blog/2017/11/grenadine.html</guid><pubDate>Mon, 06 Nov 2017 05:30:20 GMT</pubDate></item><item><title>Slowcooker Yogurt</title><link>https://gwax.com/blog/2016/09/slowcooker-yogurt.html</link><dc:creator>George Leslie-Waksman</dc:creator><description>&lt;div&gt;&lt;a class="reference external image-reference" href="https://gwax.com/images/posts/2016/09/yield.jpg"&gt;&lt;img alt="Some jars of homemade yogurt" class="align-right" src="https://gwax.com/images/posts/2016/09/yield.thumbnail.jpg"&gt;&lt;/a&gt;
 &lt;p&gt;I have a 14 month old daughter, a wife that likes yogurt with granola, and I
 kind of like the stuff too. Needless to say, we go through a lot of yogurt in
 my house. Specifically, we go through a lot of plain, whole milk, Greek yogurt.&lt;/p&gt;
@@ -209,16 +162,7 @@ before. I should be able to make yogurt, right?&lt;/p&gt;
 &lt;p&gt;Turns out it's pretty straightforward; I just finished our second batch
 yesterday. It also turns out to be really good, and it's less than $2 per
 32oz (milk choice depending).&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://gwax.com/blog/2016/09/slowcooker-yogurt.html"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description>
-      <category>recipes</category>
-      <guid>https://gwax.com/blog/2016/09/slowcooker-yogurt.html</guid>
-      <pubDate>Tue, 06 Sep 2016 06:30:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>Let's Encrypt on App Engine</title>
-      <link>https://gwax.com/blog/2016/03/lets-encrypt-on-app-engine.html</link>
-      <dc:creator>George Leslie-Waksman</dc:creator>
-      <description>&lt;div&gt;&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt;: &lt;a class="reference external" href="https://cloudplatform.googleblog.com/2017/09/introducing-managed-SSL-for-Google-App-Engine.html"&gt;As of September, 2017&lt;/a&gt;,
+&lt;p&gt;&lt;a href="https://gwax.com/blog/2016/09/slowcooker-yogurt.html"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>recipes</category><guid>https://gwax.com/blog/2016/09/slowcooker-yogurt.html</guid><pubDate>Tue, 06 Sep 2016 06:30:48 GMT</pubDate></item><item><title>Let's Encrypt on App Engine</title><link>https://gwax.com/blog/2016/03/lets-encrypt-on-app-engine.html</link><dc:creator>George Leslie-Waksman</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt;: &lt;a class="reference external" href="https://cloudplatform.googleblog.com/2017/09/introducing-managed-SSL-for-Google-App-Engine.html"&gt;As of September, 2017&lt;/a&gt;,
 Google App Engine will &lt;a class="reference external" href="https://cloud.google.com/appengine/docs/standard/python/securing-custom-domains-with-ssl"&gt;manage SSL certificates for you&lt;/a&gt;.&lt;/p&gt;
 &lt;hr class="docutils"&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://letsencrypt.org/"&gt;Let's Encrypt&lt;/a&gt; is a fantastically convenient way
@@ -227,17 +171,7 @@ resorting to a &lt;a class="reference external" href="https://en.wikipedia.org/w
 &lt;p&gt;Easy as it is to set up, the instructions don't really explain much about
 setup for &lt;a class="reference external" href="https://cloud.google.com/appengine/"&gt;App Engine&lt;/a&gt;. It turns out to
 be pretty straightforward.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://gwax.com/blog/2016/03/lets-encrypt-on-app-engine.html"&gt;Read more…&lt;/a&gt; (2 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description>
-      <category>code snippets</category>
-      <category>meta</category>
-      <guid>https://gwax.com/blog/2016/03/lets-encrypt-on-app-engine.html</guid>
-      <pubDate>Sun, 13 Mar 2016 07:25:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>Internet Time Now script</title>
-      <link>https://gwax.com/blog/2016/02/internet-time-now-script.html</link>
-      <dc:creator>George Leslie-Waksman</dc:creator>
-      <description>&lt;p&gt;On account of being mentioned by &lt;a class="reference external" href="https://gimletmedia.com/show/reply-all/"&gt;Reply All&lt;/a&gt;,
+&lt;p&gt;&lt;a href="https://gwax.com/blog/2016/03/lets-encrypt-on-app-engine.html"&gt;Read more…&lt;/a&gt; (2 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>code snippets</category><category>meta</category><guid>https://gwax.com/blog/2016/03/lets-encrypt-on-app-engine.html</guid><pubDate>Sun, 13 Mar 2016 07:25:01 GMT</pubDate></item><item><title>Internet Time Now script</title><link>https://gwax.com/blog/2016/02/internet-time-now-script.html</link><dc:creator>George Leslie-Waksman</dc:creator><description>&lt;p&gt;On account of being mentioned by &lt;a class="reference external" href="https://gimletmedia.com/show/reply-all/"&gt;Reply All&lt;/a&gt;,
 I've been listening to back episodes of
 &lt;a class="reference external" href="http://www.onthemedia.org/tags/tldr_podcast/"&gt;[TLDR]&lt;/a&gt;. Listening to
 &lt;a class="reference external" href="http://www.onthemedia.org/story/15-internet-time/"&gt;#15 - Internet Time&lt;/a&gt; caught
@@ -247,79 +181,59 @@ It's kind of impractical but also kind of fun, especially as I've been a little
 annoyed at recording times across timezones for something meant to persist,
 like this blog.&lt;/p&gt;
 &lt;p&gt;For fun, I whipped up a quick python implementation:&lt;/p&gt;
-&lt;pre class="code python"&gt;&lt;a name="rest_code_95e39d1f957c433fbb044f338f94925c-1"&gt;&lt;/a&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;datetime&lt;/span&gt;
-&lt;a name="rest_code_95e39d1f957c433fbb044f338f94925c-2"&gt;&lt;/a&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;decimal&lt;/span&gt;
-&lt;a name="rest_code_95e39d1f957c433fbb044f338f94925c-3"&gt;&lt;/a&gt;
-&lt;a name="rest_code_95e39d1f957c433fbb044f338f94925c-4"&gt;&lt;/a&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;decimal_time&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-&lt;a name="rest_code_95e39d1f957c433fbb044f338f94925c-5"&gt;&lt;/a&gt;    &lt;span class="n"&gt;mus_ts&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;hour&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;3600&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;minute&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;60&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;second&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;1000000&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;microsecond&lt;/span&gt;
-&lt;a name="rest_code_95e39d1f957c433fbb044f338f94925c-6"&gt;&lt;/a&gt;    &lt;span class="n"&gt;mus_day&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;24&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;3600&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;1000000&lt;/span&gt;
-&lt;a name="rest_code_95e39d1f957c433fbb044f338f94925c-7"&gt;&lt;/a&gt;    &lt;span class="n"&gt;dec_time&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;decimal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Decimal&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mus_ts&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;decimal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Decimal&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mus_day&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;a name="rest_code_95e39d1f957c433fbb044f338f94925c-8"&gt;&lt;/a&gt;    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;dec_time&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;1000&lt;/span&gt;
-&lt;a name="rest_code_95e39d1f957c433fbb044f338f94925c-9"&gt;&lt;/a&gt;
-&lt;a name="rest_code_95e39d1f957c433fbb044f338f94925c-10"&gt;&lt;/a&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;internet_time_now&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;precision&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-&lt;a name="rest_code_95e39d1f957c433fbb044f338f94925c-11"&gt;&lt;/a&gt;    &lt;span class="n"&gt;precision&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;max&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nb"&gt;min&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;25&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;precision&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
-&lt;a name="rest_code_95e39d1f957c433fbb044f338f94925c-12"&gt;&lt;/a&gt;    &lt;span class="n"&gt;precision&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;precision&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;precision&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;a name="rest_code_95e39d1f957c433fbb044f338f94925c-13"&gt;&lt;/a&gt;    &lt;span class="n"&gt;format_len&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;precision&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;precision&lt;/span&gt;
-&lt;a name="rest_code_95e39d1f957c433fbb044f338f94925c-14"&gt;&lt;/a&gt;    &lt;span class="n"&gt;format_str&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;'@{{:0&lt;/span&gt;&lt;span class="si"&gt;{l:d}&lt;/span&gt;&lt;span class="s1"&gt;.0&lt;/span&gt;&lt;span class="si"&gt;{p:d}&lt;/span&gt;&lt;span class="s1"&gt;f}}'&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;format_len&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;p&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;precision&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;a name="rest_code_95e39d1f957c433fbb044f338f94925c-15"&gt;&lt;/a&gt;    &lt;span class="n"&gt;it_utc_p1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;utcnow&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;timedelta&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;hours&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;a name="rest_code_95e39d1f957c433fbb044f338f94925c-16"&gt;&lt;/a&gt;    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;format_str&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;decimal_time&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;it_utc_p1&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
-&lt;/pre&gt;&lt;p&gt;Or, if you don't care about precision:&lt;/p&gt;
-&lt;pre class="code python"&gt;&lt;a name="rest_code_ecbdc7b9e0c64997bf148d923db55dd6-1"&gt;&lt;/a&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;datetime&lt;/span&gt;
-&lt;a name="rest_code_ecbdc7b9e0c64997bf148d923db55dd6-2"&gt;&lt;/a&gt;
-&lt;a name="rest_code_ecbdc7b9e0c64997bf148d923db55dd6-3"&gt;&lt;/a&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;decimal_time&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-&lt;a name="rest_code_ecbdc7b9e0c64997bf148d923db55dd6-4"&gt;&lt;/a&gt;    &lt;span class="n"&gt;s_ts&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;hour&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;3600&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;minute&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;60&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;second&lt;/span&gt;
-&lt;a name="rest_code_ecbdc7b9e0c64997bf148d923db55dd6-5"&gt;&lt;/a&gt;    &lt;span class="n"&gt;s_day&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;24&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;3600&lt;/span&gt;
-&lt;a name="rest_code_ecbdc7b9e0c64997bf148d923db55dd6-6"&gt;&lt;/a&gt;    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1000&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;s_ts&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;s_day&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;a name="rest_code_ecbdc7b9e0c64997bf148d923db55dd6-7"&gt;&lt;/a&gt;
-&lt;a name="rest_code_ecbdc7b9e0c64997bf148d923db55dd6-8"&gt;&lt;/a&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;internet_time_now&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
-&lt;a name="rest_code_ecbdc7b9e0c64997bf148d923db55dd6-9"&gt;&lt;/a&gt;    &lt;span class="n"&gt;it_utc_p1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;utcnow&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;timedelta&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;hours&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;a name="rest_code_ecbdc7b9e0c64997bf148d923db55dd6-10"&gt;&lt;/a&gt;    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s1"&gt;'@&lt;/span&gt;&lt;span class="si"&gt;{:03d}&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;decimal_time&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;it_utc_p1&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
-&lt;/pre&gt;</description>
-      <category>code snippets</category>
-      <category>time</category>
-      <guid>https://gwax.com/blog/2016/02/internet-time-now-script.html</guid>
-      <pubDate>Fri, 05 Feb 2016 19:40:05 GMT</pubDate>
-    </item>
-    <item>
-      <title>Fixing Nikola Footnote Locations</title>
-      <link>https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html</link>
-      <dc:creator>George Leslie-Waksman</dc:creator>
-      <description>&lt;p&gt;Personally, I prefer to intersperse my footnote declarations with the text
-that is being footnoted when writing my. For example:&lt;a class="footnote-reference" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#id2" id="id1"&gt;[1]&lt;/a&gt;&lt;/p&gt;
-&lt;table class="docutils footnote" frame="void" id="id2" rules="none"&gt;
-&lt;colgroup&gt;&lt;col class="label"&gt;&lt;col&gt;&lt;/colgroup&gt;
-&lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#id1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;This is just an example.&lt;/td&gt;&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;pre class="code ReST"&gt;&lt;a name="rest_code_2444aafe754746ddba21a88c9acc6e37-1"&gt;&lt;/a&gt;I might want to write something&lt;span class="s"&gt;[#]_&lt;/span&gt; where there's a footnote there.
-&lt;a name="rest_code_2444aafe754746ddba21a88c9acc6e37-2"&gt;&lt;/a&gt;
-&lt;a name="rest_code_2444aafe754746ddba21a88c9acc6e37-3"&gt;&lt;/a&gt;&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="nt"&gt;[#]&lt;/span&gt; I put the footnote definition here.
-&lt;a name="rest_code_2444aafe754746ddba21a88c9acc6e37-4"&gt;&lt;/a&gt;
-&lt;a name="rest_code_2444aafe754746ddba21a88c9acc6e37-5"&gt;&lt;/a&gt;And then I continue on with the rest of my writing.
-&lt;/pre&gt;&lt;p&gt;Wherever they are declared, I prefer to have all of my footnotes appear at the
+&lt;div class="code"&gt;&lt;pre class="code python"&gt;&lt;a id="rest_code_e1aa46e21320442ebde5fed161e21143-1" name="rest_code_e1aa46e21320442ebde5fed161e21143-1" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_e1aa46e21320442ebde5fed161e21143-1"&gt;&lt;/a&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;datetime&lt;/span&gt;
+&lt;a id="rest_code_e1aa46e21320442ebde5fed161e21143-2" name="rest_code_e1aa46e21320442ebde5fed161e21143-2" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_e1aa46e21320442ebde5fed161e21143-2"&gt;&lt;/a&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;decimal&lt;/span&gt;
+&lt;a id="rest_code_e1aa46e21320442ebde5fed161e21143-3" name="rest_code_e1aa46e21320442ebde5fed161e21143-3" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_e1aa46e21320442ebde5fed161e21143-3"&gt;&lt;/a&gt;
+&lt;a id="rest_code_e1aa46e21320442ebde5fed161e21143-4" name="rest_code_e1aa46e21320442ebde5fed161e21143-4" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_e1aa46e21320442ebde5fed161e21143-4"&gt;&lt;/a&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;decimal_time&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;a id="rest_code_e1aa46e21320442ebde5fed161e21143-5" name="rest_code_e1aa46e21320442ebde5fed161e21143-5" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_e1aa46e21320442ebde5fed161e21143-5"&gt;&lt;/a&gt;    &lt;span class="n"&gt;mus_ts&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;hour&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;3600&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;minute&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;60&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;second&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;1000000&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;microsecond&lt;/span&gt;
+&lt;a id="rest_code_e1aa46e21320442ebde5fed161e21143-6" name="rest_code_e1aa46e21320442ebde5fed161e21143-6" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_e1aa46e21320442ebde5fed161e21143-6"&gt;&lt;/a&gt;    &lt;span class="n"&gt;mus_day&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;24&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;3600&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;1000000&lt;/span&gt;
+&lt;a id="rest_code_e1aa46e21320442ebde5fed161e21143-7" name="rest_code_e1aa46e21320442ebde5fed161e21143-7" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_e1aa46e21320442ebde5fed161e21143-7"&gt;&lt;/a&gt;    &lt;span class="n"&gt;dec_time&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;decimal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Decimal&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mus_ts&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;decimal&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Decimal&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mus_day&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;a id="rest_code_e1aa46e21320442ebde5fed161e21143-8" name="rest_code_e1aa46e21320442ebde5fed161e21143-8" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_e1aa46e21320442ebde5fed161e21143-8"&gt;&lt;/a&gt;    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;dec_time&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;1000&lt;/span&gt;
+&lt;a id="rest_code_e1aa46e21320442ebde5fed161e21143-9" name="rest_code_e1aa46e21320442ebde5fed161e21143-9" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_e1aa46e21320442ebde5fed161e21143-9"&gt;&lt;/a&gt;
+&lt;a id="rest_code_e1aa46e21320442ebde5fed161e21143-10" name="rest_code_e1aa46e21320442ebde5fed161e21143-10" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_e1aa46e21320442ebde5fed161e21143-10"&gt;&lt;/a&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;internet_time_now&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;precision&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;a id="rest_code_e1aa46e21320442ebde5fed161e21143-11" name="rest_code_e1aa46e21320442ebde5fed161e21143-11" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_e1aa46e21320442ebde5fed161e21143-11"&gt;&lt;/a&gt;    &lt;span class="n"&gt;precision&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;max&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nb"&gt;min&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;25&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;precision&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
+&lt;a id="rest_code_e1aa46e21320442ebde5fed161e21143-12" name="rest_code_e1aa46e21320442ebde5fed161e21143-12" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_e1aa46e21320442ebde5fed161e21143-12"&gt;&lt;/a&gt;    &lt;span class="n"&gt;precision&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;precision&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;precision&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;a id="rest_code_e1aa46e21320442ebde5fed161e21143-13" name="rest_code_e1aa46e21320442ebde5fed161e21143-13" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_e1aa46e21320442ebde5fed161e21143-13"&gt;&lt;/a&gt;    &lt;span class="n"&gt;format_len&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;precision&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;precision&lt;/span&gt;
+&lt;a id="rest_code_e1aa46e21320442ebde5fed161e21143-14" name="rest_code_e1aa46e21320442ebde5fed161e21143-14" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_e1aa46e21320442ebde5fed161e21143-14"&gt;&lt;/a&gt;    &lt;span class="n"&gt;format_str&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;'@{{:0&lt;/span&gt;&lt;span class="si"&gt;{l:d}&lt;/span&gt;&lt;span class="s1"&gt;.0&lt;/span&gt;&lt;span class="si"&gt;{p:d}&lt;/span&gt;&lt;span class="s1"&gt;f}}'&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;format_len&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;p&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;precision&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;a id="rest_code_e1aa46e21320442ebde5fed161e21143-15" name="rest_code_e1aa46e21320442ebde5fed161e21143-15" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_e1aa46e21320442ebde5fed161e21143-15"&gt;&lt;/a&gt;    &lt;span class="n"&gt;it_utc_p1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;utcnow&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;timedelta&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;hours&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;a id="rest_code_e1aa46e21320442ebde5fed161e21143-16" name="rest_code_e1aa46e21320442ebde5fed161e21143-16" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_e1aa46e21320442ebde5fed161e21143-16"&gt;&lt;/a&gt;    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;format_str&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;decimal_time&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;it_utc_p1&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Or, if you don't care about precision:&lt;/p&gt;
+&lt;div class="code"&gt;&lt;pre class="code python"&gt;&lt;a id="rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-1" name="rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-1" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-1"&gt;&lt;/a&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;datetime&lt;/span&gt;
+&lt;a id="rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-2" name="rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-2" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-2"&gt;&lt;/a&gt;
+&lt;a id="rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-3" name="rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-3" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-3"&gt;&lt;/a&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;decimal_time&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;a id="rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-4" name="rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-4" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-4"&gt;&lt;/a&gt;    &lt;span class="n"&gt;s_ts&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;hour&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;3600&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;minute&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;60&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;ts&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;second&lt;/span&gt;
+&lt;a id="rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-5" name="rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-5" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-5"&gt;&lt;/a&gt;    &lt;span class="n"&gt;s_day&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;24&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;3600&lt;/span&gt;
+&lt;a id="rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-6" name="rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-6" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-6"&gt;&lt;/a&gt;    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1000&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;s_ts&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;s_day&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;a id="rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-7" name="rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-7" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-7"&gt;&lt;/a&gt;
+&lt;a id="rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-8" name="rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-8" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-8"&gt;&lt;/a&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;internet_time_now&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+&lt;a id="rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-9" name="rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-9" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-9"&gt;&lt;/a&gt;    &lt;span class="n"&gt;it_utc_p1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;utcnow&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;timedelta&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;hours&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;a id="rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-10" name="rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-10" href="https://gwax.com/blog/2016/02/internet-time-now-script.html#rest_code_bab98f0e0ecd4842b3858ed73ccf1db0-10"&gt;&lt;/a&gt;    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s1"&gt;'@&lt;/span&gt;&lt;span class="si"&gt;{:03d}&lt;/span&gt;&lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;decimal_time&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;it_utc_p1&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</description><category>code snippets</category><category>time</category><guid>https://gwax.com/blog/2016/02/internet-time-now-script.html</guid><pubDate>Fri, 05 Feb 2016 19:40:05 GMT</pubDate></item><item><title>Fixing Nikola Footnote Locations</title><link>https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html</link><dc:creator>George Leslie-Waksman</dc:creator><description>&lt;p&gt;Personally, I prefer to intersperse my footnote declarations with the text
+that is being footnoted when writing my. For example:&lt;a class="footnote-reference brackets" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#footnote-1" id="footnote-reference-1" role="doc-noteref"&gt;&lt;span class="fn-bracket"&gt;[&lt;/span&gt;1&lt;span class="fn-bracket"&gt;]&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;aside class="footnote brackets" id="footnote-1" role="note"&gt;
+&lt;span class="label"&gt;&lt;span class="fn-bracket"&gt;[&lt;/span&gt;&lt;a role="doc-backlink" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#footnote-reference-1"&gt;1&lt;/a&gt;&lt;span class="fn-bracket"&gt;]&lt;/span&gt;&lt;/span&gt;
+&lt;p&gt;This is just an example.&lt;/p&gt;
+&lt;/aside&gt;
+&lt;div class="code"&gt;&lt;pre class="code ReST"&gt;&lt;a id="rest_code_76518d5c4eee4a16b14f51b6415877c5-1" name="rest_code_76518d5c4eee4a16b14f51b6415877c5-1" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_76518d5c4eee4a16b14f51b6415877c5-1"&gt;&lt;/a&gt;I might want to write something&lt;span class="s"&gt;[#]_&lt;/span&gt; where there's a footnote there.
+&lt;a id="rest_code_76518d5c4eee4a16b14f51b6415877c5-2" name="rest_code_76518d5c4eee4a16b14f51b6415877c5-2" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_76518d5c4eee4a16b14f51b6415877c5-2"&gt;&lt;/a&gt;
+&lt;a id="rest_code_76518d5c4eee4a16b14f51b6415877c5-3" name="rest_code_76518d5c4eee4a16b14f51b6415877c5-3" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_76518d5c4eee4a16b14f51b6415877c5-3"&gt;&lt;/a&gt;&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="nt"&gt;[#]&lt;/span&gt; I put the footnote definition here.
+&lt;a id="rest_code_76518d5c4eee4a16b14f51b6415877c5-4" name="rest_code_76518d5c4eee4a16b14f51b6415877c5-4" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_76518d5c4eee4a16b14f51b6415877c5-4"&gt;&lt;/a&gt;
+&lt;a id="rest_code_76518d5c4eee4a16b14f51b6415877c5-5" name="rest_code_76518d5c4eee4a16b14f51b6415877c5-5" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_76518d5c4eee4a16b14f51b6415877c5-5"&gt;&lt;/a&gt;And then I continue on with the rest of my writing.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Wherever they are declared, I prefer to have all of my footnotes appear at the
 end of my posts. By default, &lt;a class="reference external" href="https://getnikola.com"&gt;Nikola&lt;/a&gt;  puts the
 footnotes in wherever they are declared. A simple snippet of javascript can be
 used to fix the locations of footnotes:&lt;/p&gt;
-&lt;pre class="code javascript"&gt;&lt;a name="rest_code_316d4293478e44f0af86b871235703ff-1"&gt;&lt;/a&gt;&lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;ready&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;a name="rest_code_316d4293478e44f0af86b871235703ff-2"&gt;&lt;/a&gt;    &lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'.footnote'&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;each&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;el&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;a name="rest_code_316d4293478e44f0af86b871235703ff-3"&gt;&lt;/a&gt;        &lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;el&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;appendTo&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
-&lt;a name="rest_code_316d4293478e44f0af86b871235703ff-4"&gt;&lt;/a&gt;            &lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;el&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;closest&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'.entry-content,.entry-summary'&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt;
-&lt;a name="rest_code_316d4293478e44f0af86b871235703ff-5"&gt;&lt;/a&gt;    &lt;span class="p"&gt;});&lt;/span&gt;
-&lt;a name="rest_code_316d4293478e44f0af86b871235703ff-6"&gt;&lt;/a&gt;&lt;span class="p"&gt;});&lt;/span&gt;
-&lt;/pre&gt;&lt;p&gt;Simply wrap in a &amp;lt;script&amp;gt; tag and include in the BODY_END section of conf.py
-or add it to your theme.&lt;/p&gt;</description>
-      <category>code snippets</category>
-      <category>meta</category>
-      <category>nikola</category>
-      <guid>https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html</guid>
-      <pubDate>Sat, 23 Jan 2016 23:44:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>Will O' The Wisp</title>
-      <link>https://gwax.com/blog/2011/01/will-o-the-wisp.html</link>
-      <dc:creator>George Leslie-Waksman</dc:creator>
-      <description>&lt;p&gt;Continuing &lt;a class="reference external" href="https://gwax.com/blog/2010/10/ironhide.html"&gt;my earlier work&lt;/a&gt;
+&lt;div class="code"&gt;&lt;pre class="code javascript"&gt;&lt;a id="rest_code_5400b295d8864b9b8d88d98c12da50a3-1" name="rest_code_5400b295d8864b9b8d88d98c12da50a3-1" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_5400b295d8864b9b8d88d98c12da50a3-1"&gt;&lt;/a&gt;&lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;ready&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_5400b295d8864b9b8d88d98c12da50a3-2" name="rest_code_5400b295d8864b9b8d88d98c12da50a3-2" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_5400b295d8864b9b8d88d98c12da50a3-2"&gt;&lt;/a&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'.footnote'&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;each&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;el&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_5400b295d8864b9b8d88d98c12da50a3-3" name="rest_code_5400b295d8864b9b8d88d98c12da50a3-3" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_5400b295d8864b9b8d88d98c12da50a3-3"&gt;&lt;/a&gt;&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;el&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;appendTo&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_5400b295d8864b9b8d88d98c12da50a3-4" name="rest_code_5400b295d8864b9b8d88d98c12da50a3-4" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_5400b295d8864b9b8d88d98c12da50a3-4"&gt;&lt;/a&gt;&lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;el&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;closest&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'.entry-content,.entry-summary'&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_5400b295d8864b9b8d88d98c12da50a3-5" name="rest_code_5400b295d8864b9b8d88d98c12da50a3-5" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_5400b295d8864b9b8d88d98c12da50a3-5"&gt;&lt;/a&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;});&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_5400b295d8864b9b8d88d98c12da50a3-6" name="rest_code_5400b295d8864b9b8d88d98c12da50a3-6" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_5400b295d8864b9b8d88d98c12da50a3-6"&gt;&lt;/a&gt;&lt;span class="p"&gt;});&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Simply wrap in a &amp;lt;script&amp;gt; tag and include in the BODY_END section of conf.py
+or add it to your theme.&lt;/p&gt;</description><category>code snippets</category><category>meta</category><category>nikola</category><guid>https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html</guid><pubDate>Sat, 23 Jan 2016 23:44:17 GMT</pubDate></item><item><title>Will O' The Wisp</title><link>https://gwax.com/blog/2011/01/will-o-the-wisp.html</link><dc:creator>George Leslie-Waksman</dc:creator><description>&lt;p&gt;Continuing &lt;a class="reference external" href="https://gwax.com/blog/2010/10/ironhide.html"&gt;my earlier work&lt;/a&gt;
 in the realm of mixology, I would like to present my second cocktail
 invention. The invention of this cocktail is the result of playing
 around with gin,
@@ -328,46 +242,36 @@ around with gin,
 various other liqueurs in an attempt to make something tasty. This
 cocktail earns its name, Will O' The Wisp, from its faint, ghostly,
 green color.&lt;/p&gt;
-&lt;div class="section" id="ingredients"&gt;
+&lt;section id="ingredients"&gt;
 &lt;h2&gt;Ingredients&lt;/h2&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;3/4 oz Green Chartreuse&lt;/li&gt;
-&lt;li&gt;3/4 oz St. Germain&lt;/li&gt;
-&lt;li&gt;3/4 oz White Vermouth&lt;/li&gt;
-&lt;li&gt;1 dash Lavender Bitters&lt;/li&gt;
-&lt;li&gt;3 oz Dry Gin&lt;/li&gt;
-&lt;li&gt;1/4 oz Herbsaint or Absinth&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;3/4 oz Green Chartreuse&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;3/4 oz St. Germain&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;3/4 oz White Vermouth&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 dash Lavender Bitters&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;3 oz Dry Gin&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/4 oz Herbsaint or Absinth&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="section" id="recipe"&gt;
+&lt;/section&gt;
+&lt;section id="recipe"&gt;
 &lt;h2&gt;Recipe&lt;/h2&gt;
 &lt;ol class="arabic simple"&gt;
-&lt;li&gt;Pour the Chartreuse, St. Germain, Vermouth, Bitters, and Gin into a
-cocktail shaker&lt;/li&gt;
-&lt;li&gt;Pour the Herbsaint/Absinth into a chilled cocktail glass&lt;/li&gt;
-&lt;li&gt;Swirl the cocktail glass, coating the sides, and pouring off any excess
-Herbsaint/Absinth&lt;/li&gt;
-&lt;li&gt;Add ice to the cocktail shaker and shake&lt;/li&gt;
-&lt;li&gt;Pour shaken cocktail into the prepared glass&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Pour the Chartreuse, St. Germain, Vermouth, Bitters, and Gin into a
+cocktail shaker&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Pour the Herbsaint/Absinth into a chilled cocktail glass&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Swirl the cocktail glass, coating the sides, and pouring off any excess
+Herbsaint/Absinth&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Add ice to the cocktail shaker and shake&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Pour shaken cocktail into the prepared glass&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class="section" id="notes"&gt;
+&lt;/section&gt;
+&lt;section id="notes"&gt;
 &lt;h2&gt;Notes&lt;/h2&gt;
 &lt;p&gt;The Herbsaint/Absinth can be skipped, though I don't recommend it. The Lavender
 Bitters are also optional but very highly recommended. I would recommend
 stirring this cocktail (instead of shaking) as the resulting beverage has a
 very different appearance.&lt;/p&gt;
-&lt;/div&gt;</description>
-      <category>cocktails</category>
-      <category>recipes</category>
-      <guid>https://gwax.com/blog/2011/01/will-o-the-wisp.html</guid>
-      <pubDate>Mon, 17 Jan 2011 04:04:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ironhide</title>
-      <link>https://gwax.com/blog/2010/10/ironhide.html</link>
-      <dc:creator>George Leslie-Waksman</dc:creator>
-      <description>&lt;p&gt;Some number of weeks ago, having discovered &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Maraschino"&gt;Maraschino
+&lt;/section&gt;</description><category>cocktails</category><category>recipes</category><guid>https://gwax.com/blog/2011/01/will-o-the-wisp.html</guid><pubDate>Mon, 17 Jan 2011 04:04:00 GMT</pubDate></item><item><title>Ironhide</title><link>https://gwax.com/blog/2010/10/ironhide.html</link><dc:creator>George Leslie-Waksman</dc:creator><description>&lt;p&gt;Some number of weeks ago, having discovered &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Maraschino"&gt;Maraschino
 liqueur&lt;/a&gt;, I concocted a
 variation on my beloved
 &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Manhattan_%28cocktail%29"&gt;Manhattan&lt;/a&gt;. I
@@ -379,19 +283,19 @@ already taken by other cocktails, I settled on naming the drink after
 the grizzled, old Autobot,
 &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Ironhide"&gt;Ironhide&lt;/a&gt;. So, without
 further ado:&lt;/p&gt;
-&lt;div class="section" id="ironhide-recipe"&gt;
+&lt;section id="ironhide-recipe"&gt;
 &lt;h2&gt;Ironhide recipe&lt;/h2&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;3 oz Bourbon whiskey&lt;/li&gt;
-&lt;li&gt;3/4 oz Maraschino&lt;/li&gt;
-&lt;li&gt;1/4 oz grenadine&lt;/li&gt;
-&lt;li&gt;2 dashes Angostura bitters&lt;/li&gt;
-&lt;li&gt;1 Maraschino cherry&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;3 oz Bourbon whiskey&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;3/4 oz Maraschino&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1/4 oz grenadine&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;2 dashes Angostura bitters&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 Maraschino cherry&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Serve shaken or stirred with ice in a cocktail glass; garnish with the
 Maraschino cherry.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="notes"&gt;
+&lt;/section&gt;
+&lt;section id="notes"&gt;
 &lt;h2&gt;Notes&lt;/h2&gt;
 &lt;p&gt;I have mostly been drinking these on the rocks, which is an acceptable
 but inferior variation. Being a Manhattan-like cocktail, up-high is
@@ -400,23 +304,11 @@ really the correct way to serve an Ironhide.&lt;/p&gt;
 flavors imparted by the bitters and Maraschino; you will make a better
 cocktail by skipping the grenadine and cherry than using cheap, fake
 ones.&lt;/p&gt;
-&lt;/div&gt;</description>
-      <category>cocktails</category>
-      <category>compositions</category>
-      <category>food &amp; drink</category>
-      <category>recipes</category>
-      <guid>https://gwax.com/blog/2010/10/ironhide.html</guid>
-      <pubDate>Fri, 29 Oct 2010 00:02:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>A cute geometry problem</title>
-      <link>https://gwax.com/blog/2010/03/a-cute-geometry-problem.html</link>
-      <dc:creator>George Leslie-Waksman</dc:creator>
-      <description>&lt;div&gt;&lt;p&gt;I came across a cute geometry problem recently and I would like to pass it
+&lt;/section&gt;</description><category>cocktails</category><category>compositions</category><category>food &amp; drink</category><category>recipes</category><guid>https://gwax.com/blog/2010/10/ironhide.html</guid><pubDate>Fri, 29 Oct 2010 00:02:16 GMT</pubDate></item><item><title>A cute geometry problem</title><link>https://gwax.com/blog/2010/03/a-cute-geometry-problem.html</link><dc:creator>George Leslie-Waksman</dc:creator><description>&lt;div&gt;&lt;p&gt;I came across a cute geometry problem recently and I would like to pass it
 along.&lt;/p&gt;
-&lt;div class="section" id="problem"&gt;
+&lt;section id="problem"&gt;
 &lt;h2&gt;Problem&lt;/h2&gt;
-&lt;div class="section" id="problem-statement"&gt;
+&lt;section id="problem-statement"&gt;
 &lt;h3&gt;Problem Statement&lt;/h3&gt;
 &lt;div class="row docutils container"&gt;
 &lt;div class="four columns docutils container"&gt;
@@ -448,11 +340,4 @@ you might have forgotten since high school are necessary).&lt;/p&gt;
 recommend trying to do it yourself first.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;a href="https://gwax.com/blog/2010/03/a-cute-geometry-problem.html"&gt;Read more…&lt;/a&gt; (2 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-      <category>musings</category>
-      <category>science &amp; technology</category>
-      <guid>https://gwax.com/blog/2010/03/a-cute-geometry-problem.html</guid>
-      <pubDate>Thu, 11 Mar 2010 19:57:13 GMT</pubDate>
-    </item>
-  </channel>
-</rss>
+&lt;p&gt;&lt;a href="https://gwax.com/blog/2010/03/a-cute-geometry-problem.html"&gt;Read more…&lt;/a&gt; (2 min remaining to read)&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;&lt;/div&gt;</description><category>musings</category><category>science &amp; technology</category><guid>https://gwax.com/blog/2010/03/a-cute-geometry-problem.html</guid><pubDate>Thu, 11 Mar 2010 19:57:13 GMT</pubDate></item></channel></rss>
