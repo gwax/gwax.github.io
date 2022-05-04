@@ -9,31 +9,12 @@ About George Leslie-Waksman
     :alt: George Leslie-Waksman portrait
     :align: right
 
-Rules to live by
-----------------
-
-1.  When you're chucking a danish, everything's a cop car.
-2.  When in doubt, go left.
-3.  When in doubt, buy double.
-
-Basic Info
-----------
-
-* Birthday: April 3\ :sup:`rd`
-* Hometown: Concord, MA, USA
-* Current Region: SF Bay Area, CA, USA
-* Favorite Number: 3
-* Favorite Color: Blue
-
-Who am I?
----------
-
 I'm a software engineer in the San Francisco Bay Area. My software contributions
 are mostly closed source for my professional life or low profile for my own
 enjoyment. I have a handful of small `projects <link://slug/projects>`_ and
 things to be found on |github-icon| GitHub (`gwax <https://github.com/gwax>`__).
 I've worked in just about every part of the stack though my focus leans pretty
-hard toward data layer and infrastructure.
+hard toward data layer and infrastructure these days.
 
 Long ago, I graduated from `MIT <http://web.mit.edu/>`_ with a degree in
 Materials Science and Engineering (course 3 to fellow alums). During my time at
@@ -80,14 +61,14 @@ said, it was a great opportunity to pick up more experience leading a technical
 team and working with a handful of new technologies.
 
 Now, I'm back to Insuretech, taking helm of engineering for
-`LifeRaft <https://www.liferaft.co/>`_. I'm glad to be back trying to solve
-real problems for average people.
+`LifeRaft <https://www.liferaft.co/>`_. I'm glad to be solving real problems
+for average people again.
 
 If you want more professional details, there's something close enough to my
 résumé available through LinkedIn. If you happen to want a proper résumé or
 other details, you'll have to email me.
 
-Non-professionally, I have a wife, a daughter, and a son, all of whom I love
+Non-professionally, I have a wife, and three children, all of whom I love
 to a degree that exceeds my writing ability to describe.
 
 I am an avid player of `Magic: the Gathering <http://magic.wizards.com/>`_ and
@@ -100,7 +81,12 @@ Some day, I hope to master the Mai Tai.
 Contact
 -------
 
-The best way to contact me is by email: waksman (at) google's email service.
+The best way to contact me is by email: waksman (at) google's well known email service.
+
+I am open to startup advisory roles.
+
+I am not looking for a new full time position; recruiting emails will be ignored
+or politely declined.
 
 Elsewhere Online
 ----------------
@@ -113,10 +99,8 @@ I am active, to varying degrees\ [#]_, on a number of online services:
 * |github-icon| GitHub: `gwax <https://github.com/gwax>`__
 * |reddit-icon| reddit: `gwax <https://reddit.com/user/gwax>`__
 * |linkedin-icon| LinkedIn: `George Leslie-Waksman <https://www.linkedin.com/in/glesliewaksman>`__
-* |stackoverflow-icon| stackoverflow: `George Leslie-Waksman <https://stackoverflow.com/users/4853563/george-leslie-waksman>`__
+* |stackoverflow-icon| stackoverflow: `George L-W <https://stackoverflow.com/users/777006/george-l-w>`__
 * |twitter-icon| twitter: `@gwaxgwax <https://twitter.com/gwaxgwax>`__
-* Tapped Out: `gwax <http://tappedout.net/users/gwax/>`__
-* The Source: `gwax <http://www.mtgthesource.com/forums/member.php?35876-gwax>`__
 
 .. |github-icon| image:: /icons/github.svg
     :class: svg-icon
