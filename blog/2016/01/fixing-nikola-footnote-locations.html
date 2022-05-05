@@ -1,161 +1,174 @@
 <!DOCTYPE html>
-<html prefix="        og: http://ogp.me/ns# article: http://ogp.me/ns/article#     " vocab="http://ogp.me/ns" lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#" vocab="http://ogp.me/ns">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fixing Nikola Footnote Locations | gwax</title>
-<link rel="stylesheet" href="/assets/css/baguetteBox.min.css" type="text/css">
-<link rel="stylesheet" href="/assets/css/normalize.min.css" type="text/css">
-<link rel="stylesheet" href="/assets/css/skeleton.min.css" type="text/css">
-<link href="/assets/css/rst_base.css" rel="stylesheet" type="text/css">
-<link href="/assets/css/code.css" rel="stylesheet" type="text/css">
-<link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
-<meta name="theme-color" content="#304FE1">
-<meta name="generator" content="Nikola (getnikola.com)">
-<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="/rss.xml">
-<link rel="canonical" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html">
-<link rel="icon" href="/favicon.ico" sizes="32x32">
-<!--[if lt IE 9]><script src="/assets/js/html5shiv-printshiv.min.js"></script><![endif]--><meta name="author" content="George Leslie-Waksman">
-<link rel="prev" href="/blog/2011/01/will-o-the-wisp.html" title="Will O' The Wisp" type="text/html">
-<link rel="next" href="/blog/2016/02/internet-time-now-script.html" title="Internet Time Now script" type="text/html">
-<meta property="og:site_name" content="gwax">
-<meta property="og:title" content="Fixing Nikola Footnote Locations">
-<meta property="og:url" content="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html">
-<meta property="og:description" content="Personally, I prefer to intersperse my footnote declarations with the text
-that is being footnoted when writing my. For example:[1]
-
-[1]
-This is just an example.
-
-I might want to write something[#]_ w">
-<meta property="og:type" content="article">
-<meta property="article:published_time" content="2016-01-23T23:44:17Z">
-<meta property="article:tag" content="code snippets">
-<meta property="article:tag" content="meta">
-<meta property="article:tag" content="nikola">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Fixing Nikola Footnote Locations | gwax</title>
+  <link href="/assets/css/baguetteBox.min.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/normalize.min.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/skeleton.min.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/rst_base.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/code.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
+  <meta content="#304FE1" name="theme-color">
+  <meta content="Nikola (getnikola.com)" name="generator">
+  <link href="/rss.xml" hreflang="en" rel="alternate" title="RSS" type="application/rss+xml">
+  <link href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html" rel="canonical">
+  <link href="/favicon.ico" rel="icon" sizes="32x32"><!--[if lt IE 9]><script src="/assets/js/html5shiv-printshiv.min.js"></script><![endif]-->
+  <meta content="George Leslie-Waksman" name="author">
+  <link href="/blog/2011/01/will-o-the-wisp.html" rel="prev" title="Will O' The Wisp" type="text/html">
+  <link href="/blog/2016/02/internet-time-now-script.html" rel="next" title="Internet Time Now script" type="text/html">
+  <meta content="gwax" property="og:site_name">
+  <meta content="Fixing Nikola Footnote Locations" property="og:title">
+  <meta content="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html" property="og:url">
+  <meta content="Personally, I prefer to intersperse my footnote declarations with the text that is being footnoted when writing my. For example:[1] [1] This is just an example. I might want to write something[#]_ w" property="og:description">
+  <meta content="article" property="og:type">
+  <meta content="2016-01-23T23:44:17Z" property="article:published_time">
+  <meta content="code snippets" property="article:tag">
+  <meta content="meta" property="article:tag">
+  <meta content="nikola" property="article:tag">
 </head>
 <body>
-    <div class="container">
-         
-    <header id="header"><div class="row">
-            <div class="six columns">
-                
-    <h1 id="brand" class="title"><a href="/" title="gwax" rel="home">
-
-        <span id="blog-title">gwax</span>
-    </a></h1>
-
+  <div class="container">
+    <header id="header">
+      <div class="row">
+        <div class="six columns">
+          <h1 class="title" id="brand"><a href="/" rel="home" title="gwax"><span id="blog-title">gwax</span></a></h1>
+        </div>
+      </div>
+    </header>
+    <nav class="bar">
+      <ul>
+        <li>
+          <a href="/projects.html">Projects</a>
+        </li>
+        <li>
+          <span>Blog</span>
+          <ul>
+            <li>
+              <a href="/index.html">Posts</a>
+            </li>
+            <li>
+              <a href="/archive.html">Archives</a>
+            </li>
+            <li>
+              <a href="/categories/index.html">Tags & Categories</a>
+            </li>
+            <li>
+              <a href="/rss.xml">RSS feed</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span>About</span>
+          <ul>
+            <li>
+              <a href="/about/about-person.html">The person</a>
+            </li>
+            <li>
+              <a href="/about/about-site.html">The site</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/about/about-person.html#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="select">
+      <select>
+        <option value="/projects.html">
+          Projects
+        </option>
+        <optgroup label="Blog">
+          <option value="/index.html">
+            Posts
+          </option>
+          <option value="/archive.html">
+            Archives
+          </option>
+          <option value="/categories/index.html">
+            Tags & Categories
+          </option>
+          <option value="/rss.xml">
+            RSS feed
+          </option>
+        </optgroup>
+        <optgroup label="About">
+          <option value="/about/about-person.html">
+            The person
+          </option>
+          <option value="/about/about-site.html">
+            The site
+          </option>
+        </optgroup>
+        <option value="/about/about-person.html#contact">
+          Contact
+        </option>
+      </select>
+    </nav>
+    <main id="content">
+      <article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article">
+        <header>
+          <h1 class="p-name entry-title" itemprop="headline name"><a class="u-url" href="/blog/2016/01/fixing-nikola-footnote-locations.html">Fixing Nikola Footnote Locations</a></h1>
+          <div class="metadata">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">George Leslie-Waksman</span></p>
+            <p class="dateline"><a href="/blog/2016/01/fixing-nikola-footnote-locations.html" rel="bookmark"><time class="published dt-published" datetime="2016-01-23T23:44:17Z" itemprop="datePublished" title="2016-01-23 23:44 UTC">2016-01-23 23:44 UTC</time> <span class="updated">(updated <time class="updated dt-updated" datetime="2018-04-16T06:06:57Z" itemprop="dateUpdated" title="2018-04-16 06:06 UTC">2018-04-16 06:06 UTC</time>)</span></a></p>
+            <p class="sourceline"><a class="sourcelink" href="/blog/2016/01/fixing-nikola-footnote-locations.rst">Source</a></p>
+          </div>
+        </header>
+        <div class="e-content entry-content" itemprop="articleBody text">
+          <p>Personally, I prefer to intersperse my footnote declarations with the text that is being footnoted when writing my. For example:<a class="footnote-reference brackets" href="/blog/2016/01/fixing-nikola-footnote-locations.html#footnote-1" id="footnote-reference-1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a></p>
+          <aside class="footnote brackets" id="footnote-1" role="note">
+            <span class="label"><span class="fn-bracket">[</span><a href="/blog/2016/01/fixing-nikola-footnote-locations.html#footnote-reference-1" role="doc-backlink">1</a><span class="fn-bracket">]</span></span>
+            <p>This is just an example.</p>
+          </aside>
+          <div class="code">
+            <pre class="code ReST"><a href="/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_32f8ae7336694d349917ca5685a06dc2-1" id="rest_code_32f8ae7336694d349917ca5685a06dc2-1" name="rest_code_32f8ae7336694d349917ca5685a06dc2-1"></a>I might want to write something<span class="s">[#]_</span> where there's a footnote there.
+<a href="/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_32f8ae7336694d349917ca5685a06dc2-2" id="rest_code_32f8ae7336694d349917ca5685a06dc2-2" name="rest_code_32f8ae7336694d349917ca5685a06dc2-2"></a>
+<a href="/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_32f8ae7336694d349917ca5685a06dc2-3" id="rest_code_32f8ae7336694d349917ca5685a06dc2-3" name="rest_code_32f8ae7336694d349917ca5685a06dc2-3"></a><span class="p">..</span> <span class="nt">[#]</span> I put the footnote definition here.
+<a href="/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_32f8ae7336694d349917ca5685a06dc2-4" id="rest_code_32f8ae7336694d349917ca5685a06dc2-4" name="rest_code_32f8ae7336694d349917ca5685a06dc2-4"></a>
+<a href="/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_32f8ae7336694d349917ca5685a06dc2-5" id="rest_code_32f8ae7336694d349917ca5685a06dc2-5" name="rest_code_32f8ae7336694d349917ca5685a06dc2-5"></a>And then I continue on with the rest of my writing.
+</pre>
+          </div>
+          <p>Wherever they are declared, I prefer to have all of my footnotes appear at the end of my posts. By default, <a class="reference external" href="https://getnikola.com">Nikola</a> puts the footnotes in wherever they are declared. A simple snippet of javascript can be used to fix the locations of footnotes:</p>
+          <div class="code">
+            <pre class="code javascript"><a href="/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_d6b5bf6e2b7548789000aae34181275a-1" id="rest_code_d6b5bf6e2b7548789000aae34181275a-1" name="rest_code_d6b5bf6e2b7548789000aae34181275a-1"></a><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a href="/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_d6b5bf6e2b7548789000aae34181275a-2" id="rest_code_d6b5bf6e2b7548789000aae34181275a-2" name="rest_code_d6b5bf6e2b7548789000aae34181275a-2"></a><span class="w">    </span><span class="nx">$</span><span class="p">(</span><span class="s1">'.footnote'</span><span class="p">).</span><span class="nx">each</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="nx">el</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a href="/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_d6b5bf6e2b7548789000aae34181275a-3" id="rest_code_d6b5bf6e2b7548789000aae34181275a-3" name="rest_code_d6b5bf6e2b7548789000aae34181275a-3"></a><span class="w">        </span><span class="nx">$</span><span class="p">(</span><span class="nx">el</span><span class="p">).</span><span class="nx">appendTo</span><span class="p">(</span><span class="w"></span>
+<a href="/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_d6b5bf6e2b7548789000aae34181275a-4" id="rest_code_d6b5bf6e2b7548789000aae34181275a-4" name="rest_code_d6b5bf6e2b7548789000aae34181275a-4"></a><span class="w">            </span><span class="nx">$</span><span class="p">(</span><span class="nx">el</span><span class="p">).</span><span class="nx">closest</span><span class="p">(</span><span class="s1">'.entry-content,.entry-summary'</span><span class="p">));</span><span class="w"></span>
+<a href="/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_d6b5bf6e2b7548789000aae34181275a-5" id="rest_code_d6b5bf6e2b7548789000aae34181275a-5" name="rest_code_d6b5bf6e2b7548789000aae34181275a-5"></a><span class="w">    </span><span class="p">});</span><span class="w"></span>
+<a href="/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_d6b5bf6e2b7548789000aae34181275a-6" id="rest_code_d6b5bf6e2b7548789000aae34181275a-6" name="rest_code_d6b5bf6e2b7548789000aae34181275a-6"></a><span class="p">});</span><span class="w"></span>
+</pre>
+          </div>
+          <p>Simply wrap in a &lt;script&gt; tag and include in the BODY_END section of conf.py or add it to your theme.</p>
+        </div>
+        <aside class="postpromonav">
+          <nav>
+            <div class="row tags" itemprop="keywords">
+              <a class="tag p-category button button-primary" href="/categories/code-snippets.html" rel="tag">code snippets</a> <a class="tag p-category button button-primary" href="/categories/meta.html" rel="tag">meta</a> <a class="tag p-category button button-primary" href="/categories/nikola.html" rel="tag">nikola</a>
             </div>
-            
+            <div class="row pager hidden-print">
+              <a class="button u-pull-left previous" href="/blog/2011/01/will-o-the-wisp.html" rel="prev" title="Will O' The Wisp">Previous post</a> <a class="button u-pull-right next" href="/blog/2016/02/internet-time-now-script.html" rel="next" title="Internet Time Now script">Next post</a>
+            </div>
+          </nav>
+        </aside>
+      </article>
+    </main>
+    <footer id="footer">
+      <p>Contents ©2004-2022 <a href="/about/about-person.html">George Leslie-Waksman</a> | Source: <img class="svg-icon" src="/icons/github.svg"><a href="https://github.com/gwax/www-gwax">GitHub</a> | Powered by <a href="https://getnikola.com">Nikola</a> | Styled with <a href="http://getskeleton.com">Skeleton</a> | <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img alt="Creative Commons License BY-SA" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" style="border:0;margin:0;"></a></p>
+    </footer>
+  </div>
+  <script src="/assets/js/baguetteBox.min.js"></script>
+  <script src="/assets/js/webfontloader.js"></script>
+  <script src="/assets/js/fancydates.js"></script>
+  <script src="/assets/js/theme.js"></script><!-- fancy dates -->
+  <script>
 
-        </div>
-    </header><nav class="bar"><li><a href="/projects.html">Projects</a></li>
-            <li>
-<span>Blog</span>
-                <ul>
-<li><a href="/index.html">Posts</a></li>
-            <li><a href="/archive.html">Archives</a></li>
-            <li><a href="/categories/index.html">Tags &amp; Categories</a></li>
-            <li><a href="/rss.xml">RSS feed</a></li>
-
-                </ul>
-</li>
-            <li>
-<span>About</span>
-                <ul>
-<li><a href="/about/about-person.html">The person</a></li>
-            <li><a href="/about/about-site.html">The site</a></li>
-
-                </ul>
-</li>
-            <li><a href="/about/about-person.html#contact">Contact</a></li>
-
-    
-
-    </nav><nav class="select"><select><option value="/projects.html">Projects</option>
-<optgroup label="Blog">
-<option value="/index.html">Posts</option>
-<option value="/archive.html">Archives</option>
-<option value="/categories/index.html">Tags &amp; Categories</option>
-<option value="/rss.xml">RSS feed</option>
-</optgroup>
-<optgroup label="About">
-<option value="/about/about-person.html">The person</option>
-<option value="/about/about-site.html">The site</option>
-</optgroup>
-<option value="/about/about-person.html#contact">Contact</option></select></nav><main id="content"><article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="/blog/2016/01/fixing-nikola-footnote-locations.html" class="u-url">Fixing Nikola Footnote Locations</a></h1>
-
-        <div class="metadata">
-            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
-                    George Leslie-Waksman
-            </span></p>
-            <p class="dateline">
-            <a href="/blog/2016/01/fixing-nikola-footnote-locations.html" rel="bookmark">
-            <time class="published dt-published" datetime="2016-01-23T23:44:17Z" itemprop="datePublished" title="2016-01-23 23:44 UTC">2016-01-23 23:44 UTC</time><span class="updated"> (updated
-                    <time class="updated dt-updated" datetime="2018-04-16T06:06:57Z" itemprop="dateUpdated" title="2018-04-16 06:06 UTC">2018-04-16 06:06 UTC</time>)</span>
-            </a>
-            </p>
-            
-        <p class="sourceline"><a href="/blog/2016/01/fixing-nikola-footnote-locations.rst" class="sourcelink">Source</a></p>
-
-        </div>
-        
-
-    </header><div class="e-content entry-content" itemprop="articleBody text">
-    <p>Personally, I prefer to intersperse my footnote declarations with the text
-that is being footnoted when writing my. For example:<a class="footnote-reference brackets" href="/blog/2016/01/fixing-nikola-footnote-locations.html#footnote-1" id="footnote-reference-1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a></p>
-<aside class="footnote brackets" id="footnote-1" role="note"><span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="/blog/2016/01/fixing-nikola-footnote-locations.html#footnote-reference-1">1</a><span class="fn-bracket">]</span></span>
-<p>This is just an example.</p>
-</aside><div class="code"><pre class="code ReST"><a id="rest_code_7cc87ece8cd9408d911f55be237c0409-1" name="rest_code_7cc87ece8cd9408d911f55be237c0409-1" href="/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_7cc87ece8cd9408d911f55be237c0409-1"></a>I might want to write something<span class="s">[#]_</span> where there's a footnote there.
-<a id="rest_code_7cc87ece8cd9408d911f55be237c0409-2" name="rest_code_7cc87ece8cd9408d911f55be237c0409-2" href="/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_7cc87ece8cd9408d911f55be237c0409-2"></a>
-<a id="rest_code_7cc87ece8cd9408d911f55be237c0409-3" name="rest_code_7cc87ece8cd9408d911f55be237c0409-3" href="/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_7cc87ece8cd9408d911f55be237c0409-3"></a><span class="p">..</span> <span class="nt">[#]</span> I put the footnote definition here.
-<a id="rest_code_7cc87ece8cd9408d911f55be237c0409-4" name="rest_code_7cc87ece8cd9408d911f55be237c0409-4" href="/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_7cc87ece8cd9408d911f55be237c0409-4"></a>
-<a id="rest_code_7cc87ece8cd9408d911f55be237c0409-5" name="rest_code_7cc87ece8cd9408d911f55be237c0409-5" href="/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_7cc87ece8cd9408d911f55be237c0409-5"></a>And then I continue on with the rest of my writing.
-</pre></div>
-<p>Wherever they are declared, I prefer to have all of my footnotes appear at the
-end of my posts. By default, <a class="reference external" href="https://getnikola.com">Nikola</a>  puts the
-footnotes in wherever they are declared. A simple snippet of javascript can be
-used to fix the locations of footnotes:</p>
-<div class="code"><pre class="code javascript"><a id="rest_code_364ea4a7754d4508be61304e9ebe1a42-1" name="rest_code_364ea4a7754d4508be61304e9ebe1a42-1" href="/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_364ea4a7754d4508be61304e9ebe1a42-1"></a><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<a id="rest_code_364ea4a7754d4508be61304e9ebe1a42-2" name="rest_code_364ea4a7754d4508be61304e9ebe1a42-2" href="/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_364ea4a7754d4508be61304e9ebe1a42-2"></a><span class="w">    </span><span class="nx">$</span><span class="p">(</span><span class="s1">'.footnote'</span><span class="p">).</span><span class="nx">each</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="nx">el</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<a id="rest_code_364ea4a7754d4508be61304e9ebe1a42-3" name="rest_code_364ea4a7754d4508be61304e9ebe1a42-3" href="/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_364ea4a7754d4508be61304e9ebe1a42-3"></a><span class="w">        </span><span class="nx">$</span><span class="p">(</span><span class="nx">el</span><span class="p">).</span><span class="nx">appendTo</span><span class="p">(</span><span class="w"></span>
-<a id="rest_code_364ea4a7754d4508be61304e9ebe1a42-4" name="rest_code_364ea4a7754d4508be61304e9ebe1a42-4" href="/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_364ea4a7754d4508be61304e9ebe1a42-4"></a><span class="w">            </span><span class="nx">$</span><span class="p">(</span><span class="nx">el</span><span class="p">).</span><span class="nx">closest</span><span class="p">(</span><span class="s1">'.entry-content,.entry-summary'</span><span class="p">));</span><span class="w"></span>
-<a id="rest_code_364ea4a7754d4508be61304e9ebe1a42-5" name="rest_code_364ea4a7754d4508be61304e9ebe1a42-5" href="/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_364ea4a7754d4508be61304e9ebe1a42-5"></a><span class="w">    </span><span class="p">});</span><span class="w"></span>
-<a id="rest_code_364ea4a7754d4508be61304e9ebe1a42-6" name="rest_code_364ea4a7754d4508be61304e9ebe1a42-6" href="/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_364ea4a7754d4508be61304e9ebe1a42-6"></a><span class="p">});</span><span class="w"></span>
-</pre></div>
-<p>Simply wrap in a &lt;script&gt; tag and include in the BODY_END section of conf.py
-or add it to your theme.</p>
-    </div>
-    <aside class="postpromonav"><nav><div itemprop="keywords" class="row tags">
-            <a class="tag p-category button button-primary" href="/categories/code-snippets.html" rel="tag">code snippets</a>
-            <a class="tag p-category button button-primary" href="/categories/meta.html" rel="tag">meta</a>
-            <a class="tag p-category button button-primary" href="/categories/nikola.html" rel="tag">nikola</a>
-        </div>
-
-    
-        <div class="row pager hidden-print">
-            <a class="button u-pull-left previous" href="/blog/2011/01/will-o-the-wisp.html" rel="prev" title="Will O' The Wisp">Previous post</a>
-            <a class="button u-pull-right next" href="/blog/2016/02/internet-time-now-script.html" rel="next" title="Internet Time Now script">Next post</a>
-        </div>
-
-    </nav></aside></article></main><footer id="footer"><p>
-    Contents ©2004-2022 <a href="/about/about-person.html">George Leslie-Waksman</a>
-    | Source:
-        <img src="/icons/github.svg" class="svg-icon"><a href="https://github.com/gwax/www-gwax">GitHub</a>
-    | Powered by <a href="https://getnikola.com">Nikola</a>
-    | Styled with <a href="http://getskeleton.com">Skeleton</a>
-    | 
-<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
-    <img src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" alt="Creative Commons License BY-SA" style="border:0;margin:0;"></a>
-
-</p>
-            
-        </footer>
-</div>
-    
-            <script src="/assets/js/baguetteBox.min.js"></script><script src="/assets/js/webfontloader.js"></script><script src="/assets/js/fancydates.js"></script><script src="/assets/js/theme.js"></script><!-- fancy dates --><script>
     fancydates(1);
-    </script><!-- end fancy dates --><script>
+  </script><!-- end fancy dates -->
+  <script>
+
     baguetteBox.run('div#content', {
         ignoreClass: 'islink',
         captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
@@ -164,6 +177,6 @@ or add it to your theme.</p>
             families: ['IBM Plex Mono', 'Raleway', 'Pacifico']
         }
     });
-    </script>
+  </script>
 </body>
 </html>

@@ -1,700 +1,853 @@
 <!DOCTYPE html>
-<html prefix="        og: http://ogp.me/ns# article: http://ogp.me/ns/article#     " vocab="http://ogp.me/ns" lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#" vocab="http://ogp.me/ns">
 <head>
-<meta charset="utf-8">
-<meta name="description" content="atm2pov.c">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>atm2pov.c | gwax</title>
-<link rel="stylesheet" href="/assets/css/baguetteBox.min.css" type="text/css">
-<link rel="stylesheet" href="/assets/css/normalize.min.css" type="text/css">
-<link rel="stylesheet" href="/assets/css/skeleton.min.css" type="text/css">
-<link href="/assets/css/rst_base.css" rel="stylesheet" type="text/css">
-<link href="/assets/css/code.css" rel="stylesheet" type="text/css">
-<link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
-<meta name="theme-color" content="#304FE1">
-<meta name="generator" content="Nikola (getnikola.com)">
-<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="/rss.xml">
-<link rel="canonical" href="https://gwax.com/listings/thesis/atm2pov.c.html">
-<link rel="icon" href="/favicon.ico" sizes="32x32">
-<!--[if lt IE 9]><script src="/assets/js/html5shiv-printshiv.min.js"></script><![endif]-->
+  <meta charset="utf-8">
+  <meta content="atm2pov.c" name="description">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>atm2pov.c | gwax</title>
+  <link href="/assets/css/baguetteBox.min.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/normalize.min.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/skeleton.min.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/rst_base.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/code.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
+  <meta content="#304FE1" name="theme-color">
+  <meta content="Nikola (getnikola.com)" name="generator">
+  <link href="/rss.xml" hreflang="en" rel="alternate" title="RSS" type="application/rss+xml">
+  <link href="https://gwax.com/listings/thesis/atm2pov.c.html" rel="canonical">
+  <link href="/favicon.ico" rel="icon" sizes="32x32"><!--[if lt IE 9]><script src="/assets/js/html5shiv-printshiv.min.js"></script><![endif]-->
 </head>
 <body>
-    <div class="container">
-         
-    <header id="header"><div class="row">
-            <div class="six columns">
-                
-    <h1 id="brand" class="title"><a href="/" title="gwax" rel="home">
-
-        <span id="blog-title">gwax</span>
-    </a></h1>
-
-            </div>
-            
-
+  <div class="container">
+    <header id="header">
+      <div class="row">
+        <div class="six columns">
+          <h1 class="title" id="brand"><a href="/" rel="home" title="gwax"><span id="blog-title">gwax</span></a></h1>
         </div>
-    </header><nav class="bar"><li><a href="/projects.html">Projects</a></li>
+      </div>
+    </header>
+    <nav class="bar">
+      <ul>
+        <li>
+          <a href="/projects.html">Projects</a>
+        </li>
+        <li>
+          <span>Blog</span>
+          <ul>
             <li>
-<span>Blog</span>
-                <ul>
-<li><a href="/index.html">Posts</a></li>
-            <li><a href="/archive.html">Archives</a></li>
-            <li><a href="/categories/index.html">Tags &amp; Categories</a></li>
-            <li><a href="/rss.xml">RSS feed</a></li>
-
-                </ul>
-</li>
+              <a href="/index.html">Posts</a>
+            </li>
             <li>
-<span>About</span>
-                <ul>
-<li><a href="/about/about-person.html">The person</a></li>
-            <li><a href="/about/about-site.html">The site</a></li>
+              <a href="/archive.html">Archives</a>
+            </li>
+            <li>
+              <a href="/categories/index.html">Tags & Categories</a>
+            </li>
+            <li>
+              <a href="/rss.xml">RSS feed</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span>About</span>
+          <ul>
+            <li>
+              <a href="/about/about-person.html">The person</a>
+            </li>
+            <li>
+              <a href="/about/about-site.html">The site</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/about/about-person.html#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="select">
+      <select>
+        <option value="/projects.html">
+          Projects
+        </option>
+        <optgroup label="Blog">
+          <option value="/index.html">
+            Posts
+          </option>
+          <option value="/archive.html">
+            Archives
+          </option>
+          <option value="/categories/index.html">
+            Tags & Categories
+          </option>
+          <option value="/rss.xml">
+            RSS feed
+          </option>
+        </optgroup>
+        <optgroup label="About">
+          <option value="/about/about-person.html">
+            The person
+          </option>
+          <option value="/about/about-site.html">
+            The site
+          </option>
+        </optgroup>
+        <option value="/about/about-person.html#contact">
+          Contact
+        </option>
+      </select>
+    </nav>
+    <main id="content">
+      <nav class="breadcrumbs">
+        <ul class="breadcrumb">
+          <li>
+            <a href="/listings/">listings</a>
+          </li>
+          <li>
+            <a href="/listings/thesis/">thesis</a>
+          </li>
+          <li>atm2pov.c</li>
+        </ul>
+      </nav>
+      <h1>atm2pov.c <small><a href="/listings/thesis/atm2pov.c">(Source)</a></small></h1>
+      <div class="code">
+        <table class="codetable">
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-1"><code data-line-number="1"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-1" name="listingsthesisatm2povc-1"></a><span class="cp">#include</span> <span class="w"></span><span class="cpf">&lt;errno.h&gt;</span><span class="cp"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-2"><code data-line-number="2"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-2" name="listingsthesisatm2povc-2"></a><span class="cp">#include</span> <span class="w"></span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-3"><code data-line-number="3"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-3" name="listingsthesisatm2povc-3"></a><span class="cp">#include</span> <span class="w"></span><span class="cpf">&lt;stdlib.h&gt;</span><span class="cp"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-4"><code data-line-number="4"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-4" name="listingsthesisatm2povc-4"></a><span class="cp">#include</span> <span class="w"></span><span class="cpf">"atoms.h"</span><span class="cp"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-5"><code data-line-number="5"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-5" name="listingsthesisatm2povc-5"></a><span class="cp">#include</span> <span class="w"></span><span class="cpf">"header.h"</span><span class="cp"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-6"><code data-line-number="6"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-6" name="listingsthesisatm2povc-6"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-7"><code data-line-number="7"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-7" name="listingsthesisatm2povc-7"></a><span class="kt">int</span> <span class="w"></span><span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="w"></span><span class="n">argc</span><span class="p">,</span> <span class="w"></span><span class="kt">char</span><span class="o">**</span> <span class="w"></span><span class="n">argv</span><span class="p">)</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-8"><code data-line-number="8"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-8" name="listingsthesisatm2povc-8"></a><span class="p">{</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-9"><code data-line-number="9"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-9" name="listingsthesisatm2povc-9"></a> <span class="w"></span><span class="n">Headerinfo</span> <span class="w"></span><span class="n">tempheader</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-10"><code data-line-number="10"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-10" name="listingsthesisatm2povc-10"></a> <span class="w"></span><span class="n">Atom</span> <span class="w"></span><span class="n">tempatom</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-11"><code data-line-number="11"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-11" name="listingsthesisatm2povc-11"></a> <span class="w"></span><span class="kt">FILE</span><span class="o">*</span> <span class="w"></span><span class="n">file1</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-12"><code data-line-number="12"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-12" name="listingsthesisatm2povc-12"></a> <span class="w"></span><span class="kt">FILE</span><span class="o">*</span> <span class="w"></span><span class="n">file2</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-13"><code data-line-number="13"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-13" name="listingsthesisatm2povc-13"></a> <span class="w"></span><span class="kt">int</span> <span class="w"></span><span class="n">i</span><span class="p">,</span><span class="n">j</span><span class="p">,</span><span class="n">k</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-14"><code data-line-number="14"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-14" name="listingsthesisatm2povc-14"></a> <span class="w"></span><span class="kt">char</span> <span class="w"></span><span class="n">buffer</span><span class="p">[</span><span class="mi">255</span><span class="p">];</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-15"><code data-line-number="15"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-15" name="listingsthesisatm2povc-15"></a> <span class="w"></span><span class="kt">double</span> <span class="w"></span><span class="n">sizemul</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-16"><code data-line-number="16"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-16" name="listingsthesisatm2povc-16"></a> <span class="w"></span><span class="kt">double</span> <span class="w"></span><span class="n">cutoff</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-17"><code data-line-number="17"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-17" name="listingsthesisatm2povc-17"></a> <span class="w"></span><span class="kt">double</span> <span class="w"></span><span class="n">curX</span><span class="p">,</span> <span class="w"></span><span class="n">curY</span><span class="p">,</span> <span class="w"></span><span class="n">curZ</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-18"><code data-line-number="18"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-18" name="listingsthesisatm2povc-18"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-19"><code data-line-number="19"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-19" name="listingsthesisatm2povc-19"></a> <span class="w"></span><span class="k">if</span><span class="p">(</span><span class="n">argc</span> <span class="w"></span><span class="o">&lt;</span> <span class="w"></span><span class="mi">2</span><span class="p">)</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-20"><code data-line-number="20"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-20" name="listingsthesisatm2povc-20"></a> <span class="w"></span><span class="p">{</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-21"><code data-line-number="21"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-21" name="listingsthesisatm2povc-21"></a> <span class="w"></span><span class="n">printf</span><span class="p">(</span><span class="s">"no infile specified</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-22"><code data-line-number="22"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-22" name="listingsthesisatm2povc-22"></a> <span class="w"></span><span class="k">return</span> <span class="w"></span><span class="mi">0</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-23"><code data-line-number="23"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-23" name="listingsthesisatm2povc-23"></a> <span class="w"></span><span class="p">}</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-24"><code data-line-number="24"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-24" name="listingsthesisatm2povc-24"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-25"><code data-line-number="25"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-25" name="listingsthesisatm2povc-25"></a> <span class="w"></span><span class="k">for</span><span class="p">(</span><span class="n">k</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="w"></span><span class="n">k</span><span class="o">&lt;</span><span class="n">argc</span><span class="p">;</span> <span class="w"></span><span class="n">k</span><span class="o">++</span><span class="p">)</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-26"><code data-line-number="26"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-26" name="listingsthesisatm2povc-26"></a> <span class="w"></span><span class="p">{</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-27"><code data-line-number="27"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-27" name="listingsthesisatm2povc-27"></a> <span class="w"></span><span class="n">file1</span> <span class="w"></span><span class="o">=</span> <span class="w"></span><span class="n">fopen</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="n">k</span><span class="p">],</span> <span class="w"></span><span class="s">"rb"</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-28"><code data-line-number="28"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-28" name="listingsthesisatm2povc-28"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-29"><code data-line-number="29"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-29" name="listingsthesisatm2povc-29"></a> <span class="w"></span><span class="k">if</span><span class="p">(</span><span class="n">file1</span> <span class="w"></span><span class="o">==</span> <span class="w"></span><span class="nb">NULL</span><span class="p">)</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-30"><code data-line-number="30"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-30" name="listingsthesisatm2povc-30"></a> <span class="w"></span><span class="p">{</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-31"><code data-line-number="31"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-31" name="listingsthesisatm2povc-31"></a> <span class="w"></span><span class="n">printf</span><span class="p">(</span><span class="s">"failed to open infile %s for reading</span><span class="se">\n\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">argv</span><span class="p">[</span><span class="n">k</span><span class="p">]);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-32"><code data-line-number="32"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-32" name="listingsthesisatm2povc-32"></a> <span class="w"></span><span class="k">return</span> <span class="w"></span><span class="n">errno</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-33"><code data-line-number="33"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-33" name="listingsthesisatm2povc-33"></a> <span class="w"></span><span class="p">}</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-34"><code data-line-number="34"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-34" name="listingsthesisatm2povc-34"></a> <span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-35"><code data-line-number="35"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-35" name="listingsthesisatm2povc-35"></a> <span class="w"></span><span class="n">printf</span><span class="p">(</span><span class="s">"using infile %s</span><span class="se">\n\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">argv</span><span class="p">[</span><span class="n">k</span><span class="p">]);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-36"><code data-line-number="36"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-36" name="listingsthesisatm2povc-36"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-37"><code data-line-number="37"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-37" name="listingsthesisatm2povc-37"></a> <span class="w"></span><span class="n">j</span> <span class="w"></span><span class="o">=</span> <span class="w"></span><span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">fread</span><span class="p">(</span><span class="o">&</span><span class="n">tempheader</span><span class="p">,</span> <span class="w"></span><span class="k">sizeof</span><span class="p">(</span><span class="n">Headerinfo</span><span class="p">),</span> <span class="w"></span><span class="mi">1</span><span class="p">,</span> <span class="w"></span><span class="n">file1</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-38"><code data-line-number="38"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-38" name="listingsthesisatm2povc-38"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-39"><code data-line-number="39"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-39" name="listingsthesisatm2povc-39"></a> <span class="w"></span><span class="k">if</span><span class="p">(</span><span class="n">j</span> <span class="w"></span><span class="o">&lt;</span> <span class="w"></span><span class="mi">1</span><span class="p">)</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-40"><code data-line-number="40"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-40" name="listingsthesisatm2povc-40"></a> <span class="w"></span><span class="p">{</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-41"><code data-line-number="41"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-41" name="listingsthesisatm2povc-41"></a> <span class="w"></span><span class="n">printf</span><span class="p">(</span><span class="s">"error reading header from infile</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-42"><code data-line-number="42"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-42" name="listingsthesisatm2povc-42"></a> <span class="w"></span><span class="k">return</span> <span class="w"></span><span class="mi">0</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-43"><code data-line-number="43"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-43" name="listingsthesisatm2povc-43"></a> <span class="w"></span><span class="p">}</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-44"><code data-line-number="44"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-44" name="listingsthesisatm2povc-44"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-45"><code data-line-number="45"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-45" name="listingsthesisatm2povc-45"></a> <span class="w"></span><span class="n">sprintf</span><span class="p">(</span><span class="n">buffer</span><span class="p">,</span> <span class="w"></span><span class="s">"%s.pov"</span><span class="p">,</span> <span class="w"></span><span class="n">argv</span><span class="p">[</span><span class="n">k</span><span class="p">]);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-46"><code data-line-number="46"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-46" name="listingsthesisatm2povc-46"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-47"><code data-line-number="47"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-47" name="listingsthesisatm2povc-47"></a> <span class="w"></span><span class="n">file2</span> <span class="w"></span><span class="o">=</span> <span class="w"></span><span class="n">fopen</span><span class="p">(</span><span class="n">buffer</span><span class="p">,</span> <span class="w"></span><span class="s">"w"</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-48"><code data-line-number="48"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-48" name="listingsthesisatm2povc-48"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-49"><code data-line-number="49"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-49" name="listingsthesisatm2povc-49"></a> <span class="w"></span><span class="n">sizemul</span> <span class="w"></span><span class="o">=</span> <span class="w"></span><span class="n">max</span><span class="p">(</span><span class="n">tempheader</span><span class="p">.</span><span class="n">bigX</span><span class="p">,</span> <span class="w"></span><span class="n">max</span><span class="p">(</span><span class="n">tempheader</span><span class="p">.</span><span class="n">bigY</span><span class="p">,</span> <span class="w"></span><span class="n">tempheader</span><span class="p">.</span><span class="n">bigZ</span><span class="p">));</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-50"><code data-line-number="50"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-50" name="listingsthesisatm2povc-50"></a> <span class="w"></span><span class="k">if</span><span class="p">(</span><span class="n">sizemul</span> <span class="w"></span><span class="o">&lt;=</span> <span class="w"></span><span class="mf">0.0</span><span class="p">)</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-51"><code data-line-number="51"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-51" name="listingsthesisatm2povc-51"></a> <span class="w"></span><span class="p">{</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-52"><code data-line-number="52"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-52" name="listingsthesisatm2povc-52"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"crash HARD and die</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-53"><code data-line-number="53"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-53" name="listingsthesisatm2povc-53"></a> <span class="w"></span><span class="n">fclose</span><span class="p">(</span><span class="n">file2</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-54"><code data-line-number="54"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-54" name="listingsthesisatm2povc-54"></a> <span class="w"></span><span class="n">fclose</span><span class="p">(</span><span class="n">file1</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-55"><code data-line-number="55"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-55" name="listingsthesisatm2povc-55"></a> <span class="w"></span><span class="k">return</span> <span class="w"></span><span class="mi">5</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-56"><code data-line-number="56"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-56" name="listingsthesisatm2povc-56"></a> <span class="w"></span><span class="p">}</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-57"><code data-line-number="57"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-57" name="listingsthesisatm2povc-57"></a> <span class="w"></span><span class="n">sizemul</span> <span class="w"></span><span class="o">=</span> <span class="w"></span><span class="mi">1</span><span class="o">/</span><span class="n">sizemul</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-58"><code data-line-number="58"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-58" name="listingsthesisatm2povc-58"></a> <span class="w"></span><span class="n">cutoff</span> <span class="w"></span><span class="o">=</span> <span class="w"></span><span class="n">tempheader</span><span class="p">.</span><span class="n">mincutoff</span> <span class="w"></span><span class="o">*</span> <span class="w"></span><span class="n">sizemul</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-59"><code data-line-number="59"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-59" name="listingsthesisatm2povc-59"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-60"><code data-line-number="60"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-60" name="listingsthesisatm2povc-60"></a> <span class="w"></span><span class="n">curX</span> <span class="w"></span><span class="o">=</span> <span class="w"></span><span class="n">tempheader</span><span class="p">.</span><span class="n">bigX</span><span class="o">*</span><span class="n">sizemul</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-61"><code data-line-number="61"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-61" name="listingsthesisatm2povc-61"></a> <span class="w"></span><span class="n">curY</span> <span class="w"></span><span class="o">=</span> <span class="w"></span><span class="n">tempheader</span><span class="p">.</span><span class="n">bigY</span><span class="o">*</span><span class="n">sizemul</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-62"><code data-line-number="62"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-62" name="listingsthesisatm2povc-62"></a> <span class="w"></span><span class="n">curZ</span> <span class="w"></span><span class="o">=</span> <span class="w"></span><span class="n">tempheader</span><span class="p">.</span><span class="n">bigZ</span><span class="o">*</span><span class="n">sizemul</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-63"><code data-line-number="63"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-63" name="listingsthesisatm2povc-63"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-64"><code data-line-number="64"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-64" name="listingsthesisatm2povc-64"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"#include</span> <span class="se">\"</span><span class="s">colors.inc</span><span class="se">\"\n\n</span><span class="s">"</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-65"><code data-line-number="65"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-65" name="listingsthesisatm2povc-65"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"camera {</span><span class="se">\n\t</span><span class="s">location &lt;%f, %f, %f&gt;</span><span class="se">\n\t</span><span class="s">look_at &lt;%f, %f, %f&gt;</span><span class="se">\n</span><span class="s">}</span><span class="se">\n\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="mf">0.1</span><span class="o">+</span><span class="mf">0.5</span><span class="o">*</span><span class="n">curX</span><span class="p">,</span> <span class="w"></span><span class="mf">0.7</span><span class="o">+</span><span class="mf">0.5</span><span class="o">*</span><span class="n">curY</span><span class="p">,</span> <span class="w"></span><span class="o">-</span><span class="p">(</span><span class="mf">0.8</span><span class="o">+</span><span class="mf">0.5</span><span class="o">*</span><span class="n">curZ</span><span class="p">),</span> <span class="w"></span><span class="mf">0.5</span><span class="o">*</span><span class="n">curX</span><span class="p">,</span> <span class="w"></span><span class="mf">0.5</span><span class="o">*</span><span class="n">curY</span><span class="p">,</span> <span class="w"></span><span class="mf">0.5</span><span class="o">*</span><span class="n">curZ</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-66"><code data-line-number="66"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-66" name="listingsthesisatm2povc-66"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"light_source { &lt;10, 10, -10&gt;, White }</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-67"><code data-line-number="67"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-67" name="listingsthesisatm2povc-67"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"background { color Black }</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-68"><code data-line-number="68"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-68" name="listingsthesisatm2povc-68"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-69"><code data-line-number="69"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-69" name="listingsthesisatm2povc-69"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"cylinder { &lt;0.0, -0.025, -0.025&gt;, &lt;0.0, -0.025, -0.025&gt; + &lt;%f, 0.0, 0.0&gt;, 0.01 pigment { Green } }</span><span class="se">\n\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="mf">1.0E-9</span><span class="o">*</span><span class="n">sizemul</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-70"><code data-line-number="70"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-70" name="listingsthesisatm2povc-70"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"cylinder { &lt;0.0, -0.025, -0.025&gt;, &lt;0.0, -0.025, -0.025&gt; + &lt;%f, 0.0, 0.0&gt;, 0.011 pigment { GreenCopper } }</span><span class="se">\n\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="mf">1.0E-10</span><span class="o">*</span><span class="n">sizemul</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-71"><code data-line-number="71"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-71" name="listingsthesisatm2povc-71"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-72"><code data-line-number="72"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-72" name="listingsthesisatm2povc-72"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"cylinder { &lt;0.0, 0.0, 0.0&gt;, &lt;%f, 0.0, 0.0&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">curX</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-73"><code data-line-number="73"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-73" name="listingsthesisatm2povc-73"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"cylinder { &lt;0.0, 0.0, 0.0&gt;, &lt;0.0, %f, 0.0&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">curY</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-74"><code data-line-number="74"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-74" name="listingsthesisatm2povc-74"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"cylinder { &lt;0.0, 0.0, 0.0&gt;, &lt;0.0, 0.0, %f&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">curZ</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-75"><code data-line-number="75"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-75" name="listingsthesisatm2povc-75"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-76"><code data-line-number="76"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-76" name="listingsthesisatm2povc-76"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"cylinder { &lt;%f, 0.0, 0.0&gt;, &lt;%f, 0.0, %f&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">curX</span><span class="p">,</span> <span class="w"></span><span class="n">curX</span><span class="p">,</span> <span class="w"></span><span class="n">curZ</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-77"><code data-line-number="77"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-77" name="listingsthesisatm2povc-77"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"cylinder { &lt;%f, 0.0, 0.0&gt;, &lt;%f, %f, 0.0&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">curX</span><span class="p">,</span> <span class="w"></span><span class="n">curX</span><span class="p">,</span> <span class="w"></span><span class="n">curY</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-78"><code data-line-number="78"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-78" name="listingsthesisatm2povc-78"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-79"><code data-line-number="79"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-79" name="listingsthesisatm2povc-79"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"cylinder { &lt;0.0, %f, 0.0&gt;, &lt;0.0, %f, %f&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">curY</span><span class="p">,</span> <span class="w"></span><span class="n">curY</span><span class="p">,</span> <span class="w"></span><span class="n">curZ</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-80"><code data-line-number="80"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-80" name="listingsthesisatm2povc-80"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"cylinder { &lt;0.0, %f, 0.0&gt;, &lt;%f, %f, 0.0&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">curY</span><span class="p">,</span> <span class="w"></span><span class="n">curX</span><span class="p">,</span> <span class="w"></span><span class="n">curY</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-81"><code data-line-number="81"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-81" name="listingsthesisatm2povc-81"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-82"><code data-line-number="82"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-82" name="listingsthesisatm2povc-82"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"cylinder { &lt;0.0, 0.0, %f&gt;, &lt;%f, 0.0, %f&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">curZ</span><span class="p">,</span> <span class="w"></span><span class="n">curX</span><span class="p">,</span> <span class="w"></span><span class="n">curZ</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-83"><code data-line-number="83"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-83" name="listingsthesisatm2povc-83"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"cylinder { &lt;0.0, 0.0, %f&gt;, &lt;0.0, %f, %f&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">curZ</span><span class="p">,</span> <span class="w"></span><span class="n">curY</span><span class="p">,</span> <span class="w"></span><span class="n">curZ</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-84"><code data-line-number="84"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-84" name="listingsthesisatm2povc-84"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-85"><code data-line-number="85"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-85" name="listingsthesisatm2povc-85"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"cylinder { &lt;%f, %f, %f&gt;, &lt;0.0, %f, %f&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">curX</span><span class="p">,</span> <span class="w"></span><span class="n">curY</span><span class="p">,</span> <span class="w"></span><span class="n">curZ</span><span class="p">,</span> <span class="w"></span><span class="n">curY</span><span class="p">,</span> <span class="w"></span><span class="n">curZ</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-86"><code data-line-number="86"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-86" name="listingsthesisatm2povc-86"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"cylinder { &lt;%f, %f, %f&gt;, &lt;%f, 0.0, %f&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">curX</span><span class="p">,</span> <span class="w"></span><span class="n">curY</span><span class="p">,</span> <span class="w"></span><span class="n">curZ</span><span class="p">,</span> <span class="w"></span><span class="n">curX</span><span class="p">,</span> <span class="w"></span><span class="n">curZ</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-87"><code data-line-number="87"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-87" name="listingsthesisatm2povc-87"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"cylinder { &lt;%f, %f, %f&gt;, &lt;%f, %f, 0.0&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">curX</span><span class="p">,</span> <span class="w"></span><span class="n">curY</span><span class="p">,</span> <span class="w"></span><span class="n">curZ</span><span class="p">,</span> <span class="w"></span><span class="n">curX</span><span class="p">,</span> <span class="w"></span><span class="n">curY</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-88"><code data-line-number="88"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-88" name="listingsthesisatm2povc-88"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-89"><code data-line-number="89"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-89" name="listingsthesisatm2povc-89"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-90"><code data-line-number="90"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-90" name="listingsthesisatm2povc-90"></a> <span class="w"></span><span class="k">for</span><span class="p">(</span><span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="w"></span><span class="n">i</span><span class="o">&lt;</span> <span class="w"></span><span class="p">(</span><span class="k">sizeof</span><span class="p">(</span><span class="n">elements</span><span class="p">)</span><span class="o">/</span><span class="k">sizeof</span><span class="p">(</span><span class="n">elements</span><span class="p">[</span><span class="mi">0</span><span class="p">]));</span> <span class="w"></span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-91"><code data-line-number="91"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-91" name="listingsthesisatm2povc-91"></a> <span class="w"></span><span class="p">{</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-92"><code data-line-number="92"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-92" name="listingsthesisatm2povc-92"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"#macro %s(center)</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">elements</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">symbol</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-93"><code data-line-number="93"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-93" name="listingsthesisatm2povc-93"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"</span><span class="se">\t</span><span class="s">sphere { center, %f pigment { %s } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">elements</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">radius</span><span class="o">*</span><span class="n">sizemul</span><span class="p">,</span> <span class="w"></span><span class="n">elements</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">pigment</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-94"><code data-line-number="94"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-94" name="listingsthesisatm2povc-94"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"#end</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-95"><code data-line-number="95"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-95" name="listingsthesisatm2povc-95"></a> <span class="w"></span><span class="p">}</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-96"><code data-line-number="96"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-96" name="listingsthesisatm2povc-96"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-97"><code data-line-number="97"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-97" name="listingsthesisatm2povc-97"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-98"><code data-line-number="98"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-98" name="listingsthesisatm2povc-98"></a> <span class="w"></span><span class="k">for</span><span class="p">(</span><span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="w"></span><span class="n">i</span><span class="o">&lt;</span><span class="n">tempheader</span><span class="p">.</span><span class="n">numatoms</span><span class="p">;</span> <span class="w"></span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-99"><code data-line-number="99"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-99" name="listingsthesisatm2povc-99"></a> <span class="w"></span><span class="p">{</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-100"><code data-line-number="100"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-100" name="listingsthesisatm2povc-100"></a> <span class="w"></span><span class="n">j</span> <span class="w"></span><span class="o">=</span> <span class="w"></span><span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">fread</span><span class="p">(</span><span class="o">&</span><span class="n">tempatom</span><span class="p">,</span> <span class="w"></span><span class="k">sizeof</span><span class="p">(</span><span class="n">Atom</span><span class="p">),</span> <span class="w"></span><span class="mi">1</span><span class="p">,</span> <span class="w"></span><span class="n">file1</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-101"><code data-line-number="101"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-101" name="listingsthesisatm2povc-101"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-102"><code data-line-number="102"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-102" name="listingsthesisatm2povc-102"></a> <span class="w"></span><span class="k">if</span><span class="p">(</span><span class="n">j</span> <span class="w"></span><span class="o">&lt;</span> <span class="w"></span><span class="mi">1</span><span class="p">)</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-103"><code data-line-number="103"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-103" name="listingsthesisatm2povc-103"></a> <span class="w"></span><span class="p">{</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-104"><code data-line-number="104"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-104" name="listingsthesisatm2povc-104"></a> <span class="w"></span><span class="n">printf</span><span class="p">(</span><span class="s">"error reading atom %d from infile</span><span class="se">\n\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">i</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-105"><code data-line-number="105"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-105" name="listingsthesisatm2povc-105"></a> <span class="w"></span><span class="k">return</span> <span class="w"></span><span class="mi">3</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-106"><code data-line-number="106"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-106" name="listingsthesisatm2povc-106"></a> <span class="w"></span><span class="p">}</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-107"><code data-line-number="107"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-107" name="listingsthesisatm2povc-107"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-108"><code data-line-number="108"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-108" name="listingsthesisatm2povc-108"></a> <span class="w"></span><span class="n">curX</span> <span class="w"></span><span class="o">=</span> <span class="w"></span><span class="n">sizemul</span> <span class="w"></span><span class="o">*</span> <span class="w"></span><span class="n">tempatom</span><span class="p">.</span><span class="n">x</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-109"><code data-line-number="109"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-109" name="listingsthesisatm2povc-109"></a> <span class="w"></span><span class="n">curY</span> <span class="w"></span><span class="o">=</span> <span class="w"></span><span class="n">sizemul</span> <span class="w"></span><span class="o">*</span> <span class="w"></span><span class="n">tempatom</span><span class="p">.</span><span class="n">y</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-110"><code data-line-number="110"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-110" name="listingsthesisatm2povc-110"></a> <span class="w"></span><span class="n">curZ</span> <span class="w"></span><span class="o">=</span> <span class="w"></span><span class="n">sizemul</span> <span class="w"></span><span class="o">*</span> <span class="w"></span><span class="n">tempatom</span><span class="p">.</span><span class="n">z</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-111"><code data-line-number="111"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-111" name="listingsthesisatm2povc-111"></a> <span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-112"><code data-line-number="112"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-112" name="listingsthesisatm2povc-112"></a> <span class="w"></span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span> <span class="w"></span><span class="s">"%s( &lt;%f,%f,%f&gt; )</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="w"></span><span class="n">elements</span><span class="p">[</span><span class="n">tempatom</span><span class="p">.</span><span class="n">type</span><span class="p">].</span><span class="n">symbol</span><span class="p">,</span> <span class="w"></span><span class="n">curX</span><span class="p">,</span> <span class="w"></span><span class="n">curY</span><span class="p">,</span> <span class="w"></span><span class="n">curZ</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-113"><code data-line-number="113"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-113" name="listingsthesisatm2povc-113"></a> <span class="w"></span><span class="p">}</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-114"><code data-line-number="114"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-114" name="listingsthesisatm2povc-114"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-115"><code data-line-number="115"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-115" name="listingsthesisatm2povc-115"></a> <span class="w"></span><span class="n">fclose</span><span class="p">(</span><span class="n">file2</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-116"><code data-line-number="116"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-116" name="listingsthesisatm2povc-116"></a> <span class="w"></span><span class="n">fclose</span><span class="p">(</span><span class="n">file1</span><span class="p">);</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-117"><code data-line-number="117"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-117" name="listingsthesisatm2povc-117"></a> <span class="w"></span><span class="p">}</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-118"><code data-line-number="118"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-118" name="listingsthesisatm2povc-118"></a></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-119"><code data-line-number="119"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-119" name="listingsthesisatm2povc-119"></a> <span class="w"></span><span class="k">return</span> <span class="w"></span><span class="mi">1</span><span class="p">;</span><span class="w"></span></code></td>
+          </tr>
+          <tr>
+            <td class="linenos linenodiv">
+              <a href="#listingsthesisatm2povc-120"><code data-line-number="120"></code></a>
+            </td>
+            <td class="code"><code><a id="listingsthesisatm2povc-120" name="listingsthesisatm2povc-120"></a><span class="p">}</span><span class="w"></span></code></td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    <footer id="footer">
+      <p>Contents ©2004-2022 <a href="/about/about-person.html">George Leslie-Waksman</a> | Source: <img class="svg-icon" src="/icons/github.svg"><a href="https://github.com/gwax/www-gwax">GitHub</a> | Powered by <a href="https://getnikola.com">Nikola</a> | Styled with <a href="http://getskeleton.com">Skeleton</a> | <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img alt="Creative Commons License BY-SA" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" style="border:0;margin:0;"></a></p>
+    </footer>
+  </div>
+  <script src="/assets/js/baguetteBox.min.js"></script>
+  <script src="/assets/js/webfontloader.js"></script>
+  <script src="/assets/js/fancydates.js"></script>
+  <script src="/assets/js/theme.js"></script><!-- fancy dates -->
+  <script>
 
-                </ul>
-</li>
-            <li><a href="/about/about-person.html#contact">Contact</a></li>
-
-    
-
-    </nav><nav class="select"><select><option value="/projects.html">Projects</option>
-<optgroup label="Blog">
-<option value="/index.html">Posts</option>
-<option value="/archive.html">Archives</option>
-<option value="/categories/index.html">Tags &amp; Categories</option>
-<option value="/rss.xml">RSS feed</option>
-</optgroup>
-<optgroup label="About">
-<option value="/about/about-person.html">The person</option>
-<option value="/about/about-site.html">The site</option>
-</optgroup>
-<option value="/about/about-person.html#contact">Contact</option></select></nav><main id="content"><nav class="breadcrumbs"><ul class="breadcrumb">
-<li><a href="/listings/">listings</a></li>
-                <li><a href="/listings/thesis/">thesis</a></li>
-                <li>atm2pov.c</li>
-</ul></nav><h1>atm2pov.c
-            <small><a href="/listings/thesis/atm2pov.c">(Source)</a></small>
-        </h1>
-    <div class="code"><table class="codetable">
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-1"><code data-line-number="  1"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-1" name="listingsthesisatm2povc-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;errno.h&gt;</span><span class="cp"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-2"><code data-line-number="  2"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-2" name="listingsthesisatm2povc-2"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-3"><code data-line-number="  3"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-3" name="listingsthesisatm2povc-3"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdlib.h&gt;</span><span class="cp"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-4"><code data-line-number="  4"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-4" name="listingsthesisatm2povc-4"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">"atoms.h"</span><span class="cp"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-5"><code data-line-number="  5"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-5" name="listingsthesisatm2povc-5"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">"header.h"</span><span class="cp"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-6"><code data-line-number="  6"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-6" name="listingsthesisatm2povc-6"></a>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-7"><code data-line-number="  7"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-7" name="listingsthesisatm2povc-7"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">argc</span><span class="p">,</span><span class="w"> </span><span class="kt">char</span><span class="o">**</span><span class="w"> </span><span class="n">argv</span><span class="p">)</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-8"><code data-line-number="  8"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-8" name="listingsthesisatm2povc-8"></a><span class="p">{</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-9"><code data-line-number="  9"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-9" name="listingsthesisatm2povc-9"></a><span class="w">	</span><span class="n">Headerinfo</span><span class="w"> </span><span class="n">tempheader</span><span class="p">;</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-10"><code data-line-number=" 10"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-10" name="listingsthesisatm2povc-10"></a><span class="w">	</span><span class="n">Atom</span><span class="w"> </span><span class="n">tempatom</span><span class="p">;</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-11"><code data-line-number=" 11"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-11" name="listingsthesisatm2povc-11"></a><span class="w">	</span><span class="kt">FILE</span><span class="o">*</span><span class="w"> </span><span class="n">file1</span><span class="p">;</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-12"><code data-line-number=" 12"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-12" name="listingsthesisatm2povc-12"></a><span class="w">	</span><span class="kt">FILE</span><span class="o">*</span><span class="w"> </span><span class="n">file2</span><span class="p">;</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-13"><code data-line-number=" 13"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-13" name="listingsthesisatm2povc-13"></a><span class="w">	</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="p">,</span><span class="n">j</span><span class="p">,</span><span class="n">k</span><span class="p">;</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-14"><code data-line-number=" 14"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-14" name="listingsthesisatm2povc-14"></a><span class="w">	</span><span class="kt">char</span><span class="w"> </span><span class="n">buffer</span><span class="p">[</span><span class="mi">255</span><span class="p">];</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-15"><code data-line-number=" 15"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-15" name="listingsthesisatm2povc-15"></a><span class="w">	</span><span class="kt">double</span><span class="w"> </span><span class="n">sizemul</span><span class="p">;</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-16"><code data-line-number=" 16"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-16" name="listingsthesisatm2povc-16"></a><span class="w">	</span><span class="kt">double</span><span class="w"> </span><span class="n">cutoff</span><span class="p">;</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-17"><code data-line-number=" 17"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-17" name="listingsthesisatm2povc-17"></a><span class="w">	</span><span class="kt">double</span><span class="w"> </span><span class="n">curX</span><span class="p">,</span><span class="w"> </span><span class="n">curY</span><span class="p">,</span><span class="w"> </span><span class="n">curZ</span><span class="p">;</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-18"><code data-line-number=" 18"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-18" name="listingsthesisatm2povc-18"></a>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-19"><code data-line-number=" 19"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-19" name="listingsthesisatm2povc-19"></a><span class="w">	</span><span class="k">if</span><span class="p">(</span><span class="n">argc</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-20"><code data-line-number=" 20"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-20" name="listingsthesisatm2povc-20"></a><span class="w">	</span><span class="p">{</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-21"><code data-line-number=" 21"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-21" name="listingsthesisatm2povc-21"></a><span class="w">		</span><span class="n">printf</span><span class="p">(</span><span class="s">"no infile specified</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-22"><code data-line-number=" 22"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-22" name="listingsthesisatm2povc-22"></a><span class="w">		</span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-23"><code data-line-number=" 23"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-23" name="listingsthesisatm2povc-23"></a><span class="w">	</span><span class="p">}</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-24"><code data-line-number=" 24"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-24" name="listingsthesisatm2povc-24"></a>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-25"><code data-line-number=" 25"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-25" name="listingsthesisatm2povc-25"></a><span class="w">	</span><span class="k">for</span><span class="p">(</span><span class="n">k</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="n">k</span><span class="o">&lt;</span><span class="n">argc</span><span class="p">;</span><span class="w"> </span><span class="n">k</span><span class="o">++</span><span class="p">)</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-26"><code data-line-number=" 26"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-26" name="listingsthesisatm2povc-26"></a><span class="w">	</span><span class="p">{</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-27"><code data-line-number=" 27"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-27" name="listingsthesisatm2povc-27"></a><span class="w">		</span><span class="n">file1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">fopen</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="n">k</span><span class="p">],</span><span class="w"> </span><span class="s">"rb"</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-28"><code data-line-number=" 28"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-28" name="listingsthesisatm2povc-28"></a>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-29"><code data-line-number=" 29"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-29" name="listingsthesisatm2povc-29"></a><span class="w">		</span><span class="k">if</span><span class="p">(</span><span class="n">file1</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nb">NULL</span><span class="p">)</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-30"><code data-line-number=" 30"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-30" name="listingsthesisatm2povc-30"></a><span class="w">		</span><span class="p">{</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-31"><code data-line-number=" 31"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-31" name="listingsthesisatm2povc-31"></a><span class="w">			</span><span class="n">printf</span><span class="p">(</span><span class="s">"failed to open infile %s for reading</span><span class="se">\n\n</span><span class="s">"</span><span class="p">,</span><span class="w"> </span><span class="n">argv</span><span class="p">[</span><span class="n">k</span><span class="p">]);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-32"><code data-line-number=" 32"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-32" name="listingsthesisatm2povc-32"></a><span class="w">			</span><span class="k">return</span><span class="w"> </span><span class="n">errno</span><span class="p">;</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-33"><code data-line-number=" 33"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-33" name="listingsthesisatm2povc-33"></a><span class="w">		</span><span class="p">}</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-34"><code data-line-number=" 34"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-34" name="listingsthesisatm2povc-34"></a><span class="w">		</span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-35"><code data-line-number=" 35"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-35" name="listingsthesisatm2povc-35"></a><span class="w">		</span><span class="n">printf</span><span class="p">(</span><span class="s">"using infile %s</span><span class="se">\n\n</span><span class="s">"</span><span class="p">,</span><span class="w"> </span><span class="n">argv</span><span class="p">[</span><span class="n">k</span><span class="p">]);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-36"><code data-line-number=" 36"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-36" name="listingsthesisatm2povc-36"></a>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-37"><code data-line-number=" 37"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-37" name="listingsthesisatm2povc-37"></a><span class="w">		</span><span class="n">j</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">fread</span><span class="p">(</span><span class="o">&amp;</span><span class="n">tempheader</span><span class="p">,</span><span class="w"> </span><span class="k">sizeof</span><span class="p">(</span><span class="n">Headerinfo</span><span class="p">),</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="n">file1</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-38"><code data-line-number=" 38"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-38" name="listingsthesisatm2povc-38"></a>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-39"><code data-line-number=" 39"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-39" name="listingsthesisatm2povc-39"></a><span class="w">		</span><span class="k">if</span><span class="p">(</span><span class="n">j</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-40"><code data-line-number=" 40"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-40" name="listingsthesisatm2povc-40"></a><span class="w">		</span><span class="p">{</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-41"><code data-line-number=" 41"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-41" name="listingsthesisatm2povc-41"></a><span class="w">			</span><span class="n">printf</span><span class="p">(</span><span class="s">"error reading header from infile</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-42"><code data-line-number=" 42"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-42" name="listingsthesisatm2povc-42"></a><span class="w">			</span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-43"><code data-line-number=" 43"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-43" name="listingsthesisatm2povc-43"></a><span class="w">		</span><span class="p">}</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-44"><code data-line-number=" 44"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-44" name="listingsthesisatm2povc-44"></a>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-45"><code data-line-number=" 45"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-45" name="listingsthesisatm2povc-45"></a><span class="w">		</span><span class="n">sprintf</span><span class="p">(</span><span class="n">buffer</span><span class="p">,</span><span class="w"> </span><span class="s">"%s.pov"</span><span class="p">,</span><span class="w"> </span><span class="n">argv</span><span class="p">[</span><span class="n">k</span><span class="p">]);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-46"><code data-line-number=" 46"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-46" name="listingsthesisatm2povc-46"></a>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-47"><code data-line-number=" 47"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-47" name="listingsthesisatm2povc-47"></a><span class="w">		</span><span class="n">file2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">fopen</span><span class="p">(</span><span class="n">buffer</span><span class="p">,</span><span class="w"> </span><span class="s">"w"</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-48"><code data-line-number=" 48"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-48" name="listingsthesisatm2povc-48"></a>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-49"><code data-line-number=" 49"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-49" name="listingsthesisatm2povc-49"></a><span class="w">		</span><span class="n">sizemul</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">max</span><span class="p">(</span><span class="n">tempheader</span><span class="p">.</span><span class="n">bigX</span><span class="p">,</span><span class="w"> </span><span class="n">max</span><span class="p">(</span><span class="n">tempheader</span><span class="p">.</span><span class="n">bigY</span><span class="p">,</span><span class="w"> </span><span class="n">tempheader</span><span class="p">.</span><span class="n">bigZ</span><span class="p">));</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-50"><code data-line-number=" 50"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-50" name="listingsthesisatm2povc-50"></a><span class="w">		</span><span class="k">if</span><span class="p">(</span><span class="n">sizemul</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="mf">0.0</span><span class="p">)</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-51"><code data-line-number=" 51"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-51" name="listingsthesisatm2povc-51"></a><span class="w">		</span><span class="p">{</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-52"><code data-line-number=" 52"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-52" name="listingsthesisatm2povc-52"></a><span class="w">			</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"crash HARD and die</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-53"><code data-line-number=" 53"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-53" name="listingsthesisatm2povc-53"></a><span class="w">			</span><span class="n">fclose</span><span class="p">(</span><span class="n">file2</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-54"><code data-line-number=" 54"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-54" name="listingsthesisatm2povc-54"></a><span class="w">			</span><span class="n">fclose</span><span class="p">(</span><span class="n">file1</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-55"><code data-line-number=" 55"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-55" name="listingsthesisatm2povc-55"></a><span class="w">			</span><span class="k">return</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-56"><code data-line-number=" 56"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-56" name="listingsthesisatm2povc-56"></a><span class="w">		</span><span class="p">}</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-57"><code data-line-number=" 57"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-57" name="listingsthesisatm2povc-57"></a><span class="w">		</span><span class="n">sizemul</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="o">/</span><span class="n">sizemul</span><span class="p">;</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-58"><code data-line-number=" 58"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-58" name="listingsthesisatm2povc-58"></a><span class="w">		</span><span class="n">cutoff</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">tempheader</span><span class="p">.</span><span class="n">mincutoff</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">sizemul</span><span class="p">;</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-59"><code data-line-number=" 59"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-59" name="listingsthesisatm2povc-59"></a>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-60"><code data-line-number=" 60"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-60" name="listingsthesisatm2povc-60"></a><span class="w">		</span><span class="n">curX</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">tempheader</span><span class="p">.</span><span class="n">bigX</span><span class="o">*</span><span class="n">sizemul</span><span class="p">;</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-61"><code data-line-number=" 61"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-61" name="listingsthesisatm2povc-61"></a><span class="w">		</span><span class="n">curY</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">tempheader</span><span class="p">.</span><span class="n">bigY</span><span class="o">*</span><span class="n">sizemul</span><span class="p">;</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-62"><code data-line-number=" 62"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-62" name="listingsthesisatm2povc-62"></a><span class="w">		</span><span class="n">curZ</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">tempheader</span><span class="p">.</span><span class="n">bigZ</span><span class="o">*</span><span class="n">sizemul</span><span class="p">;</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-63"><code data-line-number=" 63"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-63" name="listingsthesisatm2povc-63"></a>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-64"><code data-line-number=" 64"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-64" name="listingsthesisatm2povc-64"></a><span class="w">		</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"#include </span><span class="se">\"</span><span class="s">colors.inc</span><span class="se">\"\n\n</span><span class="s">"</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-65"><code data-line-number=" 65"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-65" name="listingsthesisatm2povc-65"></a><span class="w">		</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"camera {</span><span class="se">\n\t</span><span class="s">location &lt;%f, %f, %f&gt;</span><span class="se">\n\t</span><span class="s">look_at &lt;%f, %f, %f&gt;</span><span class="se">\n</span><span class="s">}</span><span class="se">\n\n</span><span class="s">"</span><span class="p">,</span><span class="w"> </span><span class="mf">0.1</span><span class="o">+</span><span class="mf">0.5</span><span class="o">*</span><span class="n">curX</span><span class="p">,</span><span class="w"> </span><span class="mf">0.7</span><span class="o">+</span><span class="mf">0.5</span><span class="o">*</span><span class="n">curY</span><span class="p">,</span><span class="w"> </span><span class="o">-</span><span class="p">(</span><span class="mf">0.8</span><span class="o">+</span><span class="mf">0.5</span><span class="o">*</span><span class="n">curZ</span><span class="p">),</span><span class="w"> </span><span class="mf">0.5</span><span class="o">*</span><span class="n">curX</span><span class="p">,</span><span class="w"> </span><span class="mf">0.5</span><span class="o">*</span><span class="n">curY</span><span class="p">,</span><span class="w"> </span><span class="mf">0.5</span><span class="o">*</span><span class="n">curZ</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-66"><code data-line-number=" 66"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-66" name="listingsthesisatm2povc-66"></a><span class="w">		</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"light_source { &lt;10, 10, -10&gt;, White }</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-67"><code data-line-number=" 67"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-67" name="listingsthesisatm2povc-67"></a><span class="w">		</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"background { color Black }</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-68"><code data-line-number=" 68"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-68" name="listingsthesisatm2povc-68"></a>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-69"><code data-line-number=" 69"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-69" name="listingsthesisatm2povc-69"></a><span class="w">		</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"cylinder { &lt;0.0, -0.025, -0.025&gt;, &lt;0.0, -0.025, -0.025&gt; + &lt;%f, 0.0, 0.0&gt;, 0.01 pigment { Green } }</span><span class="se">\n\n</span><span class="s">"</span><span class="p">,</span><span class="w"> </span><span class="mf">1.0E-9</span><span class="o">*</span><span class="n">sizemul</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-70"><code data-line-number=" 70"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-70" name="listingsthesisatm2povc-70"></a><span class="w">		</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"cylinder { &lt;0.0, -0.025, -0.025&gt;, &lt;0.0, -0.025, -0.025&gt; + &lt;%f, 0.0, 0.0&gt;, 0.011 pigment { GreenCopper } }</span><span class="se">\n\n</span><span class="s">"</span><span class="p">,</span><span class="w"> </span><span class="mf">1.0E-10</span><span class="o">*</span><span class="n">sizemul</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-71"><code data-line-number=" 71"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-71" name="listingsthesisatm2povc-71"></a>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-72"><code data-line-number=" 72"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-72" name="listingsthesisatm2povc-72"></a><span class="w">		</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"cylinder { &lt;0.0, 0.0, 0.0&gt;, &lt;%f, 0.0, 0.0&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="w"> </span><span class="n">curX</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-73"><code data-line-number=" 73"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-73" name="listingsthesisatm2povc-73"></a><span class="w">		</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"cylinder { &lt;0.0, 0.0, 0.0&gt;, &lt;0.0, %f, 0.0&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="w"> </span><span class="n">curY</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-74"><code data-line-number=" 74"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-74" name="listingsthesisatm2povc-74"></a><span class="w">		</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"cylinder { &lt;0.0, 0.0, 0.0&gt;, &lt;0.0, 0.0, %f&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="w"> </span><span class="n">curZ</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-75"><code data-line-number=" 75"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-75" name="listingsthesisatm2povc-75"></a>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-76"><code data-line-number=" 76"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-76" name="listingsthesisatm2povc-76"></a><span class="w">		</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"cylinder { &lt;%f, 0.0, 0.0&gt;, &lt;%f, 0.0, %f&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="w"> </span><span class="n">curX</span><span class="p">,</span><span class="w"> </span><span class="n">curX</span><span class="p">,</span><span class="w"> </span><span class="n">curZ</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-77"><code data-line-number=" 77"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-77" name="listingsthesisatm2povc-77"></a><span class="w">		</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"cylinder { &lt;%f, 0.0, 0.0&gt;, &lt;%f, %f, 0.0&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="w"> </span><span class="n">curX</span><span class="p">,</span><span class="w"> </span><span class="n">curX</span><span class="p">,</span><span class="w"> </span><span class="n">curY</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-78"><code data-line-number=" 78"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-78" name="listingsthesisatm2povc-78"></a>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-79"><code data-line-number=" 79"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-79" name="listingsthesisatm2povc-79"></a><span class="w">		</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"cylinder { &lt;0.0, %f, 0.0&gt;, &lt;0.0, %f, %f&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="w"> </span><span class="n">curY</span><span class="p">,</span><span class="w"> </span><span class="n">curY</span><span class="p">,</span><span class="w"> </span><span class="n">curZ</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-80"><code data-line-number=" 80"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-80" name="listingsthesisatm2povc-80"></a><span class="w">		</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"cylinder { &lt;0.0, %f, 0.0&gt;, &lt;%f, %f, 0.0&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="w"> </span><span class="n">curY</span><span class="p">,</span><span class="w"> </span><span class="n">curX</span><span class="p">,</span><span class="w"> </span><span class="n">curY</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-81"><code data-line-number=" 81"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-81" name="listingsthesisatm2povc-81"></a>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-82"><code data-line-number=" 82"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-82" name="listingsthesisatm2povc-82"></a><span class="w">		</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"cylinder { &lt;0.0, 0.0, %f&gt;, &lt;%f, 0.0, %f&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="w"> </span><span class="n">curZ</span><span class="p">,</span><span class="w"> </span><span class="n">curX</span><span class="p">,</span><span class="w"> </span><span class="n">curZ</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-83"><code data-line-number=" 83"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-83" name="listingsthesisatm2povc-83"></a><span class="w">		</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"cylinder { &lt;0.0, 0.0, %f&gt;, &lt;0.0, %f, %f&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="w"> </span><span class="n">curZ</span><span class="p">,</span><span class="w"> </span><span class="n">curY</span><span class="p">,</span><span class="w"> </span><span class="n">curZ</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-84"><code data-line-number=" 84"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-84" name="listingsthesisatm2povc-84"></a>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-85"><code data-line-number=" 85"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-85" name="listingsthesisatm2povc-85"></a><span class="w">		</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"cylinder { &lt;%f, %f, %f&gt;, &lt;0.0, %f, %f&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="w"> </span><span class="n">curX</span><span class="p">,</span><span class="w"> </span><span class="n">curY</span><span class="p">,</span><span class="w"> </span><span class="n">curZ</span><span class="p">,</span><span class="w"> </span><span class="n">curY</span><span class="p">,</span><span class="w"> </span><span class="n">curZ</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-86"><code data-line-number=" 86"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-86" name="listingsthesisatm2povc-86"></a><span class="w">		</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"cylinder { &lt;%f, %f, %f&gt;, &lt;%f, 0.0, %f&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="w"> </span><span class="n">curX</span><span class="p">,</span><span class="w"> </span><span class="n">curY</span><span class="p">,</span><span class="w"> </span><span class="n">curZ</span><span class="p">,</span><span class="w"> </span><span class="n">curX</span><span class="p">,</span><span class="w"> </span><span class="n">curZ</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-87"><code data-line-number=" 87"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-87" name="listingsthesisatm2povc-87"></a><span class="w">		</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"cylinder { &lt;%f, %f, %f&gt;, &lt;%f, %f, 0.0&gt;, 0.002 pigment { Red } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="w"> </span><span class="n">curX</span><span class="p">,</span><span class="w"> </span><span class="n">curY</span><span class="p">,</span><span class="w"> </span><span class="n">curZ</span><span class="p">,</span><span class="w"> </span><span class="n">curX</span><span class="p">,</span><span class="w"> </span><span class="n">curY</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-88"><code data-line-number=" 88"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-88" name="listingsthesisatm2povc-88"></a><span class="w">		</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"</span><span class="se">\n\n</span><span class="s">"</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-89"><code data-line-number=" 89"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-89" name="listingsthesisatm2povc-89"></a>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-90"><code data-line-number=" 90"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-90" name="listingsthesisatm2povc-90"></a><span class="w">		</span><span class="k">for</span><span class="p">(</span><span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">&lt;</span><span class="w"> </span><span class="p">(</span><span class="k">sizeof</span><span class="p">(</span><span class="n">elements</span><span class="p">)</span><span class="o">/</span><span class="k">sizeof</span><span class="p">(</span><span class="n">elements</span><span class="p">[</span><span class="mi">0</span><span class="p">]));</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-91"><code data-line-number=" 91"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-91" name="listingsthesisatm2povc-91"></a><span class="w">		</span><span class="p">{</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-92"><code data-line-number=" 92"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-92" name="listingsthesisatm2povc-92"></a><span class="w">			</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"#macro %s(center)</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="w"> </span><span class="n">elements</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">symbol</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-93"><code data-line-number=" 93"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-93" name="listingsthesisatm2povc-93"></a><span class="w">			</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"</span><span class="se">\t</span><span class="s">sphere { center, %f pigment { %s } }</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="w"> </span><span class="n">elements</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">radius</span><span class="o">*</span><span class="n">sizemul</span><span class="p">,</span><span class="w"> </span><span class="n">elements</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">pigment</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-94"><code data-line-number=" 94"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-94" name="listingsthesisatm2povc-94"></a><span class="w">			</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"#end</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-95"><code data-line-number=" 95"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-95" name="listingsthesisatm2povc-95"></a><span class="w">		</span><span class="p">}</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-96"><code data-line-number=" 96"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-96" name="listingsthesisatm2povc-96"></a><span class="w">		</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-97"><code data-line-number=" 97"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-97" name="listingsthesisatm2povc-97"></a>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-98"><code data-line-number=" 98"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-98" name="listingsthesisatm2povc-98"></a><span class="w">		</span><span class="k">for</span><span class="p">(</span><span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">&lt;</span><span class="n">tempheader</span><span class="p">.</span><span class="n">numatoms</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-99"><code data-line-number=" 99"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-99" name="listingsthesisatm2povc-99"></a><span class="w">		</span><span class="p">{</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-100"><code data-line-number="100"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-100" name="listingsthesisatm2povc-100"></a><span class="w">			</span><span class="n">j</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">fread</span><span class="p">(</span><span class="o">&amp;</span><span class="n">tempatom</span><span class="p">,</span><span class="w"> </span><span class="k">sizeof</span><span class="p">(</span><span class="n">Atom</span><span class="p">),</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="n">file1</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-101"><code data-line-number="101"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-101" name="listingsthesisatm2povc-101"></a>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-102"><code data-line-number="102"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-102" name="listingsthesisatm2povc-102"></a><span class="w">			</span><span class="k">if</span><span class="p">(</span><span class="n">j</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-103"><code data-line-number="103"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-103" name="listingsthesisatm2povc-103"></a><span class="w">			</span><span class="p">{</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-104"><code data-line-number="104"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-104" name="listingsthesisatm2povc-104"></a><span class="w">				</span><span class="n">printf</span><span class="p">(</span><span class="s">"error reading atom %d from infile</span><span class="se">\n\n</span><span class="s">"</span><span class="p">,</span><span class="w"> </span><span class="n">i</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-105"><code data-line-number="105"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-105" name="listingsthesisatm2povc-105"></a><span class="w">				</span><span class="k">return</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-106"><code data-line-number="106"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-106" name="listingsthesisatm2povc-106"></a><span class="w">			</span><span class="p">}</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-107"><code data-line-number="107"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-107" name="listingsthesisatm2povc-107"></a>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-108"><code data-line-number="108"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-108" name="listingsthesisatm2povc-108"></a><span class="w">			</span><span class="n">curX</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sizemul</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">tempatom</span><span class="p">.</span><span class="n">x</span><span class="p">;</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-109"><code data-line-number="109"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-109" name="listingsthesisatm2povc-109"></a><span class="w">			</span><span class="n">curY</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sizemul</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">tempatom</span><span class="p">.</span><span class="n">y</span><span class="p">;</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-110"><code data-line-number="110"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-110" name="listingsthesisatm2povc-110"></a><span class="w">			</span><span class="n">curZ</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sizemul</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">tempatom</span><span class="p">.</span><span class="n">z</span><span class="p">;</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-111"><code data-line-number="111"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-111" name="listingsthesisatm2povc-111"></a><span class="w">			</span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-112"><code data-line-number="112"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-112" name="listingsthesisatm2povc-112"></a><span class="w">			</span><span class="n">fprintf</span><span class="p">(</span><span class="n">file2</span><span class="p">,</span><span class="w"> </span><span class="s">"%s( &lt;%f,%f,%f&gt; )</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span><span class="w"> </span><span class="n">elements</span><span class="p">[</span><span class="n">tempatom</span><span class="p">.</span><span class="n">type</span><span class="p">].</span><span class="n">symbol</span><span class="p">,</span><span class="w"> </span><span class="n">curX</span><span class="p">,</span><span class="w"> </span><span class="n">curY</span><span class="p">,</span><span class="w"> </span><span class="n">curZ</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-113"><code data-line-number="113"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-113" name="listingsthesisatm2povc-113"></a><span class="w">		</span><span class="p">}</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-114"><code data-line-number="114"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-114" name="listingsthesisatm2povc-114"></a>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-115"><code data-line-number="115"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-115" name="listingsthesisatm2povc-115"></a><span class="w">		</span><span class="n">fclose</span><span class="p">(</span><span class="n">file2</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-116"><code data-line-number="116"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-116" name="listingsthesisatm2povc-116"></a><span class="w">		</span><span class="n">fclose</span><span class="p">(</span><span class="n">file1</span><span class="p">);</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-117"><code data-line-number="117"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-117" name="listingsthesisatm2povc-117"></a><span class="w">	</span><span class="p">}</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-118"><code data-line-number="118"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-118" name="listingsthesisatm2povc-118"></a>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-119"><code data-line-number="119"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-119" name="listingsthesisatm2povc-119"></a><span class="w">	</span><span class="k">return</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"></span>
-</code></td>
-</tr>
-<tr>
-<td class="linenos linenodiv"><a href="#listingsthesisatm2povc-120"><code data-line-number="120"></code></a></td>
-<td class="code"><code><a id="listingsthesisatm2povc-120" name="listingsthesisatm2povc-120"></a><span class="p">}</span><span class="w"></span>
-</code></td>
-</tr>
-</table></div>
-
-         </main><footer id="footer"><p>
-    Contents ©2004-2022 <a href="/about/about-person.html">George Leslie-Waksman</a>
-    | Source:
-        <img src="/icons/github.svg" class="svg-icon"><a href="https://github.com/gwax/www-gwax">GitHub</a>
-    | Powered by <a href="https://getnikola.com">Nikola</a>
-    | Styled with <a href="http://getskeleton.com">Skeleton</a>
-    | 
-<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
-    <img src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" alt="Creative Commons License BY-SA" style="border:0;margin:0;"></a>
-
-</p>
-            
-        </footer>
-</div>
-    
-            <script src="/assets/js/baguetteBox.min.js"></script><script src="/assets/js/webfontloader.js"></script><script src="/assets/js/fancydates.js"></script><script src="/assets/js/theme.js"></script><!-- fancy dates --><script>
     fancydates(1);
-    </script><!-- end fancy dates --><script>
+  </script><!-- end fancy dates -->
+  <script>
+
     baguetteBox.run('div#content', {
         ignoreClass: 'islink',
         captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
@@ -703,6 +856,6 @@
             families: ['IBM Plex Mono', 'Raleway', 'Pacifico']
         }
     });
-    </script>
+  </script>
 </body>
 </html>

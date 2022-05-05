@@ -1,5 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="/assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gwax (Posts about nikola)</title><link>https://gwax.com/</link><description></description><atom:link href="https://gwax.com/categories/nikola.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents &amp;copy;2005-2022 &lt;a href="link://slug/about-person"&gt;George Leslie-Waksman&lt;/a&gt; 
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>gwax (Posts about nikola)</title>
+    <link>https://gwax.com/</link>
+    <description/>
+    <atom:link href="https://gwax.com/categories/nikola.xml" rel="self" type="application/rss+xml"/>
+    <language>en</language>
+    <copyright>Contents &amp;copy;2005-2022 &lt;a href="link://slug/about-person"&gt;George Leslie-Waksman&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;
     &lt;img
         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
@@ -7,28 +14,44 @@
         style="border:0;margin:0;"
     /&gt;
 &lt;/a&gt;
-</copyright><lastBuildDate>Wed, 04 May 2022 08:42:56 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Fixing Nikola Footnote Locations</title><link>https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html</link><dc:creator>George Leslie-Waksman</dc:creator><description>&lt;p&gt;Personally, I prefer to intersperse my footnote declarations with the text
+</copyright>
+    <lastBuildDate>Thu, 05 May 2022 06:45:21 GMT</lastBuildDate>
+    <generator>Nikola (getnikola.com)</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Fixing Nikola Footnote Locations</title>
+      <link>https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html</link>
+      <dc:creator>George Leslie-Waksman</dc:creator>
+      <description>&lt;p&gt;Personally, I prefer to intersperse my footnote declarations with the text
 that is being footnoted when writing my. For example:&lt;a class="footnote-reference brackets" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#footnote-1" id="footnote-reference-1" role="doc-noteref"&gt;&lt;span class="fn-bracket"&gt;[&lt;/span&gt;1&lt;span class="fn-bracket"&gt;]&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;aside class="footnote brackets" id="footnote-1" role="note"&gt;
 &lt;span class="label"&gt;&lt;span class="fn-bracket"&gt;[&lt;/span&gt;&lt;a role="doc-backlink" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#footnote-reference-1"&gt;1&lt;/a&gt;&lt;span class="fn-bracket"&gt;]&lt;/span&gt;&lt;/span&gt;
 &lt;p&gt;This is just an example.&lt;/p&gt;
 &lt;/aside&gt;
-&lt;div class="code"&gt;&lt;pre class="code ReST"&gt;&lt;a id="rest_code_7cc87ece8cd9408d911f55be237c0409-1" name="rest_code_7cc87ece8cd9408d911f55be237c0409-1" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_7cc87ece8cd9408d911f55be237c0409-1"&gt;&lt;/a&gt;I might want to write something&lt;span class="s"&gt;[#]_&lt;/span&gt; where there's a footnote there.
-&lt;a id="rest_code_7cc87ece8cd9408d911f55be237c0409-2" name="rest_code_7cc87ece8cd9408d911f55be237c0409-2" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_7cc87ece8cd9408d911f55be237c0409-2"&gt;&lt;/a&gt;
-&lt;a id="rest_code_7cc87ece8cd9408d911f55be237c0409-3" name="rest_code_7cc87ece8cd9408d911f55be237c0409-3" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_7cc87ece8cd9408d911f55be237c0409-3"&gt;&lt;/a&gt;&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="nt"&gt;[#]&lt;/span&gt; I put the footnote definition here.
-&lt;a id="rest_code_7cc87ece8cd9408d911f55be237c0409-4" name="rest_code_7cc87ece8cd9408d911f55be237c0409-4" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_7cc87ece8cd9408d911f55be237c0409-4"&gt;&lt;/a&gt;
-&lt;a id="rest_code_7cc87ece8cd9408d911f55be237c0409-5" name="rest_code_7cc87ece8cd9408d911f55be237c0409-5" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_7cc87ece8cd9408d911f55be237c0409-5"&gt;&lt;/a&gt;And then I continue on with the rest of my writing.
+&lt;div class="code"&gt;&lt;pre class="code ReST"&gt;&lt;a id="rest_code_32f8ae7336694d349917ca5685a06dc2-1" name="rest_code_32f8ae7336694d349917ca5685a06dc2-1" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_32f8ae7336694d349917ca5685a06dc2-1"&gt;&lt;/a&gt;I might want to write something&lt;span class="s"&gt;[#]_&lt;/span&gt; where there's a footnote there.
+&lt;a id="rest_code_32f8ae7336694d349917ca5685a06dc2-2" name="rest_code_32f8ae7336694d349917ca5685a06dc2-2" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_32f8ae7336694d349917ca5685a06dc2-2"&gt;&lt;/a&gt;
+&lt;a id="rest_code_32f8ae7336694d349917ca5685a06dc2-3" name="rest_code_32f8ae7336694d349917ca5685a06dc2-3" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_32f8ae7336694d349917ca5685a06dc2-3"&gt;&lt;/a&gt;&lt;span class="p"&gt;..&lt;/span&gt; &lt;span class="nt"&gt;[#]&lt;/span&gt; I put the footnote definition here.
+&lt;a id="rest_code_32f8ae7336694d349917ca5685a06dc2-4" name="rest_code_32f8ae7336694d349917ca5685a06dc2-4" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_32f8ae7336694d349917ca5685a06dc2-4"&gt;&lt;/a&gt;
+&lt;a id="rest_code_32f8ae7336694d349917ca5685a06dc2-5" name="rest_code_32f8ae7336694d349917ca5685a06dc2-5" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_32f8ae7336694d349917ca5685a06dc2-5"&gt;&lt;/a&gt;And then I continue on with the rest of my writing.
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Wherever they are declared, I prefer to have all of my footnotes appear at the
 end of my posts. By default, &lt;a class="reference external" href="https://getnikola.com"&gt;Nikola&lt;/a&gt;  puts the
 footnotes in wherever they are declared. A simple snippet of javascript can be
 used to fix the locations of footnotes:&lt;/p&gt;
-&lt;div class="code"&gt;&lt;pre class="code javascript"&gt;&lt;a id="rest_code_364ea4a7754d4508be61304e9ebe1a42-1" name="rest_code_364ea4a7754d4508be61304e9ebe1a42-1" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_364ea4a7754d4508be61304e9ebe1a42-1"&gt;&lt;/a&gt;&lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;ready&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
-&lt;a id="rest_code_364ea4a7754d4508be61304e9ebe1a42-2" name="rest_code_364ea4a7754d4508be61304e9ebe1a42-2" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_364ea4a7754d4508be61304e9ebe1a42-2"&gt;&lt;/a&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'.footnote'&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;each&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;el&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
-&lt;a id="rest_code_364ea4a7754d4508be61304e9ebe1a42-3" name="rest_code_364ea4a7754d4508be61304e9ebe1a42-3" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_364ea4a7754d4508be61304e9ebe1a42-3"&gt;&lt;/a&gt;&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;el&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;appendTo&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
-&lt;a id="rest_code_364ea4a7754d4508be61304e9ebe1a42-4" name="rest_code_364ea4a7754d4508be61304e9ebe1a42-4" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_364ea4a7754d4508be61304e9ebe1a42-4"&gt;&lt;/a&gt;&lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;el&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;closest&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'.entry-content,.entry-summary'&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
-&lt;a id="rest_code_364ea4a7754d4508be61304e9ebe1a42-5" name="rest_code_364ea4a7754d4508be61304e9ebe1a42-5" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_364ea4a7754d4508be61304e9ebe1a42-5"&gt;&lt;/a&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;});&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
-&lt;a id="rest_code_364ea4a7754d4508be61304e9ebe1a42-6" name="rest_code_364ea4a7754d4508be61304e9ebe1a42-6" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_364ea4a7754d4508be61304e9ebe1a42-6"&gt;&lt;/a&gt;&lt;span class="p"&gt;});&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;div class="code"&gt;&lt;pre class="code javascript"&gt;&lt;a id="rest_code_d6b5bf6e2b7548789000aae34181275a-1" name="rest_code_d6b5bf6e2b7548789000aae34181275a-1" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_d6b5bf6e2b7548789000aae34181275a-1"&gt;&lt;/a&gt;&lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;ready&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_d6b5bf6e2b7548789000aae34181275a-2" name="rest_code_d6b5bf6e2b7548789000aae34181275a-2" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_d6b5bf6e2b7548789000aae34181275a-2"&gt;&lt;/a&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'.footnote'&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;each&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;i&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;el&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_d6b5bf6e2b7548789000aae34181275a-3" name="rest_code_d6b5bf6e2b7548789000aae34181275a-3" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_d6b5bf6e2b7548789000aae34181275a-3"&gt;&lt;/a&gt;&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;el&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;appendTo&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_d6b5bf6e2b7548789000aae34181275a-4" name="rest_code_d6b5bf6e2b7548789000aae34181275a-4" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_d6b5bf6e2b7548789000aae34181275a-4"&gt;&lt;/a&gt;&lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="nx"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;el&lt;/span&gt;&lt;span class="p"&gt;).&lt;/span&gt;&lt;span class="nx"&gt;closest&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'.entry-content,.entry-summary'&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_d6b5bf6e2b7548789000aae34181275a-5" name="rest_code_d6b5bf6e2b7548789000aae34181275a-5" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_d6b5bf6e2b7548789000aae34181275a-5"&gt;&lt;/a&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;});&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;a id="rest_code_d6b5bf6e2b7548789000aae34181275a-6" name="rest_code_d6b5bf6e2b7548789000aae34181275a-6" href="https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html#rest_code_d6b5bf6e2b7548789000aae34181275a-6"&gt;&lt;/a&gt;&lt;span class="p"&gt;});&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Simply wrap in a &amp;lt;script&amp;gt; tag and include in the BODY_END section of conf.py
-or add it to your theme.&lt;/p&gt;</description><category>code snippets</category><category>meta</category><category>nikola</category><guid>https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html</guid><pubDate>Sat, 23 Jan 2016 23:44:17 GMT</pubDate></item></channel></rss>
+or add it to your theme.&lt;/p&gt;</description>
+      <category>code snippets</category>
+      <category>meta</category>
+      <category>nikola</category>
+      <guid>https://gwax.com/blog/2016/01/fixing-nikola-footnote-locations.html</guid>
+      <pubDate>Sat, 23 Jan 2016 23:44:17 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

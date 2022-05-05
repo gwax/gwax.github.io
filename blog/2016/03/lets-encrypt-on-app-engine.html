@@ -1,137 +1,150 @@
 <!DOCTYPE html>
-<html prefix="        og: http://ogp.me/ns# article: http://ogp.me/ns/article#     " vocab="http://ogp.me/ns" lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#" vocab="http://ogp.me/ns">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Let's Encrypt on App Engine | gwax</title>
-<link rel="stylesheet" href="/assets/css/baguetteBox.min.css" type="text/css">
-<link rel="stylesheet" href="/assets/css/normalize.min.css" type="text/css">
-<link rel="stylesheet" href="/assets/css/skeleton.min.css" type="text/css">
-<link href="/assets/css/rst_base.css" rel="stylesheet" type="text/css">
-<link href="/assets/css/code.css" rel="stylesheet" type="text/css">
-<link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
-<meta name="theme-color" content="#304FE1">
-<meta name="generator" content="Nikola (getnikola.com)">
-<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="/rss.xml">
-<link rel="canonical" href="https://gwax.com/blog/2016/03/lets-encrypt-on-app-engine.html">
-<link rel="icon" href="/favicon.ico" sizes="32x32">
-<!--[if lt IE 9]><script src="/assets/js/html5shiv-printshiv.min.js"></script><![endif]--><meta name="author" content="George Leslie-Waksman">
-<link rel="prev" href="/blog/2016/02/internet-time-now-script.html" title="Internet Time Now script" type="text/html">
-<link rel="next" href="/blog/2016/09/slowcooker-yogurt.html" title="Slowcooker Yogurt" type="text/html">
-<meta property="og:site_name" content="gwax">
-<meta property="og:title" content="Let's Encrypt on App Engine">
-<meta property="og:url" content="https://gwax.com/blog/2016/03/lets-encrypt-on-app-engine.html">
-<meta property="og:description" content="UPDATE: As of September, 2017,
-Google App Engine will manage SSL certificates for you.
-
-Let's Encrypt is a fantastically convenient way
-to get SSL certificates for your website without paying a bunch ">
-<meta property="og:type" content="article">
-<meta property="article:published_time" content="2016-03-13T07:25:01Z">
-<meta property="article:tag" content="code snippets">
-<meta property="article:tag" content="meta">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Let's Encrypt on App Engine | gwax</title>
+  <link href="/assets/css/baguetteBox.min.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/normalize.min.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/skeleton.min.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/rst_base.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/code.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/theme.css" rel="stylesheet" type="text/css">
+  <meta content="#304FE1" name="theme-color">
+  <meta content="Nikola (getnikola.com)" name="generator">
+  <link href="/rss.xml" hreflang="en" rel="alternate" title="RSS" type="application/rss+xml">
+  <link href="https://gwax.com/blog/2016/03/lets-encrypt-on-app-engine.html" rel="canonical">
+  <link href="/favicon.ico" rel="icon" sizes="32x32"><!--[if lt IE 9]><script src="/assets/js/html5shiv-printshiv.min.js"></script><![endif]-->
+  <meta content="George Leslie-Waksman" name="author">
+  <link href="/blog/2016/02/internet-time-now-script.html" rel="prev" title="Internet Time Now script" type="text/html">
+  <link href="/blog/2016/09/slowcooker-yogurt.html" rel="next" title="Slowcooker Yogurt" type="text/html">
+  <meta content="gwax" property="og:site_name">
+  <meta content="Let's Encrypt on App Engine" property="og:title">
+  <meta content="https://gwax.com/blog/2016/03/lets-encrypt-on-app-engine.html" property="og:url">
+  <meta content="UPDATE: As of September, 2017, Google App Engine will manage SSL certificates for you. Let's Encrypt is a fantastically convenient way to get SSL certificates for your website without paying a bunch" property="og:description">
+  <meta content="article" property="og:type">
+  <meta content="2016-03-13T07:25:01Z" property="article:published_time">
+  <meta content="code snippets" property="article:tag">
+  <meta content="meta" property="article:tag">
 </head>
 <body>
-    <div class="container">
-         
-    <header id="header"><div class="row">
-            <div class="six columns">
-                
-    <h1 id="brand" class="title"><a href="/" title="gwax" rel="home">
-
-        <span id="blog-title">gwax</span>
-    </a></h1>
-
+  <div class="container">
+    <header id="header">
+      <div class="row">
+        <div class="six columns">
+          <h1 class="title" id="brand"><a href="/" rel="home" title="gwax"><span id="blog-title">gwax</span></a></h1>
+        </div>
+      </div>
+    </header>
+    <nav class="bar">
+      <ul>
+        <li>
+          <a href="/projects.html">Projects</a>
+        </li>
+        <li>
+          <span>Blog</span>
+          <ul>
+            <li>
+              <a href="/index.html">Posts</a>
+            </li>
+            <li>
+              <a href="/archive.html">Archives</a>
+            </li>
+            <li>
+              <a href="/categories/index.html">Tags & Categories</a>
+            </li>
+            <li>
+              <a href="/rss.xml">RSS feed</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <span>About</span>
+          <ul>
+            <li>
+              <a href="/about/about-person.html">The person</a>
+            </li>
+            <li>
+              <a href="/about/about-site.html">The site</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/about/about-person.html#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="select">
+      <select>
+        <option value="/projects.html">
+          Projects
+        </option>
+        <optgroup label="Blog">
+          <option value="/index.html">
+            Posts
+          </option>
+          <option value="/archive.html">
+            Archives
+          </option>
+          <option value="/categories/index.html">
+            Tags & Categories
+          </option>
+          <option value="/rss.xml">
+            RSS feed
+          </option>
+        </optgroup>
+        <optgroup label="About">
+          <option value="/about/about-person.html">
+            The person
+          </option>
+          <option value="/about/about-site.html">
+            The site
+          </option>
+        </optgroup>
+        <option value="/about/about-person.html#contact">
+          Contact
+        </option>
+      </select>
+    </nav>
+    <main id="content">
+      <article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article">
+        <header>
+          <h1 class="p-name entry-title" itemprop="headline name"><a class="u-url" href="/blog/2016/03/lets-encrypt-on-app-engine.html">Let's Encrypt on App Engine</a></h1>
+          <div class="metadata">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">George Leslie-Waksman</span></p>
+            <p class="dateline"><a href="/blog/2016/03/lets-encrypt-on-app-engine.html" rel="bookmark"><time class="published dt-published" datetime="2016-03-13T07:25:01Z" itemprop="datePublished" title="2016-03-13 07:25 UTC">2016-03-13 07:25 UTC</time> <span class="updated">(updated <time class="updated dt-updated" datetime="2018-09-09T07:03:28Z" itemprop="dateUpdated" title="2018-09-09 07:03 UTC">2018-09-09 07:03 UTC</time>)</span></a></p>
+            <p class="sourceline"><a class="sourcelink" href="/blog/2016/03/lets-encrypt-on-app-engine.rst">Source</a></p>
+          </div>
+        </header>
+        <div class="e-content entry-content" itemprop="articleBody text">
+          <p><strong>UPDATE</strong>: <a class="reference external" href="https://cloudplatform.googleblog.com/2017/09/introducing-managed-SSL-for-Google-App-Engine.html">As of September, 2017</a>, Google App Engine will <a class="reference external" href="https://cloud.google.com/appengine/docs/standard/python/securing-custom-domains-with-ssl">manage SSL certificates for you</a>.</p>
+          <hr class="docutils">
+          <p><a class="reference external" href="https://letsencrypt.org/">Let's Encrypt</a> is a fantastically convenient way to get SSL certificates for your website without paying a bunch of money or resorting to a <a class="reference external" href="https://en.wikipedia.org/wiki/Self-signed_certificate">self-signed certificate</a>. It's also pretty easy to set up.</p>
+          <p>Easy as it is to set up, the instructions don't really explain much about setup for <a class="reference external" href="https://cloud.google.com/appengine/">App Engine</a>. It turns out to be pretty straightforward.</p><!-- TEASER_END -->
+          <section id="prepare-your-app">
+            <h2>Prepare Your App</h2>
+            <p>We need to modify our app.yaml file and set up a static route for the let's encrypt challenge/response data. Add the following to the beginning of the handlers section of your app.yaml file:</p>
+            <div class="code">
+              <pre class="code yaml"><a href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_ff8f5c9f460445768c85de30317bc948-1" id="rest_code_ff8f5c9f460445768c85de30317bc948-1" name="rest_code_ff8f5c9f460445768c85de30317bc948-1"></a><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">/\.well-known/acme-challenge/(.+)</span><span class="w"></span>
+<a href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_ff8f5c9f460445768c85de30317bc948-2" id="rest_code_ff8f5c9f460445768c85de30317bc948-2" name="rest_code_ff8f5c9f460445768c85de30317bc948-2"></a><span class="w">  </span><span class="nt">static_files</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">letsencrypt/\1</span><span class="w"></span>
+<a href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_ff8f5c9f460445768c85de30317bc948-3" id="rest_code_ff8f5c9f460445768c85de30317bc948-3" name="rest_code_ff8f5c9f460445768c85de30317bc948-3"></a><span class="w">  </span><span class="nt">upload</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">letsencrypt/(.+)</span><span class="w"></span>
+<a href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_ff8f5c9f460445768c85de30317bc948-4" id="rest_code_ff8f5c9f460445768c85de30317bc948-4" name="rest_code_ff8f5c9f460445768c85de30317bc948-4"></a><span class="w">  </span><span class="nt">mime_type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">text/plain</span><span class="w"></span>
+</pre>
             </div>
-            
-
-        </div>
-    </header><nav class="bar"><li><a href="/projects.html">Projects</a></li>
-            <li>
-<span>Blog</span>
-                <ul>
-<li><a href="/index.html">Posts</a></li>
-            <li><a href="/archive.html">Archives</a></li>
-            <li><a href="/categories/index.html">Tags &amp; Categories</a></li>
-            <li><a href="/rss.xml">RSS feed</a></li>
-
-                </ul>
-</li>
-            <li>
-<span>About</span>
-                <ul>
-<li><a href="/about/about-person.html">The person</a></li>
-            <li><a href="/about/about-site.html">The site</a></li>
-
-                </ul>
-</li>
-            <li><a href="/about/about-person.html#contact">Contact</a></li>
-
-    
-
-    </nav><nav class="select"><select><option value="/projects.html">Projects</option>
-<optgroup label="Blog">
-<option value="/index.html">Posts</option>
-<option value="/archive.html">Archives</option>
-<option value="/categories/index.html">Tags &amp; Categories</option>
-<option value="/rss.xml">RSS feed</option>
-</optgroup>
-<optgroup label="About">
-<option value="/about/about-person.html">The person</option>
-<option value="/about/about-site.html">The site</option>
-</optgroup>
-<option value="/about/about-person.html#contact">Contact</option></select></nav><main id="content"><article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="/blog/2016/03/lets-encrypt-on-app-engine.html" class="u-url">Let's Encrypt on App Engine</a></h1>
-
-        <div class="metadata">
-            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
-                    George Leslie-Waksman
-            </span></p>
-            <p class="dateline">
-            <a href="/blog/2016/03/lets-encrypt-on-app-engine.html" rel="bookmark">
-            <time class="published dt-published" datetime="2016-03-13T07:25:01Z" itemprop="datePublished" title="2016-03-13 07:25 UTC">2016-03-13 07:25 UTC</time><span class="updated"> (updated
-                    <time class="updated dt-updated" datetime="2018-09-09T07:03:28Z" itemprop="dateUpdated" title="2018-09-09 07:03 UTC">2018-09-09 07:03 UTC</time>)</span>
-            </a>
-            </p>
-            
-        <p class="sourceline"><a href="/blog/2016/03/lets-encrypt-on-app-engine.rst" class="sourcelink">Source</a></p>
-
-        </div>
-        
-
-    </header><div class="e-content entry-content" itemprop="articleBody text">
-    <p><strong>UPDATE</strong>: <a class="reference external" href="https://cloudplatform.googleblog.com/2017/09/introducing-managed-SSL-for-Google-App-Engine.html">As of September, 2017</a>,
-Google App Engine will <a class="reference external" href="https://cloud.google.com/appengine/docs/standard/python/securing-custom-domains-with-ssl">manage SSL certificates for you</a>.</p>
-<hr class="docutils">
-<p><a class="reference external" href="https://letsencrypt.org/">Let's Encrypt</a> is a fantastically convenient way
-to get SSL certificates for your website without paying a bunch of money or
-resorting to a <a class="reference external" href="https://en.wikipedia.org/wiki/Self-signed_certificate">self-signed certificate</a>. It's also pretty easy to set up.</p>
-<p>Easy as it is to set up, the instructions don't really explain much about
-setup for <a class="reference external" href="https://cloud.google.com/appengine/">App Engine</a>. It turns out to
-be pretty straightforward.</p>
-<!-- TEASER_END -->
-<section id="prepare-your-app"><h2>Prepare Your App</h2>
-<p>We need to modify our app.yaml file and set up a static route for the
-let's encrypt challenge/response data. Add the following to the beginning of
-the handlers section of your app.yaml file:</p>
-<div class="code"><pre class="code yaml"><a id="rest_code_106d2af239c9451d970287d519903506-1" name="rest_code_106d2af239c9451d970287d519903506-1" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_106d2af239c9451d970287d519903506-1"></a><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">/\.well-known/acme-challenge/(.+)</span><span class="w"></span>
-<a id="rest_code_106d2af239c9451d970287d519903506-2" name="rest_code_106d2af239c9451d970287d519903506-2" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_106d2af239c9451d970287d519903506-2"></a><span class="w">  </span><span class="nt">static_files</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">letsencrypt/\1</span><span class="w"></span>
-<a id="rest_code_106d2af239c9451d970287d519903506-3" name="rest_code_106d2af239c9451d970287d519903506-3" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_106d2af239c9451d970287d519903506-3"></a><span class="w">  </span><span class="nt">upload</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">letsencrypt/(.+)</span><span class="w"></span>
-<a id="rest_code_106d2af239c9451d970287d519903506-4" name="rest_code_106d2af239c9451d970287d519903506-4" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_106d2af239c9451d970287d519903506-4"></a><span class="w">  </span><span class="nt">mime_type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">text/plain</span><span class="w"></span>
-</pre></div>
-<p>Also create a "letsencrypt" folder in your app directory.</p>
-</section><section id="fire-up-let-s-encrypt"><h2>Fire up Let's Encrypt</h2>
-<p>Starting from the instructions on the <a class="reference external" href="https://github.com/letsencrypt/letsencrypt">Let's Encrypt GitHub repo</a>,
-let's retrieve and fire up letsencrypt. Outside your app folder, in a separate
-terminal:</p>
-<div class="code"><pre class="code sh"><a id="rest_code_0da1d8711da3472cacc4d8d1b9cf554f-1" name="rest_code_0da1d8711da3472cacc4d8d1b9cf554f-1" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_0da1d8711da3472cacc4d8d1b9cf554f-1"></a>git clone https://github.com/letsencrypt/letsencrypt
-<a id="rest_code_0da1d8711da3472cacc4d8d1b9cf554f-2" name="rest_code_0da1d8711da3472cacc4d8d1b9cf554f-2" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_0da1d8711da3472cacc4d8d1b9cf554f-2"></a><span class="nb">cd</span> letsencrypt
-<a id="rest_code_0da1d8711da3472cacc4d8d1b9cf554f-3" name="rest_code_0da1d8711da3472cacc4d8d1b9cf554f-3" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_0da1d8711da3472cacc4d8d1b9cf554f-3"></a>./letsencrypt-auto -a manual certonly
-</pre></div>
-<p>We want to run in manual mode and generate certs because there isn't currently
-a plugin for handling app engine.</p>
-<p>Let's Encrypt will ask you for a list of domains. After you enter the target
-domains, it will show you a series of challenge response requests:</p>
-<pre class="literal-block">Make sure your web server displays the following content at
+            <p>Also create a "letsencrypt" folder in your app directory.</p>
+          </section>
+          <section id="fire-up-let-s-encrypt">
+            <h2>Fire up Let's Encrypt</h2>
+            <p>Starting from the instructions on the <a class="reference external" href="https://github.com/letsencrypt/letsencrypt">Let's Encrypt GitHub repo</a>, let's retrieve and fire up letsencrypt. Outside your app folder, in a separate terminal:</p>
+            <div class="code">
+              <pre class="code sh"><a href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_a936a574504c479eae58e9fc52b3e1b7-1" id="rest_code_a936a574504c479eae58e9fc52b3e1b7-1" name="rest_code_a936a574504c479eae58e9fc52b3e1b7-1"></a>git clone https://github.com/letsencrypt/letsencrypt
+<a href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_a936a574504c479eae58e9fc52b3e1b7-2" id="rest_code_a936a574504c479eae58e9fc52b3e1b7-2" name="rest_code_a936a574504c479eae58e9fc52b3e1b7-2"></a><span class="nb">cd</span> letsencrypt
+<a href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_a936a574504c479eae58e9fc52b3e1b7-3" id="rest_code_a936a574504c479eae58e9fc52b3e1b7-3" name="rest_code_a936a574504c479eae58e9fc52b3e1b7-3"></a>./letsencrypt-auto -a manual certonly
+</pre>
+            </div>
+            <p>We want to run in manual mode and generate certs because there isn't currently a plugin for handling app engine.</p>
+            <p>Let's Encrypt will ask you for a list of domains. After you enter the target domains, it will show you a series of challenge response requests:</p>
+            <pre class="literal-block">Make sure your web server displays the following content at
 http://www.example.com/.well-known/acme-challenge/{ABC} before continuing:
 
 {ABC}.{DEF}
@@ -148,22 +161,28 @@ $(command -v python2 || command -v python2.7 || command -v python2.6) -c \
 s = BaseHTTPServer.HTTPServer(('', 80), SimpleHTTPServer.SimpleHTTPRequestHandler); \
 s.serve_forever()"
 Press ENTER to continue</pre>
-<p>In this case, {ABC} is the challenge and {ABC}.{DEF} is the response.</p>
-<p>Don't press enter yet.</p>
-</section><section id="prepare-the-challenge-response"><h2>Prepare the challenge/response</h2>
-<p>Switch to the terminal in your app directory and run a modified version of
-the printf command letsencrypt suggests:</p>
-<div class="code"><pre class="code sh"><a id="rest_code_c22f38fa0f9b47009e1322cf1cc5fb03-1" name="rest_code_c22f38fa0f9b47009e1322cf1cc5fb03-1" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_c22f38fa0f9b47009e1322cf1cc5fb03-1"></a><span class="nb">printf</span> <span class="s2">"%s"</span> <span class="o">{</span>ABC<span class="o">}</span>.<span class="o">{</span>DEF<span class="o">}</span> &gt; letsencrypt/<span class="o">{</span>ABC<span class="o">}</span>
-</pre></div>
-<p>Now, re-upload your app to app engine:</p>
-<div class="code"><pre class="code sh"><a id="rest_code_d2e1ce838ca5414bb6f50aee80c31919-1" name="rest_code_d2e1ce838ca5414bb6f50aee80c31919-1" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_d2e1ce838ca5414bb6f50aee80c31919-1"></a>appcfg.py update .
-</pre></div>
-</section><section id="finish-building-the-certificate"><h2>Finish building the certificate</h2>
-<p>Now go back and press enter in letsencrypt-auto.</p>
-<p>Repeat preparing the challenge/response and pressing enter until you've finished
-running through all of your requested domains.</p>
-<p>Hopefully you should see a message to the effect of:</p>
-<pre class="literal-block">- Congratulations! Your certificate and chain have been saved at
+            <p>In this case, {ABC} is the challenge and {ABC}.{DEF} is the response.</p>
+            <p>Don't press enter yet.</p>
+          </section>
+          <section id="prepare-the-challenge-response">
+            <h2>Prepare the challenge/response</h2>
+            <p>Switch to the terminal in your app directory and run a modified version of the printf command letsencrypt suggests:</p>
+            <div class="code">
+              <pre class="code sh"><a href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_e05dd02c242846b792427a0620ed80e1-1" id="rest_code_e05dd02c242846b792427a0620ed80e1-1" name="rest_code_e05dd02c242846b792427a0620ed80e1-1"></a><span class="nb">printf</span> <span class="s2">"%s"</span> <span class="o">{</span>ABC<span class="o">}</span>.<span class="o">{</span>DEF<span class="o">}</span> &gt; letsencrypt/<span class="o">{</span>ABC<span class="o">}</span>
+</pre>
+            </div>
+            <p>Now, re-upload your app to app engine:</p>
+            <div class="code">
+              <pre class="code sh"><a href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_43ac1972aa5146b5a76d9060856d835c-1" id="rest_code_43ac1972aa5146b5a76d9060856d835c-1" name="rest_code_43ac1972aa5146b5a76d9060856d835c-1"></a>appcfg.py update .
+</pre>
+            </div>
+          </section>
+          <section id="finish-building-the-certificate">
+            <h2>Finish building the certificate</h2>
+            <p>Now go back and press enter in letsencrypt-auto.</p>
+            <p>Repeat preparing the challenge/response and pressing enter until you've finished running through all of your requested domains.</p>
+            <p>Hopefully you should see a message to the effect of:</p>
+            <pre class="literal-block">- Congratulations! Your certificate and chain have been saved at
   /etc/letsencrypt/live/www.example.com/fullchain.pem. Your cert will expire
   on YYYY-MM-DD. To obtain a new version of the certificate in the
   future, simply run Let's Encrypt again.
@@ -171,54 +190,53 @@ running through all of your requested domains.</p>
 
   Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
   Donating to EFF:                    https://eff.org/donate-le</pre>
-</section><section id="upload-your-certificates"><h2>Upload your certificates</h2>
-<p>Fire up the <a class="reference external" href="https://console.cloud.google.com/">cloud console</a>. Go to
-App Engine &gt; Settings &gt; SSL Certificates and click Upload a new
-certificate. Give your certificate a name; I like letsencrypt-YYYYMMDD where
-YYYYMMDD is the issuing date (today).</p>
-<p>Now, in your terminal, retrieve the public key:</p>
-<div class="code"><pre class="code sh"><a id="rest_code_a48dd4c5c56c4f41b2727fc9d985be1c-1" name="rest_code_a48dd4c5c56c4f41b2727fc9d985be1c-1" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_a48dd4c5c56c4f41b2727fc9d985be1c-1"></a>cat /etc/letsencrypt/live/www.example.com/fullchain.pem
-</pre></div>
-<p>And paste the output into the public key box in the cloud console.</p>
-<p>If you run into a permission error, try calling the command with sudo.</p>
-<p>Now, in your terminal, retrieve the private key and convert to RSA PEM format:</p>
-<div class="code"><pre class="code sh"><a id="rest_code_61d60a37b297454cb41fd468a484867d-1" name="rest_code_61d60a37b297454cb41fd468a484867d-1" href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_61d60a37b297454cb41fd468a484867d-1"></a>openssl rsa -inform pem -in /etc/letsencrypt/live/www.example.com/privkey.pem -outform pem
-</pre></div>
-<p>And paste the output into the box in the cloud console.</p>
-<p>Ditto on possibly needing sudo.</p>
-<p>You should now be able to enable this certificate for all of your app's
-domains.</p>
-</section>
-</div>
-    <aside class="postpromonav"><nav><div itemprop="keywords" class="row tags">
-            <a class="tag p-category button button-primary" href="/categories/code-snippets.html" rel="tag">code snippets</a>
-            <a class="tag p-category button button-primary" href="/categories/meta.html" rel="tag">meta</a>
+          </section>
+          <section id="upload-your-certificates">
+            <h2>Upload your certificates</h2>
+            <p>Fire up the <a class="reference external" href="https://console.cloud.google.com/">cloud console</a>. Go to App Engine &gt; Settings &gt; SSL Certificates and click Upload a new certificate. Give your certificate a name; I like letsencrypt-YYYYMMDD where YYYYMMDD is the issuing date (today).</p>
+            <p>Now, in your terminal, retrieve the public key:</p>
+            <div class="code">
+              <pre class="code sh"><a href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_8b2a2b2e109a491c81da62bba5bff09e-1" id="rest_code_8b2a2b2e109a491c81da62bba5bff09e-1" name="rest_code_8b2a2b2e109a491c81da62bba5bff09e-1"></a>cat /etc/letsencrypt/live/www.example.com/fullchain.pem
+</pre>
+            </div>
+            <p>And paste the output into the public key box in the cloud console.</p>
+            <p>If you run into a permission error, try calling the command with sudo.</p>
+            <p>Now, in your terminal, retrieve the private key and convert to RSA PEM format:</p>
+            <div class="code">
+              <pre class="code sh"><a href="/blog/2016/03/lets-encrypt-on-app-engine.html#rest_code_380429079f8047908cf7f73675e8b4dc-1" id="rest_code_380429079f8047908cf7f73675e8b4dc-1" name="rest_code_380429079f8047908cf7f73675e8b4dc-1"></a>openssl rsa -inform pem -in /etc/letsencrypt/live/www.example.com/privkey.pem -outform pem
+</pre>
+            </div>
+            <p>And paste the output into the box in the cloud console.</p>
+            <p>Ditto on possibly needing sudo.</p>
+            <p>You should now be able to enable this certificate for all of your app's domains.</p>
+          </section>
         </div>
+        <aside class="postpromonav">
+          <nav>
+            <div class="row tags" itemprop="keywords">
+              <a class="tag p-category button button-primary" href="/categories/code-snippets.html" rel="tag">code snippets</a> <a class="tag p-category button button-primary" href="/categories/meta.html" rel="tag">meta</a>
+            </div>
+            <div class="row pager hidden-print">
+              <a class="button u-pull-left previous" href="/blog/2016/02/internet-time-now-script.html" rel="prev" title="Internet Time Now script">Previous post</a> <a class="button u-pull-right next" href="/blog/2016/09/slowcooker-yogurt.html" rel="next" title="Slowcooker Yogurt">Next post</a>
+            </div>
+          </nav>
+        </aside>
+      </article>
+    </main>
+    <footer id="footer">
+      <p>Contents ©2004-2022 <a href="/about/about-person.html">George Leslie-Waksman</a> | Source: <img class="svg-icon" src="/icons/github.svg"><a href="https://github.com/gwax/www-gwax">GitHub</a> | Powered by <a href="https://getnikola.com">Nikola</a> | Styled with <a href="http://getskeleton.com">Skeleton</a> | <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img alt="Creative Commons License BY-SA" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" style="border:0;margin:0;"></a></p>
+    </footer>
+  </div>
+  <script src="/assets/js/baguetteBox.min.js"></script>
+  <script src="/assets/js/webfontloader.js"></script>
+  <script src="/assets/js/fancydates.js"></script>
+  <script src="/assets/js/theme.js"></script><!-- fancy dates -->
+  <script>
 
-    
-        <div class="row pager hidden-print">
-            <a class="button u-pull-left previous" href="/blog/2016/02/internet-time-now-script.html" rel="prev" title="Internet Time Now script">Previous post</a>
-            <a class="button u-pull-right next" href="/blog/2016/09/slowcooker-yogurt.html" rel="next" title="Slowcooker Yogurt">Next post</a>
-        </div>
-
-    </nav></aside></article></main><footer id="footer"><p>
-    Contents ©2004-2022 <a href="/about/about-person.html">George Leslie-Waksman</a>
-    | Source:
-        <img src="/icons/github.svg" class="svg-icon"><a href="https://github.com/gwax/www-gwax">GitHub</a>
-    | Powered by <a href="https://getnikola.com">Nikola</a>
-    | Styled with <a href="http://getskeleton.com">Skeleton</a>
-    | 
-<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
-    <img src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" alt="Creative Commons License BY-SA" style="border:0;margin:0;"></a>
-
-</p>
-            
-        </footer>
-</div>
-    
-            <script src="/assets/js/baguetteBox.min.js"></script><script src="/assets/js/webfontloader.js"></script><script src="/assets/js/fancydates.js"></script><script src="/assets/js/theme.js"></script><!-- fancy dates --><script>
     fancydates(1);
-    </script><!-- end fancy dates --><script>
+  </script><!-- end fancy dates -->
+  <script>
+
     baguetteBox.run('div#content', {
         ignoreClass: 'islink',
         captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
@@ -227,6 +245,6 @@ domains.</p>
             families: ['IBM Plex Mono', 'Raleway', 'Pacifico']
         }
     });
-    </script>
+  </script>
 </body>
 </html>
