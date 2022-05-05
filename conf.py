@@ -705,33 +705,33 @@ OUTPUT_FOLDER = 'output'
 # <https://getnikola.com/handbook.html#post-processing-filters>
 #
 #
-# from nikola import filters
-#
-# @filters.apply_to_binary_file
-# def xmltidy(data):
-#     """Variation of filters.xmltidy with pretty_print=True"""
-#     import lxml.etree
-#     parser = lxml.etree.XMLParser(remove_blank_text=True)
-#     newdata = lxml.etree.XML(data, parser=parser)
-#     return lxml.etree.tostring(
-#         newdata,
-#         encoding='utf-8',
-#         method='xml',
-#         xml_declaration=True,
-#         pretty_print=True)
+from nikola import filters
+
+@filters.apply_to_binary_file
+def xmltidy(data):
+    """Variation of filters.xmltidy with pretty_print=True"""
+    import lxml.etree
+    parser = lxml.etree.XMLParser(remove_blank_text=True)
+    newdata = lxml.etree.XML(data, parser=parser)
+    return lxml.etree.tostring(
+        newdata,
+        encoding='utf-8',
+        method='xml',
+        xml_declaration=True,
+        pretty_print=True)
 
 
 FILTERS = {
-    # ".html": [filters.html_tidy_nowrap],
+    ".html": [filters.html_tidy_nowrap],
 #    ".css": [filters.yui_compressor],
 #    ".js": [filters.closure_compiler],
-    # ".json": [filters.jsonminify],
-    # ".png": [filters.optipng],
-    # ".jpg": ["jpegoptim -p --strip-all --all-progressive -q %s"],
-    # ".jpeg": ["jpegoptim -p --strip-all --all-progressive -q %s"],
-    # ".xml": [xmltidy],
-    # ".atom": [xmltidy],
-    # ".rss": [xmltidy],
+    ".json": [filters.jsonminify],
+    ".png": [filters.optipng],
+    ".jpg": ["jpegoptim -p --strip-all --all-progressive -q %s"],
+    ".jpeg": ["jpegoptim -p --strip-all --all-progressive -q %s"],
+    ".xml": [xmltidy],
+    ".atom": [xmltidy],
+    ".rss": [xmltidy],
 }
 
 # Executable for the "yui_compressor" filter (defaults to 'yui-compressor').
