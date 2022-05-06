@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """gwax.com Nikola configuration."""
 
-from __future__ import unicode_literals
 import time
 
 # Data about this site
@@ -665,7 +664,6 @@ GITHUB_DEPLOY_BRANCH = 'deploy'
 
 # The name of the remote where you wish to push to, using github_deploy.
 # GITHUB_REMOTE_NAME = 'origin'
-GITHUB_REMOTE_NAME = 'ghpages'
 
 # Whether or not github_deploy should commit to the source branch automatically
 # before deploying.
