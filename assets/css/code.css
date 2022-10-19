@@ -55,6 +55,7 @@ pre.code .py, .code .codetable .py, .highlight pre .py { color: #000000 } /* Nam
 pre.code .nt, .code .codetable .nt, .highlight pre .nt { color: #204a87; font-weight: bold } /* Name.Tag */
 pre.code .nv, .code .codetable .nv, .highlight pre .nv { color: #000000 } /* Name.Variable */
 pre.code .ow, .code .codetable .ow, .highlight pre .ow { color: #204a87; font-weight: bold } /* Operator.Word */
+pre.code .pm, .code .codetable .pm, .highlight pre .pm { color: #000000; font-weight: bold } /* Punctuation.Marker */
 pre.code .w, .code .codetable .w, .highlight pre .w { color: #f8f8f8 } /* Text.Whitespace */
 pre.code .mb, .code .codetable .mb, .highlight pre .mb { color: #0000cf; font-weight: bold } /* Literal.Number.Bin */
 pre.code .mf, .code .codetable .mf, .highlight pre .mf { color: #0000cf; font-weight: bold } /* Literal.Number.Float */
