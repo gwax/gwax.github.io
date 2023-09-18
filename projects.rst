@@ -11,14 +11,14 @@ described below:
 gwax.(com\|net\|org)
 --------------------
 
-* Source: |github-icon| `gwax/www-gwax <https://github.com/gwax/www-gwax>`_
+* Source: |github-icon| `gwax/gwax.github.io <https://github.com/gwax/gwax.github.io>`_
 
 .. |github-icon| image:: /icons/github.svg
     :class: svg-icon
 
 This site is one of my ongoing projects. I've been maintaining it in some
 fashion since the mid 20-aughts. It's an example of various things, many not
-so technically interesting. A lot of details can be found in the
+so technically interesting. Some details can be found in the
 `About > The site page <link://slug/about-site>`__. The interesting pieces are
 likely to show up in `Blog > Categories > meta <link://category/meta>`__.
 
@@ -35,20 +35,20 @@ mtg-ssm
 Magic: the Gathering Spreadsheet Manager
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Magic: the Gathering Spreadsheet Manager (mtg-ssm) for short is a command line
-tool, written in `Python <https://www.python.org>`_ (3), that generates Excel
+Magic: the Gathering Spreadsheet Manager (mtg-ssm) is a command line tool,
+written in `Python <https://www.python.org>`_ (3), that generates Excel
 spreadsheets for use in tracking `Magic: the Gathering <http://magic.wizards.com/>`_
 card collections. The tool can also update existing spreadsheets with new sets
 and card information (preserving existing collection counts).
 
-Card and set data is sourced from `MTG JSON <http://mtgjson.com/>`_.
+Card and set data is sourced from `Scryfall <https://scryfall.com/>`_.
 
 The sheets are constructed in such a way that they can show you how many copies
 of a given card exist in other sets to ease search for cards in your
 collection. There are also limited import/export capabilities.
 
 I eat my own dog food. An mtg-ssm generated spreadsheet, stored in
-`Dropbox <https://www.dropbox.com/>`_, is how I manage my Magic card
+`Google Drive <https://www.google.com/drive/>`_, is how I manage my Magic card
 collection.
 
 

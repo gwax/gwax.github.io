@@ -9,8 +9,8 @@ About George Leslie-Waksman
     :alt: George Leslie-Waksman portrait
     :align: right
 
-I'm a software engineer in the San Francisco Bay Area. My software contributions
-are mostly closed source for my professional life or low profile for my own
+I'm a software engineer in the Bay Area. My software contributions are mostly
+closed source for my professional life or low profile for my own
 enjoyment. I have a handful of small `projects <link://slug/projects>`_ and
 things to be found on |github-icon| GitHub (`gwax <https://github.com/gwax>`__).
 I've worked in just about every part of the stack though my focus leans pretty
@@ -55,14 +55,19 @@ to dent the massive problem that is modern healthcare.
 
 My next tour involved a chunk of time at `Samsara <https://www.samsara.com/>`_,
 first as an engineer on Backend Platform and then building out a Data Platform
-team to do cross-cutting analysis across the totality of Samsara's IoT data. The
-mission was interesting albeit not as interesting as solving healthcare. That
-said, it was a great opportunity to pick up more experience leading a technical
-team and working with a handful of new technologies.
+team to do cross-cutting analytics across the totality of Samsara's IoT data. The
+mission was interesting and a fun change from the endless regulations of
+healthcare.
 
-Now, I'm back to Insuretech, taking helm of engineering for
-`LifeRaft <https://www.liferaft.co/>`_. I'm glad to be solving real problems
-for average people again.
+From there, I once again returned to Insuretech, taking on the helm of Head of
+Engineering at `Liferaft <https://www.liferaft.co/>`_. I spent nearly three
+years there, building out a team and platform. It was a great experience and I
+actively stay in contact with the team there.
+
+I'm currently working on a new startup, `Manapool <https://manapool.com>`_,
+bringing my experience building software and software teams to one of my
+lifelong passions: Magic: the Gathering. I'm working with a couple friends to
+finally create the online bazaar for Magic cards that the community deserves.
 
 If you want more professional details, there's something close enough to my
 résumé available through LinkedIn. If you happen to want a proper résumé or

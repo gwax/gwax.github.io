@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>gwax (Posts about writing)</title>
+    <link>https://gwax.com/</link>
+    <description/>
+    <atom:link href="https://gwax.com/categories/writing.xml" rel="self" type="application/rss+xml"/>
+    <language>en</language>
+    <copyright>Contents &amp;copy;2005-2023 &lt;a href="link://slug/about-person"&gt;George Leslie-Waksman&lt;/a&gt; 
+&lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;
+    &lt;img
+        src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+        alt="Creative Commons License BY-SA"
+        style="border:0;margin:0;"
+    /&gt;
+&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Mon, 18 Sep 2023 07:15:45 GMT</lastBuildDate>
+    <generator>Nikola (getnikola.com)</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Bemoaning the AI copy assistant</title>
+      <link>https://gwax.com/blog/2023/09/bemoaning-the-ai-copy-assistant.html</link>
+      <dc:creator>George Leslie-Waksman</dc:creator>
+      <description>&lt;p&gt;I've been using &lt;a class="reference external" href="https://github.com/features/copilot"&gt;GitHub Copilot&lt;/a&gt; for a few about half a year now, and it feels
+like an amazing piece of magic. Not only does it seem to do most of the rote
+coding for me but it also gives me a new sense for what is &lt;em&gt;actually&lt;/em&gt; rote.&lt;/p&gt;
+&lt;p&gt;Since I edit the content of this blog, and just about everything else I write,
+in &lt;a class="reference external" href="https://code.visualstudio.com/"&gt;VSCode&lt;/a&gt; and already use Copilot for work,
+it tries to suggest things everywhere.&lt;/p&gt;
+&lt;p&gt;Even, as I type this, it keeps suggesting things. Often, the things it suggests
+are so close to what I want to say that it's tempting to hit the tab key but
+it's voice is not quite my own.&lt;/p&gt;
+&lt;p&gt;With code, the voice hardly matters and Copilot is quite good at knowing what
+I want to say, of course, it's well constrained. With prose, not so much. Sure,
+what it suggests would be fine but that's not the point.&lt;/p&gt;</description>
+      <category>ai</category>
+      <category>meta</category>
+      <category>writing</category>
+      <guid>https://gwax.com/blog/2023/09/bemoaning-the-ai-copy-assistant.html</guid>
+      <pubDate>Mon, 18 Sep 2023 05:39:29 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

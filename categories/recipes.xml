@@ -6,7 +6,7 @@
     <description/>
     <atom:link href="https://gwax.com/categories/recipes.xml" rel="self" type="application/rss+xml"/>
     <language>en</language>
-    <copyright>Contents &amp;copy;2005-2022 &lt;a href="link://slug/about-person"&gt;George Leslie-Waksman&lt;/a&gt; 
+    <copyright>Contents &amp;copy;2005-2023 &lt;a href="link://slug/about-person"&gt;George Leslie-Waksman&lt;/a&gt; 
 &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;
     &lt;img
         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
@@ -15,9 +15,89 @@
     /&gt;
 &lt;/a&gt;
 </copyright>
-    <lastBuildDate>Wed, 19 Oct 2022 07:01:45 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 Sep 2023 07:15:44 GMT</lastBuildDate>
     <generator>Nikola (getnikola.com)</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>A proper Gimlet, sans corn syrup</title>
+      <link>https://gwax.com/blog/2023/09/a-proper-gimlet-sans-corn-syrup.html</link>
+      <dc:creator>George Leslie-Waksman</dc:creator>
+      <description>&lt;p&gt;A Gimlet is a refreshing cocktail with a subtle but distinct flavor profile. It
+can be quite tasty but is very hard to get right without accepting an awful lot
+of high fructose corn syrup. I tend to avoid high fructose corn syrup, so I
+rarely make a proper Gimlet, but I've been experimenting with syrups over the
+years and think I've struck on a pretty good alternative.&lt;/p&gt;
+&lt;section id="the-classic-gimlet"&gt;
+&lt;h2&gt;The Classic Gimlet&lt;/h2&gt;
+&lt;p&gt;The starting point for a Gimlet is a simple mix of gin and &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Rose%27s_Lime_Juice"&gt;Rose's Lime Juice&lt;/a&gt;.
+Sadly, Rose's is mostly water, high fructose corn syrup, and a little bit of
+flavoring. It gives the right taste (tuotologically) but isn't something I feel
+good about drinking.&lt;/p&gt;
+&lt;section id="gimlet"&gt;
+&lt;h3&gt;Gimlet&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;2 oz Gin&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 oz Rose's Lime Juice&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Shake with ice and serve in a Nick and Nora glass.&lt;/p&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+&lt;section id="the-gin-sour"&gt;
+&lt;h2&gt;The Gin Sour&lt;/h2&gt;
+&lt;p&gt;Commonly, one will find recipes calling for fresh lime juice an simple syrup.
+While a good drink, the flavor profile is quite different from a true Gimlet.&lt;/p&gt;
+&lt;section id="gin-sour"&gt;
+&lt;h3&gt;Gin Sour&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;2 oz Gin&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;3/4 oz Lime Juice&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;3/4 oz Simple Syrup&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Shake with ice and serve in a Nick and Nora glass. Garnish with a lime slice.&lt;/p&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+&lt;section id="roll-your-own"&gt;
+&lt;h2&gt;Roll Your Own&lt;/h2&gt;
+&lt;p&gt;From here, the path forward is to start trying to make your own lime syrup. The
+first recipes that I tried were based on a simple syrup infused with lime
+zest. This works well enough but the flavor is a bit too subtle and not quite
+right.&lt;/p&gt;
+&lt;p&gt;From there, I largely set aside the matter until I came across a recipe trying
+to &lt;a class="reference external" href="https://www.reddit.com/r/cocktails/comments/15uki9f/resurrecting_the_original_taste_of_a_gimlet/jwpuyrz/"&gt;resurrect the original Rose's recipe&lt;/a&gt; on Reddit. To
+my taste, the recipe is much to tart, more like a Sour Patch Kid than something
+I want to use in drinks. That said, the flavor profile was in the right direction.&lt;/p&gt;
+&lt;p&gt;I played with the ratios and ended up with something that tastes really good to
+my taste.&lt;/p&gt;
+&lt;section id="key-lime-syrup"&gt;
+&lt;h3&gt;Key Lime Syrup&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;3/4 cup Water&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 1/2 cup white Sugar&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 oz Citric Acid&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Zest of 11 key limes&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Juice of 11 key limes&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Put the sugar, citric acid, and key lime zest in a sauce pan. Add the water and
+bring to a gentle boil. Stir until the sugar is dissolved. Remove from heat,
+add the lime juice, cover, and let cool to room temperature. Strain through a
+fine strainer (I use a nut milk bag) and bottle.&lt;/p&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+&lt;section id="the-homemade-gimlet"&gt;
+&lt;h2&gt;The Homemade Gimlet&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;2 oz Gin&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1 oz Key Lime Syrup&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Shake with ice and serve in a Nick and Nora glass.&lt;/p&gt;
+&lt;p&gt;Delicious.&lt;/p&gt;
+&lt;/section&gt;</description>
+      <category>cocktails</category>
+      <category>recipes</category>
+      <category>syrups</category>
+      <guid>https://gwax.com/blog/2023/09/a-proper-gimlet-sans-corn-syrup.html</guid>
+      <pubDate>Mon, 18 Sep 2023 03:36:56 GMT</pubDate>
+    </item>
     <item>
       <title>Uncut Jewel</title>
       <link>https://gwax.com/blog/2019/10/uncut-jewel.html</link>
