@@ -101,7 +101,7 @@ TRANSLATIONS = {
 # this pattern is also used for metadata:
 #     something.meta -> something.pl.meta
 
-TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
+TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 # Links for the sidebar / navigation bar.  (translatable)
 # This is a dict.  The keys are languages, and values are tuples.
@@ -134,16 +134,22 @@ CONTACT_LINK = ABOUT_PERSON_LINK + "#contact"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("link://slug/projects", "Projects"),
-        ((
-            ("link://index", "Posts"),
-            ("link://archive", "Archives"),
-            ("link://category_index", "Tags & Categories"),
-            ("link://index_rss", "RSS feed"),
-        ), "Blog"),
-        ((
-            (ABOUT_PERSON_LINK, "The person"),
-            ("link://slug/about-site", "The site"),
-        ), "About"),
+        (
+            (
+                ("link://index", "Posts"),
+                ("link://archive", "Archives"),
+                ("link://category_index", "Tags & Categories"),
+                ("link://index_rss", "RSS feed"),
+            ),
+            "Blog",
+        ),
+        (
+            (
+                (ABOUT_PERSON_LINK, "The person"),
+                ("link://slug/about-site", "The site"),
+            ),
+            "About",
+        ),
         (CONTACT_LINK, "Contact"),
     ),
 }
@@ -151,16 +157,14 @@ NAVIGATION_LINKS = {
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
 # although themes may not always support them. (translatable)
 # (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
-NAVIGATION_ALT_LINKS = {
-    DEFAULT_LANG: {}
-}
+NAVIGATION_ALT_LINKS = {DEFAULT_LANG: {}}
 
 # Name of the theme to use.
 THEME = "skeleton"
 
 # Primary color of your theme. This will be used to customize your theme.
 # Must be a HEX value.
-THEME_COLOR = '#304FE1'
+THEME_COLOR = "#304FE1"
 
 # Theme configuration. Fully theme-dependent. (translatable)
 # Examples below are for bootblog4.
@@ -173,18 +177,18 @@ THEME_COLOR = '#304FE1'
 THEME_CONFIG = {
     DEFAULT_LANG: {
         # Show the latest featured post in a large box, with the previewimage as its background.
-        'featured_large': False,
+        "featured_large": False,
         # Show the first (remaining) two featured posts in small boxes.
-        'featured_small': False,
+        "featured_small": False,
         # Show featured posts on mobile.
-        'featured_on_mobile': True,
+        "featured_on_mobile": True,
         # Show image in `featured_large` on mobile.
         # `featured_small` displays them only on desktop.
-        'featured_large_image_on_mobile': True,
+        "featured_large_image_on_mobile": True,
         # Strip HTML from featured post text.
-        'featured_strip_html': False,
+        "featured_strip_html": False,
         # Contents of the sidebar, If empty, the sidebar is not displayed.
-        'sidebar': ''
+        "sidebar": "",
     }
 }
 
@@ -251,7 +255,7 @@ FORCE_ISO8601 = True
 # Date format used to display post dates. (translatable)
 # Used by babel.dates, CLDR style: http://cldr.unicode.org/translation/date-time-1/date-time
 # You can also use 'full', 'long', 'medium', or 'short'
-DATE_FORMAT = 'YYYY-MM-dd HH:mm z'
+DATE_FORMAT = "YYYY-MM-dd HH:mm z"
 
 # Date fanciness.
 #
@@ -269,8 +273,8 @@ LOCALES = {"en": "en_US.UTF-8"}
 # The format is a dictionary of {source: relative destination}.
 # Default is:
 FILES_FOLDERS = {
-    'files': '',
-    'icons': 'icons',
+    "files": "",
+    "icons": "icons",
 }
 
 # One or more folders containing code listings to be processed and published on
@@ -289,14 +293,14 @@ FILES_FOLDERS = {
 # 'markdown' is Markdown
 # 'html' assumes the file is HTML and just copies it
 COMPILERS = {
-    "rest": ['.rst', '.txt'],
-    "markdown": ['.md', '.mdown', '.markdown'],
-    "textile": ['.textile'],
-    "txt2tags": ['.t2t'],
-    "bbcode": ['.bb'],
-    "wiki": ['.wiki'],
-    "ipynb": ['.ipynb'],
-    "html": ['.html', '.htm'],
+    "rest": [".rst", ".txt"],
+    "markdown": [".md", ".mdown", ".markdown"],
+    "textile": [".textile"],
+    "txt2tags": [".t2t"],
+    "bbcode": [".bb"],
+    "wiki": [".wiki"],
+    "ipynb": [".ipynb"],
+    "html": [".html", ".htm"],
     # PHP files are rendered the usual way (i.e. with the full templates).
     # The resulting files have .php extensions, making it possible to run
     # them without reconfiguring your server to recognize them.
@@ -330,7 +334,7 @@ NEW_POST_DATE_PATH = True
 
 # What format to use when creating posts with date paths?
 # Default is '%Y/%m/%d', other possibilities include '%Y' or '%Y/%m'.
-NEW_POST_DATE_PATH_FORMAT = '%Y/%m'
+NEW_POST_DATE_PATH_FORMAT = "%Y/%m"
 
 # If this is set to True, the DEFAULT_LANG version will be displayed for
 # untranslated posts.
@@ -402,7 +406,7 @@ NEW_POST_DATE_PATH_FORMAT = '%Y/%m'
 # If you do not want to display a tag publicly, you can mark it as hidden.
 # The tag will not be displayed on the tag list page and posts.
 # Tag pages will still be generated.
-HIDDEN_TAGS = ['mathjax']
+HIDDEN_TAGS = ["mathjax"]
 
 # Only include tags on the tag list/overview page if there are at least
 # TAGLIST_MINIMUM_POSTS number of posts or more with every tag. Every tag
@@ -561,9 +565,7 @@ ENABLE_AUTHOR_PAGES = False
 
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
-FRONT_INDEX_HEADER = {
-    DEFAULT_LANG: ''
-}
+FRONT_INDEX_HEADER = {DEFAULT_LANG: ""}
 
 # Create per-month archives instead of per-year
 # CREATE_MONTHLY_ARCHIVE = False
@@ -594,7 +596,7 @@ FRONT_INDEX_HEADER = {
 # rel_path: a relative URL to the current page/post (default)
 # full_path: a URL with the full path from the root
 # absolute: a complete URL (that includes the SITE_URL)
-URL_TYPE = 'full_path'
+URL_TYPE = "full_path"
 
 # Extension for RSS feed files
 # RSS_EXTENSION = ".xml"
@@ -659,8 +661,8 @@ REDIRECTIONS = []
 # You will need to configure the deployment branch on GitHub.
 # GITHUB_SOURCE_BRANCH = 'src'
 # GITHUB_DEPLOY_BRANCH = 'master'
-GITHUB_SOURCE_BRANCH = 'trunk'
-GITHUB_DEPLOY_BRANCH = 'deploy'
+GITHUB_SOURCE_BRANCH = "trunk"
+GITHUB_DEPLOY_BRANCH = "deploy"
 
 # The name of the remote where you wish to push to, using github_deploy.
 # GITHUB_REMOTE_NAME = 'origin'
@@ -673,7 +675,7 @@ GITHUB_COMMIT_SOURCE = False
 # Where the output site should be located
 # If you don't use an absolute path, it will be considered as relative
 # to the location of conf.py
-OUTPUT_FOLDER = 'output'
+OUTPUT_FOLDER = "output"
 
 # where the "cache" of partial generated content should be located
 # default: 'cache'
@@ -703,34 +705,38 @@ OUTPUT_FOLDER = 'output'
 # <https://getnikola.com/handbook.html#post-processing-filters>
 #
 #
-from nikola import filters
+try:
+    from nikola import filters
 
-@filters.apply_to_binary_file
-def xmltidy(data):
-    """Variation of filters.xmltidy with pretty_print=True"""
-    import lxml.etree
-    parser = lxml.etree.XMLParser(remove_blank_text=True)
-    newdata = lxml.etree.XML(data, parser=parser)
-    return lxml.etree.tostring(
-        newdata,
-        encoding='utf-8',
-        method='xml',
-        xml_declaration=True,
-        pretty_print=True)
+    @filters.apply_to_binary_file
+    def xmltidy(data):
+        """Variation of filters.xmltidy with pretty_print=True"""
+        import lxml.etree
 
+        parser = lxml.etree.XMLParser(remove_blank_text=True)
+        newdata = lxml.etree.XML(data, parser=parser)
+        return lxml.etree.tostring(
+            newdata,
+            encoding="utf-8",
+            method="xml",
+            xml_declaration=True,
+            pretty_print=True,
+        )
 
-FILTERS = {
-    ".html": [filters.html_tidy_nowrap],
-#    ".css": [filters.yui_compressor],
-#    ".js": [filters.closure_compiler],
-    ".json": [filters.jsonminify],
-    ".png": [filters.optipng],
-    ".jpg": ["jpegoptim -p --strip-all --all-progressive -q %s"],
-    ".jpeg": ["jpegoptim -p --strip-all --all-progressive -q %s"],
-    ".xml": [xmltidy],
-    ".atom": [xmltidy],
-    ".rss": [xmltidy],
-}
+    FILTERS = {
+        ".html": [filters.html_tidy_nowrap],
+        #    ".css": [filters.yui_compressor],
+        #    ".js": [filters.closure_compiler],
+        ".json": [filters.jsonminify],
+        ".png": [filters.optipng],
+        ".jpg": ["jpegoptim -p --strip-all --all-progressive -q %s"],
+        ".jpeg": ["jpegoptim -p --strip-all --all-progressive -q %s"],
+        ".xml": [xmltidy],
+        ".atom": [xmltidy],
+        ".rss": [xmltidy],
+    }
+except ImportError:
+    FILTERS = {}
 
 # Executable for the "yui_compressor" filter (defaults to 'yui-compressor').
 # YUI_COMPRESSOR_EXECUTABLE = 'yui-compressor'
@@ -747,7 +753,7 @@ FILTERS = {
 # Executable for the "html_tidy_withconfig", "html_tidy_nowrap",
 # "html_tidy_wrap", "html_tidy_wrap_attr" and "html_tidy_mini" filters
 # (defaults to 'tidy5').
-HTML_TIDY_EXECUTABLE = 'tidy'
+HTML_TIDY_EXECUTABLE = "tidy"
 
 # List of XPath expressions which should be used for finding headers
 # ({hx} is replaced by headers h1 through h6).
@@ -862,7 +868,7 @@ HTML_TIDY_EXECUTABLE = 'tidy'
 # but a different naming template can be configured with IMAGE_THUMBNAIL_FORMAT).
 # Panoramas (aspect ratio over 3:1) get 4x larger thumbnails due to scaling issues.
 
-IMAGE_FOLDERS = {'images': 'images'}
+IMAGE_FOLDERS = {"images": "images"}
 # IMAGE_THUMBNAIL_SIZE = 400
 # IMAGE_THUMBNAIL_FORMAT = '{name}.thumbnail{ext}'
 
@@ -911,7 +917,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 # Note that in case INDEXES_PAGES_MAIN is set to True, a redirection will be created
 # for the full URL with the page number of the main page to the normal (shorter) main
 # page URL.
-INDEXES_PRETTY_PAGE_URL = ('{number}', '{index_file}')
+INDEXES_PRETTY_PAGE_URL = ("{number}", "{index_file}")
 
 # If the following is true, a page range navigation will be inserted to indices.
 # Please note that this will undo the effect of INDEXES_STATIC, as all index pages
@@ -931,7 +937,7 @@ INDEXES_PRETTY_PAGE_URL = ('{number}', '{index_file}')
 # paraiso-light, pastie, perldoc, rrt, tango, trac, vim, vs, xcode
 # This list MAY be incomplete since pygments adds styles every now and then.
 # Check with list(pygments.styles.get_all_styles()) in an interpreter.
-CODE_COLOR_SCHEME = 'tango'
+CODE_COLOR_SCHEME = "tango"
 
 # FAVICONS contains (name, file, size) tuples.
 # Used to create favicon link like this:
@@ -960,7 +966,9 @@ INDEX_TEASERS = True
 # 'Read more...' for the index page, if INDEX_TEASERS is True (translatable)
 INDEX_READ_MORE_LINK = '<p class="more"><a href="{link}">{read_more}&hellip;</a></p>'
 # 'Read more...' for the feeds, if FEED_TEASERS is True (translatable)
-FEED_READ_MORE_LINK = '<p><a href="{link}">{read_more}&hellip;</a> ({min_remaining_read})</p>'
+FEED_READ_MORE_LINK = (
+    '<p><a href="{link}">{read_more}&hellip;</a> ({min_remaining_read})</p>'
+)
 
 # Append a URL query to the FEED_READ_MORE_LINK in Atom and RSS feeds. Advanced
 # option used for traffic source tracking.
@@ -1020,14 +1028,16 @@ CONTENT_FOOTER_FORMATS = {
             "author": BLOG_AUTHOR,
             "date": time.gmtime().tm_year,
             "license": LICENSE,
-        }
+        },
     )
 }
 
 # A simple copyright tag for inclusion in RSS feeds that works just
 # like CONTENT_FOOTER and CONTENT_FOOTER_FORMATS
-RSS_COPYRIGHT = 'Contents &copy;2005-{date} <a href="{aboutperson}">{author}</a> {license}'
-RSS_COPYRIGHT_PLAIN = 'Contents &copy;2005-{date} {author} {license}'
+RSS_COPYRIGHT = (
+    'Contents &copy;2005-{date} <a href="{aboutperson}">{author}</a> {license}'
+)
+RSS_COPYRIGHT_PLAIN = "Contents &copy;2005-{date} {author} {license}"
 RSS_COPYRIGHT_FORMATS = CONTENT_FOOTER_FORMATS
 
 # To use comments, you can choose between different third party comment
@@ -1141,10 +1151,10 @@ delimiters: [
 # Defaults are markdown.extensions.(fenced_code|codehilite|extra)
 # markdown.extensions.meta is required for Markdown metadata.
 MARKDOWN_EXTENSIONS = [
-    'markdown.extensions.fenced_code',
-    'markdown.extensions.codehilite',
-    'markdown.extensions.extra',
-    'markdown.extensions.meta',
+    "markdown.extensions.fenced_code",
+    "markdown.extensions.codehilite",
+    "markdown.extensions.extra",
+    "markdown.extensions.meta",
 ]
 
 # Options to be passed to markdown extensions (See https://python-markdown.github.io/reference/)
