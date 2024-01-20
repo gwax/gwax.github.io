@@ -3,6 +3,7 @@ Grenadine
 
 :slug: grenadine
 :date: 2017-11-06 05:30:20+00:00
+:updated: 2024-01-20 00:36:17+00:00
 :tags: cocktails, recipes, syrups
 :category: recipes
 
@@ -28,7 +29,6 @@ Ingredients
 -   1 cup fresh Pomegranate Juice (~2 large pomegranates)
 -   1 oz Pomegranate Molasses
 -   1 1/2 cup White Sugar
--   1/16 tsp Xanthan Gum (optional)
 -   1/2 tsp Orange Blossom Water
 -   1 oz over-proof grain neutral spirit (Everclear or vodka)
 
@@ -40,11 +40,8 @@ Procedure
 #.  Juice your pomegranates and run the juice through a strainer to remove
     the seeds and larger pulp.  I find an electric citrus reamer works quite
     well for juicing a pomegranate.
-#.  Mix the sugar with the Xanthan Gum.  Xanthan gum is tricky to work with
-    and tends to clump or form gelatinous regions; I find it easiest if the
-    Xanthan Gum is spread out in the sugar before adding to the liquid.
 #.  Heat pomegranate juice in a saucepan over medium heat.
-#.  Slowly whisk in the sugar/Xanthan Gum mixture.
+#.  Slowly whisk in the sugar.
 #.  Add pomegranate molasses.
 #.  Continue whisking, turning down heat if necessary to avoid boiling
 #.  When all of the sugar is dissolved, turn off the heat.
