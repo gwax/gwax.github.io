@@ -3,6 +3,7 @@ A proper Gimlet, sans corn syrup
 
 :slug: a-proper-gimlet-sans-corn-syrup
 :date: 2023-09-18 03:36:56+00:00
+:updated: 2024-06-21 04:18:12+00:00
 :tags: cocktails, recipes, syrups
 :category: recipes
 
@@ -66,7 +67,7 @@ Key Lime Syrup
 
 -   3/4 cup Water
 -   1 1/2 cup white Sugar
--   1 oz Citric Acid
+-   1 Tbsp Citric Acid
 -   Zest of 11 key limes
 -   Juice of 11 key limes
 
