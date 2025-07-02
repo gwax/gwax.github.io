@@ -3,7 +3,7 @@ A proper Gimlet, sans corn syrup
 
 :slug: a-proper-gimlet-sans-corn-syrup
 :date: 2023-09-18 03:36:56+00:00
-:updated: 2024-06-21 04:18:12+00:00
+:updated: 2025-07-02 00:22:00+00:00
 :tags: cocktails, recipes, syrups
 :category: recipes
 
@@ -59,29 +59,35 @@ to `resurrect the original Rose's recipe <https://www.reddit.com/r/cocktails/com
 my taste, the recipe is much to tart, more like a Sour Patch Kid than something
 I want to use in drinks. That said, the flavor profile was in the right direction.
 
-I played with the ratios and ended up with something that tastes really good to
-my taste.
+I played with the ratios, threw a few other tricks at the recipe, and ended up
+with something that tastes really good to my taste.
 
 Key Lime Syrup
 ^^^^^^^^^^^^^^
 
 -   3/4 cup Water
--   1 1/2 cup white Sugar
+-   2 cups white Sugar
+-   1/4 tsp Cream of Tartar
 -   1 Tbsp Citric Acid
--   Zest of 11 key limes
--   Juice of 11 key limes
+-   12 Key Limes
 
-Put the sugar, citric acid, and key lime zest in a sauce pan. Add the water and
-bring to a gentle boil. Stir until the sugar is dissolved. Remove from heat,
-add the lime juice, cover, and let cool to room temperature. Strain through a
-fine strainer (I use a nut milk bag) and bottle.
+Procedure:
+
+1.  Zest the key limes and set the zest aside. Juice the limes and set the juice aside.
+2.  Put the sugar, cream of tartar, and water in a saucepan.
+3.  Bring to a gentle boil, stirring until the sugar is dissolved.
+4.  Remove from heat and add the key lime zest.
+5.  Cover and let steep for 30 minutes.
+6.  Use an ice bath to cool the saucepan / syrup to under 100°F.
+7.  Add the key lime juice and citric acid, stirring to combine.
+8.  Strain through a fine strainer (I use a nut milk bag) and bottle.
 
 The Homemade Gimlet
 -------------------
 
--   2 oz Gin
--   1 oz Key Lime Syrup
+-   2.5 oz Gin
+-   0.75 oz Key Lime Syrup
 
-Shake with ice and serve in a Nick and Nora glass.
+Shake with ice and serve in a Coupe or Nick and Nora glass.
 
 Delicious.
