@@ -13,8 +13,8 @@ I'm a software engineer in the Bay Area. My software contributions are mostly
 closed source for my professional life or low profile for my own
 enjoyment. I have a handful of small `projects <link://slug/projects>`_ and
 things to be found on |github-icon| GitHub (`gwax <https://github.com/gwax>`__).
-I've worked in just about every part of the stack though my focus leans pretty
-hard toward data layer and infrastructure these days.
+I've worked in just about every part of the stack though my focus often leans
+toward the backend.
 
 Long ago, I graduated from `MIT <http://web.mit.edu/>`_ with a degree in
 Materials Science and Engineering (course 3 to fellow alums). During my time at
@@ -61,17 +61,17 @@ healthcare.
 
 From there, I once again returned to Insuretech, taking on the helm of Head of
 Engineering at `Liferaft <https://www.liferaft.co/>`_. I spent nearly three
-years there, building out a team and platform. It was a great experience and I
-actively stay in contact with the team there.
+years there, building out the team and platform.
 
-I'm currently working on a new startup, `Manapool <https://manapool.com>`_,
-bringing my experience building software and software teams to one of my
-lifelong passions: Magic: the Gathering. I'm working with a couple friends to
-finally create the online bazaar for Magic cards that the community deserves.
+Then I built `Mana Pool <https://manapool.com>`_ with a couple of friends,
+bringing my experience building software and my lifelong passion for Magic: the
+Gathering to bear. We finally built the online bazaar for Magic cards that the
+community deserves.
+
+Now I work on AI, like so very many other people.
 
 If you want more professional details, there's something close enough to my
-résumé available through LinkedIn. If you happen to want a proper résumé or
-other details, you'll have to email me.
+résumé available through LinkedIn.
 
 Non-professionally, I have a wife, and three children, all of whom I love
 to a degree that exceeds my writing ability to describe.
@@ -99,7 +99,7 @@ Elsewhere Online
 I am active, to varying degrees\ [#]_, on a number of online services:
 
 .. [#] My Internet "social" activity is generally pretty low everywhere other
-    than GitHub and reddit.
+    than reddit.
 
 * |github-icon| GitHub: `gwax <https://github.com/gwax>`__
 * |reddit-icon| reddit: `gwax <https://reddit.com/user/gwax>`__
@@ -121,19 +121,6 @@ I am active, to varying degrees\ [#]_, on a number of online services:
 
 .. |twitter-icon| image:: /icons/twitter.svg
     :class: svg-icon
-
-To quote Yamamoto Tsunetomo
----------------------------
-
-*Book 1, 79.* -- There is a lesson to be learned from a downpour of rain. If
-you get caught in a sudden cloudburst, you will still get a drenching even
-though you try to keep dry by hurrying along and taking cover under overhangs
-of roofs. If you are prepared to get wet from the start, the result is still
-the same but it is no hardship. This attitude can be applied to all
-things.\ [#]_
-
-.. [#] Yamamoto Tsunetomo, *Hagakure*, trans. Alexander Bennett
-    (North Rutland, VT: Tuttle, 2014), 83
 
 To quote an old Dell SCSI array manual
 --------------------------------------
