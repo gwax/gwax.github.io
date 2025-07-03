@@ -3,11 +3,14 @@ Bemoaning the AI copy assistant
 
 :slug: bemoaning-the-ai-copy-assistant
 :date: 2023-09-18 05:39:29+00:00
+:updated: 2025-07-03 05:08:15+00:00
 :type: text
 :tags: meta, writing, ai
 :category: meta
 
-I've been using `GitHub Copilot`_ for a few about half a year now, and it feels
+**Update**: LLMs have gotten a lot better in the past two years.
+
+I've been using `GitHub Copilot`_ for about half a year now, and it feels
 like an amazing piece of magic. Not only does it seem to do most of the rote
 coding for me but it also gives me a new sense for what is *actually* rote.
 
@@ -24,3 +27,4 @@ it's voice is not quite my own.
 With code, the voice hardly matters and Copilot is quite good at knowing what
 I want to say, of course, it's well constrained. With prose, not so much. Sure,
 what it suggests would be fine but that's not the point.
+

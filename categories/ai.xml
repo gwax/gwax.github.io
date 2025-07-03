@@ -15,14 +15,15 @@
     /&gt;
 &lt;/a&gt;
 </copyright>
-    <lastBuildDate>Wed, 02 Jul 2025 00:29:43 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Jul 2025 05:37:29 GMT</lastBuildDate>
     <generator>Nikola (getnikola.com)</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
       <title>Bemoaning the AI copy assistant</title>
       <link>https://gwax.com/blog/2023/09/bemoaning-the-ai-copy-assistant.html</link>
       <dc:creator>George Leslie-Waksman</dc:creator>
-      <description>&lt;p&gt;I've been using &lt;a class="reference external" href="https://github.com/features/copilot"&gt;GitHub Copilot&lt;/a&gt; for a few about half a year now, and it feels
+      <description>&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: LLMs have gotten a lot better in the past two years.&lt;/p&gt;
+&lt;p&gt;I've been using &lt;a class="reference external" href="https://github.com/features/copilot"&gt;GitHub Copilot&lt;/a&gt; for about half a year now, and it feels
 like an amazing piece of magic. Not only does it seem to do most of the rote
 coding for me but it also gives me a new sense for what is &lt;em&gt;actually&lt;/em&gt; rote.&lt;/p&gt;
 &lt;p&gt;Since I edit the content of this blog, and just about everything else I write,
